@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -7,8 +6,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Trapdoor Studios</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      <h1>Trapdoor Studios</h1>
+      <h1>TRAPDOOR STUDIOS</h1>
     </div>
   );
 }
