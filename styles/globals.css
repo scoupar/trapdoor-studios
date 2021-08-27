@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: raleway;
+  background-color: hotpink;
 }
 
 a {
@@ -12,4 +15,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: raleway;
 }
