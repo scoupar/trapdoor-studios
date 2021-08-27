@@ -33,9 +33,12 @@ nav a {
 }
 
 .not-found {
+  background-color: #ff581a;
   text-align: center;
+  padding: 50vh;
 }
 
 .not-found a {
-  color: green;
+  color: white;
+  text-decoration: underline;
 }

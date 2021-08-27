@@ -10,7 +10,8 @@ export default function Home() {
         <title>Trapdoor Studios</title>
       </Head>
 
-      <h1>TRAPDOOR STUDIOS</h1>
+      <img className={styles.landingimage} src="/landing-image.jpg" />
+      <img className={styles.logo} src="/logo.jpg" />
     </div>
   );
 }
