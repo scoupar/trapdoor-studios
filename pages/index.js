@@ -7,8 +7,11 @@ export default function Home() {
       <Head>
         <title>Trapdoor Studios</title>
       </Head>
-      <img className={styles.landingimage} src="/landing-image.jpg" />
-      <img className={styles.logo} src="/logo.jpg" />
+      <div classname="images">
+        <img className={styles.landingimage} src="/landing-image.jpg" />
+        <img className={styles.logo} src="/logo.jpg" />
+        <button className={styles.button}>BOOK NOW</button>
+      </div>
     </div>
   );
 }

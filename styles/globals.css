@@ -30,6 +30,9 @@ nav {
 
 nav a {
   margin-left: 0.5rem;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
 }
 
 .not-found {
