@@ -9,9 +9,8 @@ export default function Home() {
       <Head>
         <title>Trapdoor Studios</title>
       </Head>
-      <Navbar />
+
       <h1>TRAPDOOR STUDIOS</h1>
-      <Footer />
     </div>
   );
 }
