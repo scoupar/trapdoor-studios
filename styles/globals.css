@@ -99,3 +99,16 @@ nav a:hover {
 .content {
   background-color: transparent;
 }
+
+/* About Page */
+
+.bio-container {
+  background-color: #f5d75f;
+  margin-top: 2rem;
+}
+
+.tom-img {
+  height: auto;
+  width: 50vw;
+  max-height: 100%;
+}

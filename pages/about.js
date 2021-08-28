@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Bio from "../components/Bio";
 
 export default function About() {
   return (
@@ -15,6 +16,7 @@ export default function About() {
           <a>HISTORY</a>
           <a>SERVICES</a>
         </nav>
+        <Bio />
       </div>
     </>
   );
