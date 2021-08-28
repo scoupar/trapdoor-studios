@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Trapdoor Studios | Home</title>
       </Head>
-
+      <Navbar />
       <div className={styles.logocontainer}>
         <img className={styles.landingimage} src="/landing.jpg" />
         <img className={styles.logo} src="/trapdoor-circle.svg" />

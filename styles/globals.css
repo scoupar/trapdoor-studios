@@ -77,7 +77,25 @@ nav a:hover {
 .index-container {
   background-color: #f5d75f;
 }
-
-.content {
+.about-container {
   background-color: #01c2cb;
+}
+
+.studio-container {
+  background-color: #ff581a;
+}
+
+.gear-container {
+  background-color: #f5d75f;
+}
+
+.listen-container {
+  background-color: #01c2cb;
+}
+
+.book-container {
+  background-color: #ff581a;
+}
+.content {
+  background-color: transparent;
 }

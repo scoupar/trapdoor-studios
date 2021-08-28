@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 
 export default function () {
   return (
@@ -6,14 +7,17 @@ export default function () {
       <Head>
         <title>Trapdoor Studios | Gear</title>
       </Head>
-      <h1 className="title">THE GEAR</h1>
-      <nav className="secondnav">
-        <a>OUTBOARD</a>
-        <a>AMPLIFIERS</a>
-        <a>MICROPHONES</a>
-        <a>EFFECTS</a>
-        <a>DRUMS</a>
-      </nav>
+      <div className="gear-container">
+        <Navbar />
+        <h1 className="title">THE GEAR</h1>
+        <nav className="secondnav">
+          <a>OUTBOARD</a>
+          <a>AMPLIFIERS</a>
+          <a>MICROPHONES</a>
+          <a>EFFECTS</a>
+          <a>DRUMS</a>
+        </nav>
+      </div>
     </>
   );
 }
