@@ -112,3 +112,8 @@ nav a:hover {
   width: 50vw;
   max-height: 100%;
 }
+
+.text-container {
+  position: absolute;
+  left: 52vw;
+}
