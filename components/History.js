@@ -3,7 +3,7 @@ const History = () => {
     <div className="history-container">
       <img src="/history-img.jpg" className="history-img" />
       <div className="history-text-container">
-        <h2>History</h2>
+        <h2>HISTORY</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at amet
           labore cupiditate eaque voluptatum optio id unde placeat.

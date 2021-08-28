@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Bio from "../components/Bio";
 import History from "../components/History";
+import Services from "../components/Services";
 
 export default function About() {
   return (
@@ -20,6 +21,7 @@ export default function About() {
         </nav>
         <Bio />
         <History />
+        <Services />
       </div>
     </>
   );

@@ -142,3 +142,15 @@ nav a:hover {
   height: 100vh;
   width: 50vw;
 }
+
+/* Services Section */
+
+.services-container {
+  background-color: #f5d75f;
+}
+
+.services-img {
+  height: auto;
+  width: 50vw;
+  max-height: 100%;
+}
