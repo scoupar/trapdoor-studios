@@ -1,3 +1,12 @@
+import Head from "next/head";
+
 export default function () {
-  return <h1>Gear Page</h1>;
+  return (
+    <>
+      <Head>
+        <title>Trapdoor Studios | Gear</title>
+      </Head>
+      <h1>Gear Page</h1>;
+    </>
+  );
 }
