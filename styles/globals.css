@@ -31,15 +31,11 @@ h1 {
   text-decoration: underline;
 }
 
-.content {
-  background-color: #f5d75f;
-}
-
 nav {
   display: flex;
   justify-content: flex-end;
   padding: 0.5rem;
-  background-color: #f5d75f;
+  background-color: transparent;
 }
 
 nav a {
@@ -49,6 +45,10 @@ nav a {
   font-size: 30px;
 }
 
+nav a:hover {
+  color: #ff581a;
+}
+
 .nav-line {
   border-width: 0;
   background-color: white;
@@ -56,4 +56,27 @@ nav a {
   height: 6px;
   padding: 0;
   margin: 0;
+}
+
+.title {
+  color: white;
+  font-size: 115px;
+  margin-left: 1rem;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.secondnav {
+  justify-content: flex-start;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.index-container {
+  background-color: #f5d75f;
+}
+
+.content {
+  background-color: transparent;
 }

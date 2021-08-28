@@ -30,6 +30,10 @@
   transform: translate(-50%, -50%);
 }
 
+.button:hover {
+  background-color: #ff581a;
+}
+
 .logo {
   border-radius: 50px;
   height: 50vh;

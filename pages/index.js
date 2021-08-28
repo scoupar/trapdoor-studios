@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
-    <>
+    <div className="index-container">
       <Head>
         <title>Trapdoor Studios | Home</title>
       </Head>
@@ -15,6 +15,6 @@ export default function Home() {
         <img className={styles.logo} src="/trapdoor-circle.svg" />
         <button className={styles.button}>BOOK NOW</button>
       </div>
-    </>
+    </div>
   );
 }
