@@ -20,25 +20,6 @@ h1 {
   font-family: raleway;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0.5rem;
-  border-bottom: 6px solid white;
-  background-color: transparent;
-}
-
-nav a {
-  margin-left: 0.5rem;
-  color: white;
-  font-weight: 800;
-  font-size: 30px;
-}
-
-.nav-line {
-  border-top: 1px solid white;
-}
-
 .not-found {
   background-color: #ff581a;
   text-align: center;
@@ -52,4 +33,27 @@ nav a {
 
 .content {
   background-color: #f5d75f;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  background-color: #f5d75f;
+}
+
+nav a {
+  margin-left: 0.5rem;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.nav-line {
+  border-width: 0;
+  background-color: white;
+  width: 95%;
+  height: 6px;
+  padding: 0;
+  margin: 0;
 }

@@ -23,7 +23,7 @@ const Navbar = () => {
           <a>BOOK</a>
         </Link>
       </nav>
-      <hr classname="nav-line"></hr>
+      <hr className="nav-line"></hr>
     </>
   );
 };
