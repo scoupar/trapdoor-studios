@@ -32,6 +32,7 @@
 
 .button:hover {
   background-color: #ff581a;
+  cursor: pointer;
 }
 
 .logo {
