@@ -188,7 +188,7 @@ nav a:hover {
 .control-container {
   background-color: #f5d75f;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .control-img {
@@ -203,4 +203,29 @@ nav a:hover {
   background-color: #ff581a;
   z-index: 5;
   width: 100%;
+}
+
+.control-text-container {
+  background-color: #01c2cb;
+  margin-top: 37vh;
+  padding: 1rem;
+}
+
+/* LIVE ROOM */
+
+.live-container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #01c2cb;
+}
+
+.live-img {
+  height: auto;
+  width: 50%;
+  max-height: 100%;
+}
+
+.live-text-container {
+  background-color: #01c2cb;
+  padding: 1rem;
 }

@@ -1,8 +1,8 @@
 const Control = () => {
   return (
     <div className="control-container">
-      <div className="text-container">
-        <h2>The Control Room</h2>
+      <div className="control-text-container">
+        <h2>THE CONTROL ROOM</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at amet
           labore cupiditate eaque voluptatum optio id unde placeat.

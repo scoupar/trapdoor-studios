@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Control from "../components/Control";
+import Live from "../components/Live";
 
 export default function Studio() {
   return (
@@ -17,8 +18,8 @@ export default function Studio() {
             <a>THE LIVE ROOM</a>
           </nav>
         </div>
-
         <Control />
+        <Live />
       </div>
     </>
   );
