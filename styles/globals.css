@@ -171,3 +171,36 @@ nav a:hover {
   padding: 1rem;
   background-color: #f5d75f;
 }
+
+/* STUDIO PAGE */
+
+.redsecondnav {
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.redsecondnav a:hover {
+  color: #f5d75f;
+}
+
+/* Control Room */
+
+.control-container {
+  background-color: #f5d75f;
+  display: flex;
+  flex-direction: row;
+}
+
+.control-img {
+  height: auto;
+  width: 50vw;
+  max-height: 100%;
+  margin-top: 32vh;
+}
+
+.studionavcontainer {
+  position: fixed;
+  background-color: #ff581a;
+  z-index: 5;
+  width: 100%;
+}
