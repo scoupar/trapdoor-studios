@@ -72,6 +72,14 @@ nav a:hover {
   justify-content: flex-start;
   padding: 0;
   margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.aboutnavcontainer {
+  position: fixed;
+  background-color: #01c2cb;
+  z-index: 5;
+  width: 100%;
 }
 
 .index-container {
@@ -106,51 +114,60 @@ nav a:hover {
 
 .bio-container {
   background-color: #f5d75f;
-  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .tom-img {
   height: auto;
   width: 50vw;
   max-height: 100%;
+  margin-top: 25vh;
 }
 
 .text-container {
+  width: 50%;
   position: absolute;
-  left: 52vw;
+  left: 50vw;
+  background-color: #f5d75f;
+  padding: 1rem;
+  margin-top: 35vh;
 }
 
 /* History Section */
 
 .history-container {
+  display: flex;
+  flex-direction: row-reverse;
   background-color: #f5d75f;
-  height: 100vh;
 }
 
 .history-img {
   height: auto;
-  width: 50vw;
+  width: 50%;
   max-height: 100%;
-  position: absolute;
-  right: 0;
 }
 
 .history-text-container {
   background-color: #f5d75f;
-  position: absolute;
-  left: 0;
-  height: 100vh;
-  width: 50vw;
+  padding: 1rem;
 }
 
 /* Services Section */
 
 .services-container {
+  display: flex;
+  flex-direction: row-reverse;
   background-color: #f5d75f;
 }
 
 .services-img {
   height: auto;
-  width: 50vw;
+  width: 50%;
   max-height: 100%;
+}
+
+.services-text-container {
+  padding: 1rem;
+  background-color: #f5d75f;
 }

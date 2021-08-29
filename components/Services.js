@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <div className="services-container">
-      <div className="text-container">
+      <div className="services-text-container">
         <h2>SERVICES</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at amet
