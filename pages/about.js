@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Bio from "../components/Bio";
 import History from "../components/History";
 import Services from "../components/Services";
+import { NavHashLink } from "react-router-hash-link";
 
 export default function About() {
   return (
@@ -21,9 +22,15 @@ export default function About() {
             <a>SERVICES</a>
           </nav>
         </div>
-        <Bio />
-        <History />
-        <Services />
+        <section id="bio">
+          <Bio />
+        </section>
+        <section id="history">
+          <History />
+        </section>
+        <section id="services">
+          <Services />
+        </section>
       </div>
     </>
   );
