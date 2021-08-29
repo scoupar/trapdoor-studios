@@ -21,6 +21,15 @@ h1 {
   font-family: raleway;
 }
 
+p {
+  color: white;
+  font-weight: normal;
+}
+
+h2 {
+  color: white;
+}
+
 .not-found {
   background-color: #ff581a;
   text-align: center;
@@ -228,4 +237,8 @@ nav a:hover {
 .live-text-container {
   background-color: #01c2cb;
   padding: 1rem;
+}
+
+.live-text-container p {
+  color: white;
 }
