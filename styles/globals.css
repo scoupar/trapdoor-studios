@@ -293,3 +293,60 @@ nav a:hover {
   background-color: #ff581a;
   padding: 1rem;
 }
+
+/* Mics section */
+
+.microphones-container {
+  background-color: #ff581a;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.microphones-img {
+  height: auto;
+  width: 50vw;
+  max-height: 100%;
+}
+
+.microphones-text-container {
+  background-color: #ff581a;
+  padding: 1rem;
+}
+
+/* effects section */
+
+.fx-container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #01c2cb;
+}
+
+.fx-img {
+  height: auto;
+  width: 50%;
+  max-height: 100%;
+}
+
+.fx-text-container {
+  background-color: #ff581a;
+  padding: 1rem;
+}
+
+/* Drums section */
+
+.drums-container {
+  background-color: #ff581a;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.drums-img {
+  height: auto;
+  width: 50vw;
+  max-height: 100%;
+}
+
+.drums-text-container {
+  background-color: #ff581a;
+  padding: 1rem;
+}

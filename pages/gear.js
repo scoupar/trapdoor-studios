@@ -2,6 +2,9 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Outboard from "../components/Outboard";
 import Amplifiers from "../components/Amplifiers";
+import Microphones from "../components/Microphones";
+import Effects from "../components/Effects";
+import Drums from "../components/Drums";
 
 export default function () {
   return (
@@ -23,6 +26,9 @@ export default function () {
         </div>
         <Outboard />
         <Amplifiers />
+        <Microphones />
+        <Effects />
+        <Drums />
       </div>
     </>
   );
