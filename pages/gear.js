@@ -17,18 +17,28 @@ export default function () {
           <Navbar />
           <h1 className="title">THE GEAR</h1>
           <nav className="secondnav">
-            <a>OUTBOARD</a>
-            <a>AMPLIFIERS</a>
-            <a>MICROPHONES</a>
-            <a>EFFECTS</a>
-            <a>DRUMS</a>
+            <a href="#outboard">OUTBOARD</a>
+            <a href="#amps">AMPLIFIERS</a>
+            <a href="#mics">MICROPHONES</a>
+            <a href="#fx">EFFECTS</a>
+            <a href="#drums">DRUMS</a>
           </nav>
         </div>
-        <Outboard />
-        <Amplifiers />
-        <Microphones />
-        <Effects />
-        <Drums />
+        <section id="outboard">
+          <Outboard />
+        </section>
+        <section id="amps">
+          <Amplifiers />
+        </section>
+        <section id="mics">
+          <Microphones />
+        </section>
+        <section id="fx">
+          <Effects />
+        </section>
+        <section id="drums">
+          <Drums />
+        </section>
       </div>
     </>
   );
