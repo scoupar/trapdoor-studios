@@ -240,3 +240,52 @@ nav a:hover {
 .live-text-container p {
   color: white;
 }
+
+/* Gear Page */
+
+.gearnavcontainer {
+  position: fixed;
+  background-color: #f5d75f;
+  z-index: 5;
+  width: 100%;
+}
+
+/* Ouboard Section */
+
+.outboard-container {
+  background-color: #ff581a;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.outboard-img {
+  height: auto;
+  width: 50vw;
+  max-height: 100%;
+  margin-top: 32vh;
+}
+
+.outboard-text-container {
+  background-color: #ff581a;
+  margin-top: 37vh;
+  padding: 1rem;
+}
+
+/* Amps section */
+
+.amps-container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #01c2cb;
+}
+
+.amps-img {
+  height: auto;
+  width: 50%;
+  max-height: 100%;
+}
+
+.amps-text-container {
+  background-color: #ff581a;
+  padding: 1rem;
+}
