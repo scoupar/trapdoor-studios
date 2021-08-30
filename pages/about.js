@@ -17,9 +17,9 @@ export default function About() {
 
           <h1 className="title">ABOUT TRAPDOOR</h1>
           <nav className="secondnav">
-            <a>BIO</a>
-            <a>HISTORY</a>
-            <a>SERVICES</a>
+            <a href="#bio">BIO</a>
+            <a href="#history">HISTORY</a>
+            <a href="#services"> SERVICES</a>
           </nav>
         </div>
         <section id="bio">

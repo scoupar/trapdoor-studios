@@ -3,7 +3,7 @@ const Amplifiers = () => {
     <div className="amps-container">
       <img src="/amps-img.jpg" className="amps-img" />
       <div className="amps-text-container">
-        <h2>Amplifiers</h2>
+        <h2>AMPLIFIERS</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at amet
           labore cupiditate eaque voluptatum optio id unde placeat.
