@@ -14,12 +14,16 @@ export default function Studio() {
           <Navbar />
           <h1 className="title">THE STUDIO</h1>
           <nav className="redsecondnav">
-            <a>THE CONTROL ROOM</a>
-            <a>THE LIVE ROOM</a>
+            <a href="#control">THE CONTROL ROOM</a>
+            <a href="#live">THE LIVE ROOM</a>
           </nav>
         </div>
-        <Control />
-        <Live />
+        <section id="control">
+          <Control />
+        </section>
+        <section id="live">
+          <Live />
+        </section>
       </div>
     </>
   );
