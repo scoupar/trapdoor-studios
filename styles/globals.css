@@ -357,6 +357,18 @@ nav a:hover {
   background-color: #ff581a;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  justify-items: center;
   margin: 1rem;
+  width: 300px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  color: white;
+  text-align: center;
 }

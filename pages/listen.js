@@ -10,13 +10,13 @@ const Listen = () => {
     return (
       <>
         <div className="list-container">
-          <li>Artist: {album.artist}</li>
-          <li>Album: {album.album}</li>
-          <li>Work Done: {album.work}</li>
+          <h3>ARTIST: {album.artist}</h3>
+          <h3>Album: {album.album}</h3>
+          <h3>Work Done: {album.work}</h3>
           <iframe
             src={album.spotify}
             width="300"
-            height="380"
+            height="80"
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
@@ -37,7 +37,7 @@ const Listen = () => {
         <nav className="secondnav">
           <a>DISCOGRAPHY</a>
         </nav>
-        <ul>{albumListItems}</ul>
+        <div className="list-items">{albumListItems}</div>
       </div>
     </>
   );
