@@ -357,8 +357,6 @@ nav a:hover {
   background-color: #ff581a;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  justify-items: center;
   margin: 1rem;
   width: 300px;
 }
@@ -366,6 +364,9 @@ nav a:hover {
 .list-items {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f5d75f;
+  justify-content: center;
 }
 
 h3 {
