@@ -1,7 +1,29 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import { useState } from "react";
+import { DiscogState } from "../discogstate";
 
-export default function Listen() {
+const Listen = () => {
+  const [albums, setAlbums] = useState(DiscogState);
+
+  const albumListItems = albums.map((album) => {
+    return (
+      <>
+        <li>{album.artist}</li>
+        <li>{album.album}</li>
+        <li>{album.work}</li>
+        <iframe
+          src={album.spotify}
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </>
+    );
+  });
+
   return (
     <>
       <Head>
@@ -13,15 +35,10 @@ export default function Listen() {
         <nav className="secondnav">
           <a>DISCOGRAPHY</a>
         </nav>
-        <iframe
-          src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3"
-          width="300"
-          height="380"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
+        <ul>{albumListItems}</ul>
       </div>
     </>
   );
-}
+};
+
+export default Listen;
