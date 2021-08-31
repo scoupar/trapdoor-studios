@@ -9,17 +9,19 @@ const Listen = () => {
   const albumListItems = albums.map((album) => {
     return (
       <>
-        <li>{album.artist}</li>
-        <li>{album.album}</li>
-        <li>{album.work}</li>
-        <iframe
-          src={album.spotify}
-          width="300"
-          height="380"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
+        <div className="list-container">
+          <li>Artist: {album.artist}</li>
+          <li>Album: {album.album}</li>
+          <li>Work Done: {album.work}</li>
+          <iframe
+            src={album.spotify}
+            width="300"
+            height="380"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
       </>
     );
   });

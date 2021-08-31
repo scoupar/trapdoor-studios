@@ -350,3 +350,13 @@ nav a:hover {
   background-color: #ff581a;
   padding: 1rem;
 }
+
+/* Listen page */
+
+.list-container {
+  background-color: #ff581a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem;
+}
