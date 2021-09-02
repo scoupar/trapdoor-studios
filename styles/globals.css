@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: raleway;
+  /* overflow: hidden; */
 }
 
 html {
@@ -155,7 +156,7 @@ nav a:hover {
 
 .history-container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   background-color: #f5d75f;
 }
 
@@ -196,9 +197,9 @@ nav a:hover {
   margin-bottom: 2rem;
 }
 
-.redsecondnav a:hover {
+/* .redsecondnav a:hover {
   color: #f5d75f;
-}
+} */
 
 /* Control Room */
 
@@ -217,13 +218,13 @@ nav a:hover {
 
 .studionavcontainer {
   position: fixed;
-  background-color: #ff581a;
+  background-color: #01c2cb;
   z-index: 5;
   width: 100%;
 }
 
 .control-text-container {
-  background-color: #01c2cb;
+  background-color: #ff581a;
   margin-top: 37vh;
   padding: 1rem;
 }
@@ -243,8 +244,9 @@ nav a:hover {
 }
 
 .live-text-container {
-  background-color: #01c2cb;
+  background-color: #ff581a;
   padding: 1rem;
+  margin-top: 1rem;
 }
 
 .live-text-container p {
@@ -389,7 +391,7 @@ h3 {
 
 .booknavcontainer {
   position: fixed;
-  background-color: #ff581a;
+  background-color: #f5d75f;
   z-index: 5;
   width: 100%;
 }

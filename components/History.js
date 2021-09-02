@@ -1,7 +1,6 @@
 const History = () => {
   return (
     <div className="history-container">
-      <img src="/history-img.jpg" className="history-img" />
       <div className="history-text-container">
         <h2>HISTORY</h2>
         <p>
@@ -20,6 +19,7 @@ const History = () => {
           room to record a full band.
         </p>
       </div>
+      <img src="/history-img.jpg" className="history-img" />
     </div>
   );
 };

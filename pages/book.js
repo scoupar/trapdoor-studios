@@ -13,7 +13,7 @@ export default function Book() {
       <div className="book-container">
         <div className="booknavcontainer">
           <Navbar />
-          <h1 className="title">BOOK</h1>
+          <h1 className="title">BOOK TRAPDOOR</h1>
           <nav className="secondnav">
             <a href="#contact">CONTACT</a>
             <a href="#faq">BOOKING FAQ</a>
