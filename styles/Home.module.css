@@ -25,7 +25,7 @@
   border: none;
   z-index: 3;
   position: absolute;
-  top: 85%;
+  top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -44,4 +44,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.headline {
+  z-index: 3;
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 100vw;
+  text-transform: uppercase;
 }

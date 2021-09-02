@@ -14,6 +14,9 @@ export default function Home() {
       <div className={styles.logocontainer}>
         <img className={styles.landingimage} src="/landing.jpg" />
         <img className={styles.logo} src="/trapdoor-circle.svg" />
+        {/* <h1 className={styles.headline}>
+          Recording, mixing and mastering services in Liverpool, UK
+        </h1> */}
         <Link href="/book">
           <button className={styles.button}>
             <a>BOOK NOW</a>
