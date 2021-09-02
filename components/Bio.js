@@ -4,32 +4,34 @@ const Bio = () => {
       <div className="text-container">
         <h2>BIO</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at amet
-          labore cupiditate eaque voluptatum optio id unde placeat.
-          Voluptatibus?
+          Hello, I’m Tom Peters, a UK based professional Record Producer and Mix
+          Engineer with close to a decade of experience. My clients cover a huge
+          array of musical genres and include The Fall, Grace Davies, Vennart,
+          Mike Dignam, Vasa, Jeramiah Ferrari, Body Hound, Wot Gorilla?, Cleft
+          and The Hyena Kill to name a few.
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          maiores. Laborum illum expedita nostrum architecto, cupiditate ut
-          dolorem veritatis ipsum!
+          I started my career as the Studio Assistant at The Grand Studio in
+          rural Lancashire back in 2011 and was quickly promoted to Studio
+          Manager. I moved on from The Grand in 2017 to set up my own business,
+          settling in Liverpool where I built and opened Trapdoor Studio in 2019
+          following a short stint working from Liverpool’s highly regarded Motor
+          Museum.{" "}
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quia
-          sequi velit voluptas aperiam! Tempora consequatur fugit animi
-          accusamus rem, ab aliquid dolorem, illo, voluptatibus suscipit dolore
-          commodi temporibus omnis ratione exercitationem totam vel velit
-          eligendi odit tenetur! Commodi doloribus quis perspiciatis quo ab
-          architecto voluptates praesentium dolores error possimus!
+          I am also a touring musician playing guitar in Alpha Male Tea Party
+          (of which I have produced all our recordings to date).
         </p>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quod
-          sit officiis veritatis vitae laudantium? Corporis exercitationem ut
-          tempora enim magnam eos nesciunt vel corrupti quasi nemo placeat
-          voluptas dolore, temporibus ipsam aliquid deleniti eius fugiat soluta
-          error a atque, nam saepe dolores illum. Nemo nesciunt corporis vitae
-          ducimus aperiam, vel maxime beatae reprehenderit qui dolorem soluta
-          voluptatibus eaque eligendi ipsa a recusandae voluptate possimus
-          impedit reiciendis illum fugit quos.
+          I produce all music as I would like to hear it and in a way that is
+          right for the artist. At the root of my production is the desire for
+          the individual character and personality of a performance to shine
+          through on any recording. In other words, I want you to sound like
+          you. When you’re in the studio with me, I want you to have fun. I want
+          you to feel completely at ease and be able to completely explore your
+          creative spirit. A recording session should be something to look back
+          on with great fondness and your recordings should always be a great
+          reminder of that.
         </p>
       </div>
       <img src="/tom1.jpg" className="tom-img" />
