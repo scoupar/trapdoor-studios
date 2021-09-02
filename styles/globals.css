@@ -71,6 +71,10 @@ nav a:hover {
   padding: 0;
   margin: 0;
 }
+.nav-logo {
+  height: 35px;
+  margin-right: auto;
+}
 
 .title {
   color: white;
@@ -118,7 +122,7 @@ nav a:hover {
 
 .aboutnavcontainer {
   position: fixed;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   z-index: 5;
   width: 100%;
 }
@@ -126,7 +130,7 @@ nav a:hover {
 /* Bio Section */
 
 .bio-container {
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -140,7 +144,7 @@ nav a:hover {
 
 .text-container {
   width: 50%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
   margin-top: 35vh;
 }
@@ -160,7 +164,7 @@ nav a:hover {
 }
 
 .history-text-container {
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
 }
 
@@ -180,7 +184,7 @@ nav a:hover {
 
 .services-text-container {
   padding: 1rem;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
 }
 
 /* STUDIO PAGE */
@@ -383,7 +387,7 @@ h3 {
 
 .booknavcontainer {
   position: fixed;
-  background-color: #01c2cb;
+  background-color: #ff581a;
   z-index: 5;
   width: 100%;
 }
@@ -391,7 +395,7 @@ h3 {
 /* contact section */
 
 .contact-container {
-  background-color: #ff581a;
+  background-color: #01c2cb;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -404,7 +408,7 @@ h3 {
 }
 
 .contact-text-container {
-  background-color: #ff581a;
+  background-color: #01c2cb;
   margin-top: 37vh;
   padding: 1rem;
 }
@@ -412,7 +416,7 @@ h3 {
 /* Faq section */
 
 .faq-container {
-  background-color: #ff581a;
+  background-color: #01c2cb;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -425,7 +429,7 @@ h3 {
 }
 
 .faq-text-container {
-  background-color: #ff581a;
+  background-color: #01c2cb;
   margin-top: 37vh;
   padding: 1rem;
 }

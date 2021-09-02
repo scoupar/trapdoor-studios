@@ -5,8 +5,11 @@ const Navbar = () => {
     <>
       <nav className="nav-container">
         <Link href="/">
-          <a>HOME</a>
+          <a className="nav-logo">
+            <img className="nav-logo" src="/logo.jpg" />
+          </a>
         </Link>
+
         <Link href="/about">
           <a>ABOUT</a>
         </Link>
