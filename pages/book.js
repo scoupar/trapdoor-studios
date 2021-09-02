@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Contact from "../components/Contact";
+import Faq from "../components/Faq";
 
 export default function Book() {
   return (
@@ -9,12 +11,20 @@ export default function Book() {
       </Head>
 
       <div className="book-container">
-        <Navbar />
-        <h1 className="title">BOOK</h1>
-        <nav className="secondnav">
-          <a>CONTACT</a>
-          <a>BOOKING FAQ</a>
-        </nav>
+        <div className="booknavcontainer">
+          <Navbar />
+          <h1 className="title">BOOK</h1>
+          <nav className="secondnav">
+            <a href="#contact">CONTACT</a>
+            <a href="#faq">BOOKING FAQ</a>
+          </nav>
+        </div>
+        <section id="contact">
+          <Contact />
+        </section>
+        <section id="faq">
+          <Faq />
+        </section>
       </div>
     </>
   );

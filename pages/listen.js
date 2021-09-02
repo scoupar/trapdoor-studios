@@ -10,9 +10,10 @@ const Listen = () => {
     return (
       <>
         <div className="list-container">
-          <h3>ARTIST: {album.artist}</h3>
-          <h3>ALBUM: {album.album}</h3>
-          <h3>{album.work}</h3>
+          {/* <h3>
+            {album.artist}/{album.album}
+          </h3> */}
+
           <iframe
             src={album.spotify}
             width="300"
@@ -21,6 +22,7 @@ const Listen = () => {
             allowtransparency="true"
             allow="encrypted-media"
           ></iframe>
+          <h3 className="work">{album.work}</h3>
         </div>
       </>
     );

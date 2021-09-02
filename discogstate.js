@@ -9,7 +9,7 @@ export const DiscogState = () => {
     },
     {
       artist: "Alpha Male Tea Party",
-      album: "Infinity State",
+      album: "Infinity Stare",
       work: "Produce/Mix",
       spotify:
         "https://open.spotify.com/embed/album/7BVnx0VjNVMNeNyc79ASV5?theme=0",
@@ -49,6 +49,13 @@ export const DiscogState = () => {
       work: "Engineer / Master",
       spotify:
         "https://open.spotify.com/embed/album/62TA9DCwZOhoNMtuHREGtd?theme=0",
+    },
+    {
+      artist: "VASA",
+      album: "Colours",
+      work: "Master",
+      spotify:
+        "https://open.spotify.com/embed/album/4tks4pkrARCG2txj6KnZsR?theme=0",
     },
     {
       artist: "VASA",
