@@ -66,10 +66,12 @@ nav a:hover {
 .nav-line {
   border-width: 0;
   background-color: white;
-  width: 95%;
+  width: 98%;
   height: 6px;
   padding: 0;
   margin: 0;
+  margin-left: auto;
+  margin-right: 10px;
 }
 .nav-logo {
   height: 35px;

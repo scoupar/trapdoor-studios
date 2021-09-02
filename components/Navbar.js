@@ -4,12 +4,14 @@ const Navbar = () => {
   return (
     <>
       <nav className="nav-container">
-        <Link href="/">
+        {/* <Link href="/">
           <a className="nav-logo">
             <img className="nav-logo" src="/logo.jpg" />
           </a>
+        </Link> */}
+        <Link href="/">
+          <a>HOME</a>
         </Link>
-
         <Link href="/about">
           <a>ABOUT</a>
         </Link>
