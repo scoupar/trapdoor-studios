@@ -58,11 +58,11 @@ export const DiscogState = () => {
         "https://open.spotify.com/embed/album/4tks4pkrARCG2txj6KnZsR?theme=0",
     },
     {
-      artist: "VASA",
-      album: "Colours",
-      work: "Master",
+      artist: "Axes",
+      album: "Axes",
+      work: "Mix / Master",
       spotify:
-        "https://open.spotify.com/embed/album/4tks4pkrARCG2txj6KnZsR?theme=0",
+        "https://open.spotify.com/embed/album/4Is4sYRyWXZhr6cd1cxSF6?theme=0",
     },
   ];
 };
