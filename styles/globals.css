@@ -426,6 +426,12 @@ h3 {
   background-color: #01c2cb;
   margin-top: 37vh;
   padding: 1rem;
+  width: 50vw;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Faq section */
