@@ -25,6 +25,7 @@ export default function About() {
         <section id="bio">
           <Bio />
         </section>
+        <div className="seperator"></div>
         <section id="history">
           <History />
         </section>
