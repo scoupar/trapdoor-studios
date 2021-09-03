@@ -5,10 +5,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: raleway;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 html {
+  /* scroll-behavior: smooth; */
   scroll-behavior: smooth;
 }
 
@@ -291,7 +292,8 @@ nav a:hover {
 .amps-container {
   display: flex;
   flex-direction: row-reverse;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
+  padding-top: 250px;
 }
 
 .amps-img {
@@ -308,9 +310,10 @@ nav a:hover {
 /* Mics section */
 
 .microphones-container {
-  background-color: #ff581a;
+  background-color: #f5d75f;
   display: flex;
   flex-direction: row-reverse;
+  padding-top: 250px;
 }
 
 .microphones-img {
@@ -329,7 +332,8 @@ nav a:hover {
 .fx-container {
   display: flex;
   flex-direction: row-reverse;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
+  padding-top: 250px;
 }
 
 .fx-img {
@@ -363,6 +367,10 @@ nav a:hover {
 }
 
 /* Listen page */
+
+.listen-container {
+  height: 100vh;
+}
 
 .list-container {
   background-color: #ff581a;
@@ -441,8 +449,18 @@ h3 {
   padding: 1rem;
 }
 
-.seperator {
+.yellowseperator {
   height: 100vh;
   width: 100vw;
   background-color: #f5d75f;
+}
+.redseperator {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ff581a;
+}
+.blueseperator {
+  height: 100vh;
+  width: 100vw;
+  background-color: #01c2cb;
 }

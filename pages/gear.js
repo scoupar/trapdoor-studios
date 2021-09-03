@@ -27,15 +27,19 @@ export default function () {
         <section id="outboard">
           <Outboard />
         </section>
+        <div className="yellowseperator"></div>
         <section id="amps">
           <Amplifiers />
         </section>
+        <div className="yellowseperator"></div>
         <section id="mics">
           <Microphones />
         </section>
+        <div className="yellowseperator"></div>
         <section id="fx">
           <Effects />
         </section>
+        <div className="yellowseperator"></div>
         <section id="drums">
           <Drums />
         </section>

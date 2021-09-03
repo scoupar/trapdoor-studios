@@ -21,6 +21,7 @@ export default function Studio() {
         <section id="control">
           <Control />
         </section>
+        <div className="blueseperator"></div>
         <section id="live">
           <Live />
         </section>

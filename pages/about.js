@@ -25,10 +25,11 @@ export default function About() {
         <section id="bio">
           <Bio />
         </section>
-        <div className="seperator"></div>
+        <div className="yellowseperator"></div>
         <section id="history">
           <History />
         </section>
+        <div className="yellowseperator"></div>
         <section id="services">
           <Services />
         </section>
