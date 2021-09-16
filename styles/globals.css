@@ -478,3 +478,12 @@ input {
   margin: 0.5rem;
   color: black;
 }
+
+input[type="textarea"] {
+  height: 150px;
+}
+
+input[type="textarea"]:focus {
+  border: 3px solid #f5d75f;
+  outline: none;
+}

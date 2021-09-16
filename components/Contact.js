@@ -20,13 +20,15 @@ const Contact = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://yourdomain.co/thanks.html"
+            value="https://localhost:3000/blah"
           />
-          <input
-            type="textarea"
+          <textarea
+            name="message"
             placeholder="Type your message here"
             required
-          ></input>
+            cols="4"
+            rows="10"
+          />
           <button type="submit">Send</button>
         </form>
       </div>
