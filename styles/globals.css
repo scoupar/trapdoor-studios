@@ -58,7 +58,7 @@ nav a {
   margin-left: 0.7rem;
   color: white;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 nav a:hover {
@@ -82,7 +82,7 @@ nav a:hover {
 
 .title {
   color: white;
-  font-size: 115px;
+  font-size: 85px;
   margin-left: 1rem;
   padding: 0;
   margin-bottom: 0;
@@ -93,7 +93,7 @@ nav a:hover {
   justify-content: flex-start;
   padding: 0;
   margin-left: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .index-container {
@@ -469,4 +469,12 @@ h3 {
   height: 100vh;
   width: 100vw;
   background-color: #01c2cb;
+}
+
+/* contact form */
+
+input {
+  border: none;
+  margin: 0.5rem;
+  color: black;
 }
