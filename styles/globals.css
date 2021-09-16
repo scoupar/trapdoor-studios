@@ -151,7 +151,7 @@ nav a:hover {
   width: 50%;
   background-color: #01c2cb;
   padding: 1rem;
-  margin-top: 35vh;
+  margin-top: 25vh;
 }
 
 /* History Section */
@@ -160,7 +160,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   background-color: #f5d75f;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .history-img {
@@ -172,6 +172,9 @@ nav a:hover {
 .history-text-container {
   background-color: #01c2cb;
   padding: 1rem;
+  height: auto;
+  width: 50%;
+  max-height: 100%;
 }
 
 /* Services Section */
@@ -180,7 +183,7 @@ nav a:hover {
   display: flex;
   flex-direction: row-reverse;
   background-color: #f5d75f;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .services-img {

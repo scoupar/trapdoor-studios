@@ -8,11 +8,16 @@ const Contact = () => {
           action="https://formsubmit.co/scott.coupar@googlemail.com"
           method="POST"
         >
-          <input type="text" name="name" placeholder="Name" required />
+          <input
+            type="text"
+            name="name"
+            placeholder="Tell me your name!"
+            required
+          />
           <input
             type="email"
             name="email"
-            placeholder="Email Address"
+            placeholder="What is your email address?"
             required
           />
           <input type="hidden" name="_subject" value="New Message"></input>
@@ -24,7 +29,7 @@ const Contact = () => {
           />
           <textarea
             name="message"
-            placeholder="Type your message here"
+            placeholder="Tell me about your project here!"
             required
             cols="4"
             rows="10"
