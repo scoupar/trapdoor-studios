@@ -29,7 +29,9 @@ const Contact = () => {
             cols="4"
             rows="10"
           />
-          <button type="submit">Send</button>
+          <button id="submit-button" type="submit">
+            Send
+          </button>
         </form>
       </div>
       <img src="/contact-img.jpg" className="contact-img" />

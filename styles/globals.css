@@ -419,12 +419,12 @@ h3 {
   height: auto;
   width: 50vw;
   max-height: 100%;
-  margin-top: 32vh;
+  margin-top: 26vh;
 }
 
 .contact-text-container {
   background-color: #01c2cb;
-  margin-top: 37vh;
+  margin-top: 25vh;
   padding: 1rem;
   width: 50vw;
 }
@@ -477,13 +477,37 @@ input {
   border: none;
   margin: 0.5rem;
   color: black;
+  font-family: raleway;
+  padding: 0.5rem;
 }
 
-input[type="textarea"] {
-  height: 150px;
+textarea {
+  border: none;
+  margin: 0.5rem;
+  color: black;
+  font-family: raleway;
+  resize: none;
+  padding: 0.5rem;
 }
 
-input[type="textarea"]:focus {
-  border: 3px solid #f5d75f;
-  outline: none;
+#submit-button {
+  /* width: 25%; */
+  align-self: center;
+  background-color: #f5d75f;
+  border: none;
+  font-family: raleway;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 1rem 2rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+#submit-button:hover {
+  background-color: #ff581a;
+}
+
+::placeholder {
+  color: black;
 }
