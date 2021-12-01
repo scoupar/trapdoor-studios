@@ -19,12 +19,12 @@ export default function Book() {
             <a href="#faq">BOOKING FAQ</a>
           </nav>
         </div>
-        <section id="contact">
-          <Contact />
-        </section>
-        <section id="faq">
-          <Faq />
-        </section>
+        {/* <section id="contact"> */}
+        <Contact />
+        {/* </section> */}
+        {/* <section id="faq"> */}
+        <Faq />
+        {/* </section> */}
       </div>
     </>
   );

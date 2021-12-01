@@ -14,9 +14,10 @@ export default function Home() {
       <div className={styles.logocontainer}>
         <img className={styles.landingimage} src="/landing.jpg" />
         <img className={styles.logo} src="/trapdoor-circle.svg" />
-        {/* <h1 className={styles.headline}>
-          Recording, mixing and mastering services in Liverpool, UK
-        </h1> */}
+        <h1 className={styles.headline}>
+          Established 2019 in Liverpool, UK, <span>Trapdoor Studio</span> is the
+          perfect place for you to hear your music come to life.
+        </h1>
         <Link href="/book">
           <button className={styles.button}>
             <a>BOOK NOW</a>

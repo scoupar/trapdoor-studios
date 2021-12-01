@@ -57,12 +57,12 @@ export const DiscogState = () => {
       spotify:
         "https://open.spotify.com/embed/album/4tks4pkrARCG2txj6KnZsR?theme=0",
     },
-    // {
-    //   artist: "Axes",
-    //   album: "Axes",
-    //   work: "Mix / Master",
-    //   spotify:
-    //     "https://open.spotify.com/embed/album/4Is4sYRyWXZhr6cd1cxSF6?theme=0",
-    // },
+    {
+      artist: "Vennart",
+      album: "In The Dead, Dead Wood",
+      work: "Engineer",
+      spotify:
+        "https://open.spotify.com/embed/album/5MFrAY9PzpcfO9sdEzv0t7?theme=0",
+    },
   ];
 };

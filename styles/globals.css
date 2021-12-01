@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: raleway;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 html {
@@ -35,7 +35,14 @@ p {
 h2 {
   color: white;
 }
+span {
+  color: #f5d75f;
+  font-weight: 900;
+}
 
+hr {
+  border: 1px solid white;
+}
 .not-found {
   background-color: #ff581a;
   text-align: center;
@@ -58,7 +65,7 @@ nav a {
   margin-left: 0.7rem;
   color: white;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 nav a:hover {
@@ -82,7 +89,7 @@ nav a:hover {
 
 .title {
   color: white;
-  font-size: 85px;
+  font-size: 3rem;
   margin-left: 1rem;
   padding: 0;
   margin-bottom: 0;
@@ -99,17 +106,14 @@ nav a:hover {
 .index-container {
   background-color: #f5d75f;
 }
-.about-container {
-  background-color: #01c2cb;
-}
 
-.studio-container {
+/* .studio-container {
   background-color: #ff581a;
 }
 
 .gear-container {
   background-color: #f5d75f;
-}
+} */
 
 .listen-container {
   background-color: #01c2cb;
@@ -131,27 +135,38 @@ nav a:hover {
   width: 100%;
 }
 
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* Bio Section */
 
 .bio-container {
   height: 100vh;
-  background-color: #01c2cb;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .tom-img {
   height: auto;
-  width: 50%;
-  max-height: 100%;
-  margin-top: 25vh;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .text-container {
-  width: 50%;
+  width: 40%;
+  height: 50%;
   background-color: #01c2cb;
   padding: 1rem;
   margin-top: 25vh;
+  z-index: 3;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
 }
 
 /* History Section */
@@ -160,13 +175,16 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   background-color: #f5d75f;
-  padding-top: 200px;
+  margin-top: 200px;
+  height: 100vh;
+  z-index: 3;
 }
 
 .history-img {
   height: auto;
-  width: 50%;
-  max-height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .history-text-container {
@@ -175,6 +193,11 @@ nav a:hover {
   height: auto;
   width: 50%;
   max-height: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 175%;
+  left: 74%;
+  transform: translate(-50%, -50%);
 }
 
 /* Services Section */
@@ -182,31 +205,43 @@ nav a:hover {
 .services-container {
   display: flex;
   flex-direction: row-reverse;
-  background-color: #f5d75f;
-  padding-top: 200px;
 }
 
 .services-img {
   height: auto;
-  width: 50%;
-  max-height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .services-text-container {
-  padding: 1rem;
   background-color: #01c2cb;
+  padding: 1rem;
+  height: auto;
+  width: 50%;
+  max-height: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 300%;
+  left: 30%;
+  transform: translate(-50%, -50%);
 }
 
 /* STUDIO PAGE */
 
 .redsecondnav {
   justify-content: flex-start;
-  margin-bottom: 2rem;
 }
 
 /* .redsecondnav a:hover {
   color: #f5d75f;
 } */
+
+.studio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /* Control Room */
 
@@ -217,10 +252,11 @@ nav a:hover {
 }
 
 .control-img {
+  /* top: 20vh; */
   height: auto;
-  width: 50vw;
-  max-height: 100%;
-  margin-top: 32vh;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
 }
 
 .studionavcontainer {
@@ -232,8 +268,13 @@ nav a:hover {
 
 .control-text-container {
   background-color: #ff581a;
-  margin-top: 37vh;
   padding: 1rem;
+  z-index: 3;
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* LIVE ROOM */
@@ -241,19 +282,24 @@ nav a:hover {
 .live-container {
   display: flex;
   flex-direction: row-reverse;
-  background-color: #01c2cb;
 }
 
 .live-img {
   height: auto;
-  width: 50%;
-  max-height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
 }
 
 .live-text-container {
   background-color: #ff581a;
   padding: 1rem;
   margin-top: 1rem;
+  z-index: 3;
+  position: absolute;
+  top: 180%;
+  left: 35%;
+  transform: translate(-50%, -50%);
 }
 
 .live-text-container p {
@@ -482,6 +528,12 @@ input {
   color: black;
   font-family: raleway;
   padding: 0.5rem;
+  outline: none;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 2px solid #ff581a;
 }
 
 textarea {
@@ -491,6 +543,12 @@ textarea {
   font-family: raleway;
   resize: none;
   padding: 0.5rem;
+  outline: none;
+  border-radius: 5px;
+}
+
+textarea:focus {
+  border: 2px solid #ff581a;
 }
 
 #submit-button {
@@ -509,6 +567,7 @@ textarea {
 
 #submit-button:hover {
   background-color: #ff581a;
+  cursor: pointer;
 }
 
 ::placeholder {

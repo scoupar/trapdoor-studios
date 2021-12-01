@@ -11,25 +11,23 @@ export default function About() {
       <Head>
         <title>Trapdoor Studios | About</title>
       </Head>
-      <div className="about-container">
-        <div className="aboutnavcontainer">
-          <Navbar />
+      <div className="aboutnavcontainer">
+        <Navbar />
 
-          <h1 className="title">ABOUT TRAPDOOR</h1>
-          <nav className="secondnav">
-            <a href="#bio">BIO</a>
-            <a href="#history">HISTORY</a>
-            <a href="#services"> SERVICES</a>
-          </nav>
-        </div>
+        <h1 className="title">ABOUT TRAPDOOR</h1>
+        <nav className="secondnav">
+          <a href="#bio">BIO</a>
+          <a href="#history">HISTORY</a>
+          <a href="#services"> SERVICES</a>
+        </nav>
+      </div>
+      <div className="about-container">
         <section id="bio">
           <Bio />
         </section>
-        <div className="yellowseperator"></div>
         <section id="history">
           <History />
         </section>
-        <div className="yellowseperator"></div>
         <section id="services">
           <Services />
         </section>
