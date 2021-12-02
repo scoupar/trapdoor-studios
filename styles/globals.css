@@ -149,8 +149,6 @@ nav a:hover {
 
 .bio-container {
   height: 100vh;
-  display: flex;
-  flex-direction: row-reverse;
 }
 
 .tom-img {
@@ -176,10 +174,7 @@ nav a:hover {
 /* History Section */
 
 .history-container {
-  display: flex;
-  flex-direction: row;
-  background-color: #f5d75f;
-  margin-top: 200px;
+  margin-top: 120px;
   height: 100vh;
   z-index: 3;
 }
@@ -188,7 +183,7 @@ nav a:hover {
   height: auto;
   width: 100%;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 .history-text-container {
@@ -199,7 +194,7 @@ nav a:hover {
   max-height: 100%;
   z-index: 3;
   position: absolute;
-  top: 175%;
+  top: 160%;
   left: 74%;
   transform: translate(-50%, -50%);
 }
@@ -207,15 +202,15 @@ nav a:hover {
 /* Services Section */
 
 .services-container {
-  display: flex;
-  flex-direction: row-reverse;
+  margin-top: 100px;
+  height: 100vh;
 }
 
 .services-img {
   height: auto;
   width: 100%;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 .services-text-container {
@@ -226,7 +221,7 @@ nav a:hover {
   max-height: 100%;
   z-index: 3;
   position: absolute;
-  top: 300%;
+  top: 275%;
   left: 30%;
   transform: translate(-50%, -50%);
 }
@@ -237,37 +232,56 @@ nav a:hover {
   justify-content: flex-start;
 }
 
-/* .redsecondnav a:hover {
-  color: #f5d75f;
-} */
-
 .studio-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* Control Room */
+.studionavcontainer {
+  position: fixed;
+  background-color: #01c2cb;
+  z-index: 10;
+  width: 100%;
+}
 
-.control-container {
-  background-color: #f5d75f;
+/* Studio Landing Page */
+
+.studio-landing-container {
+  height: 100vh;
   display: flex;
   flex-direction: row-reverse;
 }
 
+.studio-landing-img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 3;
+}
+.studio-landing-text-container {
+  background-color: #ff581a;
+  padding: 1rem;
+  z-index: 6;
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+/* Control Room */
+
+.control-container {
+  height: 100vh;
+}
+
 .control-img {
-  /* top: 20vh; */
+  margin-top: 30vh;
   height: auto;
   width: 100%;
   position: absolute;
   z-index: 2;
-}
-
-.studionavcontainer {
-  position: fixed;
-  background-color: #01c2cb;
-  z-index: 5;
-  width: 100%;
 }
 
 .control-text-container {
@@ -276,23 +290,18 @@ nav a:hover {
   z-index: 3;
   width: 75%;
   position: absolute;
-  top: 50%;
+  top: 160%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 /* LIVE ROOM */
 
-.live-container {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
 .live-img {
   height: auto;
   width: 100%;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 
 .live-text-container {
@@ -301,7 +310,7 @@ nav a:hover {
   margin-top: 1rem;
   z-index: 3;
   position: absolute;
-  top: 180%;
+  top: 250%;
   left: 35%;
   transform: translate(-50%, -50%);
 }

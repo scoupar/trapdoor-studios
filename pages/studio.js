@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Control from "../components/Control";
 import Live from "../components/Live";
+import StudioLanding from "../components/StudioLanding";
 
 export default function Studio() {
   return (
@@ -18,10 +19,12 @@ export default function Studio() {
         </nav>
       </div>
       <div className="studio-container">
+        <section id="studio-container">
+          <StudioLanding />
+        </section>
         <section id="control">
           <Control />
         </section>
-        <div className="blueseperator"></div>
         <section id="live">
           <Live />
         </section>
