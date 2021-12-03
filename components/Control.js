@@ -18,7 +18,7 @@ const Control = () => {
           We certainly do.
         </p>
       </div>
-      <img src="/control-2.jpg" className="control-img" />
+      <img src="/control-3.jpg" className="control-img" />
     </div>
   );
 };
