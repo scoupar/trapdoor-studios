@@ -39,6 +39,7 @@ const Listen = () => {
         <nav className="secondnav">
           <a>DISCOGRAPHY</a>
         </nav>
+        <img src="/listen-img.jpg" className="listen-img" />
         <div className="list-items">{albumListItems}</div>
       </div>
     </>

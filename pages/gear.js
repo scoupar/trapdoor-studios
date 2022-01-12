@@ -31,7 +31,7 @@ export default function () {
         <section id="mics">
           <Microphones />
         </section>
-        <section id="fx">
+        <section id="instruments">
           <Effects />
         </section>
       </div>

@@ -3,34 +3,33 @@ const Microphones = () => {
     <div className="microphones-container">
       <div className="microphones-text-container">
         <h2>MICROPHONES</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at amet
-          labore cupiditate eaque voluptatum optio id unde placeat.
-          Voluptatibus?
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          maiores. Laborum illum expedita nostrum architecto, cupiditate ut
-          dolorem veritatis ipsum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quia
-          sequi velit voluptas aperiam! Tempora consequatur fugit animi
-          accusamus rem, ab aliquid dolorem, illo, voluptatibus suscipit dolore
-          commodi temporibus omnis ratione exercitationem totam vel velit
-          eligendi odit tenetur! Commodi doloribus quis perspiciatis quo ab
-          architecto voluptates praesentium dolores error possimus!
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quod
-          sit officiis veritatis vitae laudantium? Corporis exercitationem ut
-          tempora enim magnam eos nesciunt vel corrupti quasi nemo placeat
-          voluptas dolore, temporibus ipsam aliquid deleniti eius fugiat soluta
-          error a atque, nam saepe dolores illum. Nemo nesciunt corporis vitae
-          ducimus aperiam, vel maxime beatae reprehenderit qui dolorem soluta
-          voluptatibus eaque eligendi ipsa a recusandae voluptate possimus
-          impedit reiciendis illum fugit quos.
-        </p>
+        <ul>
+          <p>Condenser Mics</p>
+          <hr></hr>
+          <li>2x JZ Mics V67</li>
+          <li>1x JZ Mics BB29</li>
+          <li>1x SE Gemini III Valve Condenser</li>
+          <li>2x CAD M179</li>
+          <li>3x SE1a Pencil</li>
+          <li>2x T-Bone Pencil Condenser</li>
+          <p>Ribbon Mics</p>
+          <hr></hr>
+          <li>1x AEA R88 Stereo Ribbon</li>
+          <li>1x SE RT1 Valve Ribbon</li>
+          <li>2x SE R1</li>
+          <li>1x OldBox M4</li>
+          <p>Dynamic Mics</p>
+          <hr></hr>
+          <li>1x Shure SM7b</li>
+          <li>1x Shure SM57</li>
+          <li>1x Shure SM58</li>
+          <li>1x AKG D12VR</li>
+          <li>1x Audix D6</li>
+          <li>1x Audix i5</li>
+          <li>1x Sennheiser e604</li>
+          <li>1x Sennheiser e904</li>
+          <li>1x Sennheiser e602</li>
+        </ul>
       </div>
       <img src="/microphones.jpg" className="microphones-img" />
     </div>
