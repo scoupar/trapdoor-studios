@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Outboard from "../components/Outboard";
+import Studio from "../components/Studio";
 import Amplifiers from "../components/Amplifiers";
 import Microphones from "../components/Microphones";
 import Effects from "../components/Effects";
@@ -26,7 +26,7 @@ export default function () {
       <div className="gear-container">
         <GearLanding />
         <section id="studio">
-          <Outboard />
+          <Studio />
         </section>
         <section id="mics">
           <Microphones />
