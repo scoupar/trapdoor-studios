@@ -519,6 +519,12 @@ nav a:hover {
   max-height: 100%;
 }
 
+.samples-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 h3 {
   color: white;
   text-align: center;
