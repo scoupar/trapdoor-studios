@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { useState } from "react";
 import { DiscogState } from "../discogstate";
 import Samples from "../components/Samples";
+import Discography from "../components/Discography";
 
 const Listen = () => {
   // const [albums, setAlbums] = useState(DiscogState);
@@ -43,6 +44,7 @@ const Listen = () => {
         </nav>
       </div>
       <Samples />
+      <Discography />
       {/* <img src="/listen-img.jpg" className="listen-img" />
         <div className="list-items">{albumListItems}</div> */}
     </>
