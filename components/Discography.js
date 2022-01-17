@@ -9,14 +9,14 @@ const Discography = () => {
       thumbnail: "/cover-art/vennart.jpg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
-      caption: "After Rain (Jeshu John - designerspics.com)",
+      caption: "Vennart - In The Dead, Dead Wood (Engineer - guitars only)",
     },
     {
       src: "/cover-art/amtp-infinity-stare.jpg",
       thumbnail: "/cover-art/amtp-infinity-stare.jpg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
-      caption: "Boats (Jeshu John - designerspics.com)",
+      caption: "Alpha Male Tea Party - Infinity Stare (Produce/Mix)",
     },
 
     {
@@ -24,30 +24,35 @@ const Discography = () => {
       thumbnail: "/cover-art/last-hyena.jpeg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
+      caption: "Last Hyena - How Soon is Mars? (Produce/Mix) ",
     },
     {
       src: "/cover-art/vasa-heroics.jpeg",
       thumbnail: "/cover-art/vasa-heroics.jpeg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
+      caption: "VASA - Heroics (Produce/Mix",
     },
     {
       src: "/cover-art/bicurious.jpeg",
       thumbnail: "/cover-art/bicurious.jpeg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
+      caption: "Bicurious - (re)constructed (Produce/Mix)",
     },
     {
       src: "/cover-art/body-hound.jpeg",
       thumbnail: "/cover-art/body-hound.jpeg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
+      caption: "Body Hound - No Moon (Produce/Mix)",
     },
     {
       src: "/cover-art/amtp-health.jpeg",
       thumbnail: "/cover-art/amtp-health.jpeg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
+      caption: "Alpha Male Tea Party - Health (Produce/Mix)",
     },
     {
       src: "/cover-art/cleft-wrong.jpeg",
@@ -86,6 +91,7 @@ const Discography = () => {
       margin={0}
       enableImageSelection={false}
       enableLightbox={true}
+      showImageCount={false}
     />
   );
 };
