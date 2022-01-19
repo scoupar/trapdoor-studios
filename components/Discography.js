@@ -31,7 +31,7 @@ const Discography = () => {
       thumbnail: "/cover-art/vasa-heroics.jpeg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
-      caption: "VASA - Heroics (Produce/Mix",
+      caption: "VASA - Heroics (Produce/Mix)",
     },
     {
       src: "/cover-art/bicurious.jpeg",
@@ -86,13 +86,18 @@ const Discography = () => {
     },
   ];
   return (
-    <Gallery
-      images={IMAGES}
-      margin={0}
-      enableImageSelection={false}
-      enableLightbox={true}
-      showImageCount={false}
-    />
+    <div className="discog-container">
+      <div className="gallery-container">
+        <Gallery
+          images={IMAGES}
+          margin={0}
+          enableImageSelection={false}
+          enableLightbox={true}
+          showImageCount={false}
+        />
+      </div>
+      <img src="/discog-img.jpg" className="discog-img"></img>
+    </div>
   );
 };
 
