@@ -45,8 +45,6 @@ const Listen = () => {
       </div>
       <Samples />
       <Discography />
-      {/* <img src="/listen-img.jpg" className="listen-img" />
-        <div className="list-items">{albumListItems}</div> */}
     </>
   );
 };

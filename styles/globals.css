@@ -67,6 +67,7 @@ nav {
   padding: 0.5rem;
   padding-right: 1rem;
   background-color: transparent;
+  overflow: auto;
 }
 
 nav a {
@@ -511,6 +512,7 @@ nav a:hover {
   justify-content: center;
   z-index: 3;
   position: absolute;
+  top: 25%;
 }
 
 .listen-img {
@@ -537,19 +539,21 @@ h3 {
 .discog-container {
   width: 100vw;
   display: flex;
+  justify-content: center;
 }
 
 .discog-img {
   height: auto;
-  width: 100%;
+  width: 100vw;
   max-height: 100%;
-  position: relative;
+  position: absolute;
 }
 
 .gallery-container {
+  width: 75vw;
   z-index: 3;
-  position: absolute;
-  top: 150%;
+  position: relative;
+  margin-top: 10vh;
 }
 
 /* book page */
@@ -677,4 +681,9 @@ textarea:focus {
 
 ::placeholder {
   color: black;
+}
+
+.album-link {
+  text-decoration: underline;
+  font-size: x-large;
 }
