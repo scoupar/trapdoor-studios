@@ -99,12 +99,21 @@ const Discography = () => {
       <div className="gallery-container">
         <Gallery
           images={IMAGES}
-          margin={3}
+          margin={2}
           enableImageSelection={false}
           showImageCount={false}
         />
       </div>
-      <img src="/discog-img.jpg" className="discog-img"></img>
+      <iframe
+        src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator&theme=0"
+        width="25%"
+        height="380"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        className="playlist"
+      ></iframe>
+      <img src="/listen-img.jpg" className="discog-img"></img>
     </div>
   );
 };

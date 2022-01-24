@@ -37,11 +37,11 @@ const Listen = () => {
       </Head>
       <div className="studionavcontainer">
         <Navbar />
-        <h1 className="title">LISTEN</h1>
+        {/* <h1 className="title">LISTEN</h1>
         <nav className="redsecondnav">
           <a href="#control">SAMPLES</a>
           <a href="#live">DISCOGRAPHY</a>
-        </nav>
+        </nav> */}
       </div>
       <Samples />
       <Discography />

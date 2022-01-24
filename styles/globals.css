@@ -47,6 +47,10 @@ span {
   font-weight: 900;
 }
 
+h4 {
+  color: whitesmoke;
+}
+
 hr {
   border: 1px solid white;
 }
@@ -512,7 +516,7 @@ nav a:hover {
   justify-content: center;
   z-index: 3;
   position: absolute;
-  top: 25%;
+  margin-top: 20vh;
 }
 
 .listen-img {
@@ -540,6 +544,8 @@ h3 {
   width: 100vw;
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .discog-img {
@@ -550,10 +556,17 @@ h3 {
 }
 
 .gallery-container {
-  width: 75vw;
+  width: 50vw;
   z-index: 3;
   position: relative;
-  margin-top: 10vh;
+  margin-top: 20vh;
+  /* background-color: #ff581a; */
+  padding: 0.1rem;
+}
+
+.playlist {
+  z-index: 3;
+  margin-top: 20vh;
 }
 
 /* book page */
@@ -570,26 +583,33 @@ h3 {
 .contact-container {
   background-color: #01c2cb;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  position: relative;
 }
 
 .contact-img {
   height: auto;
-  width: 50vw;
+  width: 100vw;
+  margin-top: 8%;
   max-height: 100%;
-  margin-top: 26vh;
+  position: absolute;
 }
 
 .contact-text-container {
   background-color: #01c2cb;
   margin-top: 25vh;
   padding: 1rem;
-  width: 50vw;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
+  left: 10%;
+  position: relative;
+  width: 40vw;
+  z-index: 3;
+  background-color: #01c2cb;
+  padding: 1rem;
 }
 
 /* Faq section */
@@ -597,20 +617,23 @@ h3 {
 .faq-container {
   background-color: #01c2cb;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .faq-img {
   height: auto;
-  width: 50vw;
+  width: 100vw;
   max-height: 100%;
-  margin-top: 32vh;
+  position: absolute;
 }
 
 .faq-text-container {
   background-color: #01c2cb;
-  margin-top: 37vh;
+  margin-top: 20vh;
   padding: 1rem;
+  z-index: 3;
+  position: relative;
+  width: 50%;
 }
 
 .yellowseperator {
@@ -672,6 +695,7 @@ textarea:focus {
   padding: 1rem 2rem;
   color: white;
   margin-top: 1rem;
+  border-radius: 5%;
 }
 
 #submit-button:hover {

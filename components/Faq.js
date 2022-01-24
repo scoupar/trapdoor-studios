@@ -1,37 +1,29 @@
 const Faq = () => {
   return (
     <div className="faq-container">
-      <img src="/faq-img.jpg" className="faq-img" />
+      <img src="/discog-img.jpg" className="faq-img" />
       <div className="faq-text-container">
         <h2>BOOKING FAQ</h2>
+        <h2>What are your rates?</h2>
+        <hr />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at amet
-          labore cupiditate eaque voluptatum optio id unde placeat.
-          Voluptatibus?
+          Please get in touch and we can talk you through this. Every project is
+          different so let us know what you're looking to do and we can tailor a
+          quote for you.
         </p>
+        <h2>How long is a day at Trapdoor?</h2>
+        <hr />
+        <p>A day at Trapdoor runs from 10-7.</p>
+        <h2>Do you do weekends?</h2>
+        <hr />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          maiores. Laborum illum expedita nostrum architecto, cupiditate ut
-          dolorem veritatis ipsum!
+          We prefer to operate during the week but can offer weeknds in some
+          circumstances.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quia
-          sequi velit voluptas aperiam! Tempora consequatur fugit animi
-          accusamus rem, ab aliquid dolorem, illo, voluptatibus suscipit dolore
-          commodi temporibus omnis ratione exercitationem totam vel velit
-          eligendi odit tenetur! Commodi doloribus quis perspiciatis quo ab
-          architecto voluptates praesentium dolores error possimus!
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quod
-          sit officiis veritatis vitae laudantium? Corporis exercitationem ut
-          tempora enim magnam eos nesciunt vel corrupti quasi nemo placeat
-          voluptas dolore, temporibus ipsam aliquid deleniti eius fugiat soluta
-          error a atque, nam saepe dolores illum. Nemo nesciunt corporis vitae
-          ducimus aperiam, vel maxime beatae reprehenderit qui dolorem soluta
-          voluptatibus eaque eligendi ipsa a recusandae voluptate possimus
-          impedit reiciendis illum fugit quos.
-        </p>
+        <h2>Is Trapdoor available for dry hire?</h2>
+        <hr />
+        <p>Yes! Please get in touch and we can talk you through the process.</p>
+        <h4>For all other enquiries please get in touch.</h4>
       </div>
     </div>
   );
