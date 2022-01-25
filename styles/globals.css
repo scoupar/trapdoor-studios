@@ -426,7 +426,7 @@ nav a:hover {
 .fx-container {
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #f5d75f;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -452,7 +452,7 @@ nav a:hover {
   z-index: 3;
   position: absolute;
   font-size: small;
-  top: 380%;
+  margin-top: 1rem;
 }
 
 .pedals-text-container {

@@ -61,8 +61,8 @@ const Discography = () => {
       tags: [{}],
     },
     {
-      src: "/cover-art/axes.jpeg",
-      thumbnail: "/cover-art/axes.jpeg",
+      src: "/cover-art/abas.jpeg",
+      thumbnail: "/cover-art/abas.jpeg",
       thumbnailWidth: 700,
       thumbnailHeight: 700,
     },
@@ -73,8 +73,8 @@ const Discography = () => {
       thumbnailHeight: 700,
     },
     {
-      src: "/cover-art/vasa-colours.jpeg",
-      thumbnail: "/cover-art/vasa-colours.jpeg",
+      src: "/cover-art/dog-daisies.jpeg",
+      thumbnail: "/cover-art/dog-daisies.jpeg",
       thumbnailWidth: 700,
       thumbnailHeight: 700,
       caption: (
