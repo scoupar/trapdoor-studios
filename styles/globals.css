@@ -36,8 +36,7 @@ h1 {
 
 p {
   color: white;
-  font-weight: normal;
-  width: fit-content;
+  font-size: larger;
 }
 
 h2 {
@@ -148,7 +147,7 @@ nav a:hover {
 
 /* Bio Section */
 
-.bio-img {
+.about-img {
   margin-top: 100px;
   height: 100vh;
   border: 5px solid blue;
@@ -156,103 +155,75 @@ nav a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 75%;
-  padding: 0;
 }
 
-.text-container {
-  background-color: #01c2cb;
+.hero-text {
+  font-weight: ;
+  font-size: clamp(1.5rem, 10vw + 1rem, 5rem);
+  max-height: 100vw;
+  width: 50%;
+  padding: 1rem;
+}
+
+.bio-container {
+  background-image: url("/tom-img2.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-color: rgba(1, 194, 203, 0.64);
+  background-position: center top;
   padding: 1em;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-/* .tom-img {
-  width: auto;
-  position: absolute;
-  z-index: 1;
-  max-width: 100vw;
-} */
-/* 
-.text-container {
-  width: 40%;
-
+.bio-container p {
   background-color: #01c2cb;
   padding: 1rem;
-  margin-top: 25vh;
-  z-index: 3;
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  transform: translate(-50%, -50%);
 }
-
-@media (max-width: 1404px) {
-  .bio-container {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
-  .text-container {
-    position: none;
-  }
-  .tom-img {
-    position: sticky;
-  }
-} */
 
 /* History Section */
 
 .history-container {
-  margin-top: 120px;
+  background-image: url("/dan-img.jpg");
   height: 100vh;
-  z-index: 3;
-  border: 5px solid red;
+  background-size: cover;
+  background-color: rgba(1, 194, 203, 0.64);
+  background-position: center top;
+  padding: 1em;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.history-img {
-  height: auto;
-  width: 100%;
-  position: absolute;
-  z-index: 2;
-}
-
-.history-text-container {
+.history-container p {
   background-color: #01c2cb;
   padding: 1rem;
-  height: auto;
-  width: 50%;
-  max-height: 100%;
-  z-index: 3;
-  position: absolute;
-  top: 160%;
-  left: 74%;
-  transform: translate(-50%, -50%);
-  border: 5px solid blue;
 }
 
 /* Services Section */
 
 .services-container {
-  margin-top: 100px;
+  background-image: url("/services-img2.jpg");
   height: 100vh;
+  background-size: cover;
+  background-color: rgba(1, 194, 203, 0.64);
+  background-position: left top;
+  padding: 1em;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.services-img {
-  height: auto;
-  width: 100%;
-  position: absolute;
-  z-index: 2;
-}
-
-.services-text-container {
+.services-container p {
   background-color: #01c2cb;
   padding: 1rem;
-  height: auto;
-  width: 50%;
-  max-height: 100%;
-  z-index: 3;
-  position: absolute;
-  top: 275%;
-  left: 30%;
-  transform: translate(-50%, -50%);
 }
 
 /* STUDIO PAGE */
