@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const StudioLanding = () => {
   return (
     <div className="studio-landing-container">
@@ -12,7 +14,11 @@ const StudioLanding = () => {
         </p>
         <hr></hr>
       </div>
-      <img src="/studio-landing.jpg" className="studio-landing-img" />
+      <Image
+        src="/studio-landing.jpg"
+        className="studio-landing-img"
+        layout="fill"
+      />
     </div>
   );
 };

@@ -25,12 +25,12 @@ export default function About() {
         <section id="bio">
           <Bio />
         </section>
-        <section id="history">
+        {/* <section id="history">
           <History />
         </section>
         <section id="services">
           <Services />
-        </section>
+        </section> */}
       </div>
     </>
   );

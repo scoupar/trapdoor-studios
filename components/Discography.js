@@ -11,8 +11,8 @@ const Discography = () => {
       caption: "Vennart - In The Dead, Dead Wood (Engineer - guitars only)",
     },
     {
-      src: "/cover-art/amtp-infinity-stare.jpg",
-      thumbnail: "/cover-art/amtp-infinity-stare.jpg",
+      src: "/cover-art/amtp-infinity-stare-large.jpeg",
+      thumbnail: "/cover-art/amtp-infinity-stare-large.jpeg",
       thumbnailWidth: 700,
       thumbnailHeight: 700,
       caption: "Alpha Male Tea Party - Infinity Stare (Produce/Mix)",
@@ -96,6 +96,13 @@ const Discography = () => {
   ];
   return (
     <div className="discog-container">
+      <div className="studio-landing-text-container">
+        <p>
+          Below you can listen to a number of productions worked on at Trapdoor
+          as well as a selected discography of artists.
+        </p>
+        <hr></hr>
+      </div>
       <div className="gallery-container">
         <Gallery
           images={IMAGES}
@@ -105,7 +112,7 @@ const Discography = () => {
         />
       </div>
       <iframe
-        src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator&theme=0"
+        src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
         width="25%"
         height="380"
         frameBorder="0"
@@ -113,7 +120,7 @@ const Discography = () => {
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         className="playlist"
       ></iframe>
-      <img src="/listen-img.jpg" className="discog-img"></img>
+      <img src="/listen.jpg" className="discog-img"></img>
     </div>
   );
 };

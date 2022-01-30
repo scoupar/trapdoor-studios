@@ -1,6 +1,7 @@
 const Bio = () => {
   return (
-    <div className="bio-container">
+    <>
+      <div className="bio-img"></div>
       <div className="text-container">
         <h2>BIO</h2>
         <hr></hr>
@@ -20,8 +21,7 @@ const Bio = () => {
           words, he wants you to sound uniquely like you.
         </p>
       </div>
-      <img src="/tom1.jpg" className="tom-img" />
-    </div>
+    </>
   );
 };
 
