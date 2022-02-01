@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Control from "../components/Control";
-import Live from "../components/Live";
 import StudioLanding from "../components/StudioLanding";
 
 export default function Studio() {

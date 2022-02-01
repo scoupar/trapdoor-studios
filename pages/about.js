@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Bio from "../components/Bio";
-import History from "../components/History";
-import Services from "../components/Services";
 import { NavHashLink } from "react-router-hash-link";
 
 export default function About() {

@@ -1,10 +1,5 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Studio from "../components/Studio";
-import Amplifiers from "../components/Amplifiers";
-import Microphones from "../components/Microphones";
-import Effects from "../components/Effects";
-import Drums from "../components/Drums";
 import GearLanding from "../components/GearLanding";
 
 export default function () {

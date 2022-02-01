@@ -102,7 +102,7 @@ const Discography = () => {
         </h2>
       </div>
       <div className="playlist">
-        <h2 className="title">Showreel</h2>
+        <h2 className="page-title">Showreel</h2>
         <br></br>
         <iframe
           src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
@@ -113,7 +113,7 @@ const Discography = () => {
         ></iframe>
       </div>
       <div className="gallery-container">
-        <h2 className="title">DISCOGRAPHY</h2>
+        <h2 className="page-title">DISCOGRAPHY</h2>
         <Gallery
           images={IMAGES}
           margin={2}

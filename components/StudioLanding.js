@@ -10,7 +10,7 @@ const StudioLanding = () => {
         </h2>
       </div>
       <div className="control-container">
-        <h2 className="title">THE CONTROL ROOM</h2>
+        <h2 className="page-title">THE CONTROL ROOM</h2>
         <p>
           The emphasis is on cosy and comfortable. An acoustically treated
           cocoon, the room is designed to sound great wherever you sit. The
@@ -26,7 +26,7 @@ const StudioLanding = () => {
         </p>
       </div>
       <div className="live-container">
-        <h2 className="title">THE LIVE ROOM</h2>
+        <h2 className="page-title">THE LIVE ROOM</h2>
         <p>
           The live room is nice and big with a clear and natural sound. It's a
           blank canvas that can be painted with many colours and is full of

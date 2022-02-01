@@ -270,7 +270,6 @@ nav a:hover {
   background-image: url("/studio-landing.jpg");
   margin-top: 100px;
   height: 100vh;
-  border: 5px solid blue;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 75%;

@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
-import Faq from "../components/Faq";
 
 export default function Book() {
   return (
