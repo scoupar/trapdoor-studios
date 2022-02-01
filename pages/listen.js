@@ -43,8 +43,9 @@ const Listen = () => {
           <a href="#live">DISCOGRAPHY</a>
         </nav>
       </div>
-      {/* <Samples /> */}
-      <Discography />
+      <div className="listen-container">
+        <Discography />
+      </div>
     </>
   );
 };
