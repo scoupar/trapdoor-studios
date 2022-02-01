@@ -25,15 +25,6 @@ export default function () {
       </div>
       <div className="gear-container">
         <GearLanding />
-        <section id="studio">
-          <Studio />
-        </section>
-        <section id="mics">
-          <Microphones />
-        </section>
-        <section id="instruments">
-          <Effects />
-        </section>
       </div>
     </>
   );
