@@ -325,7 +325,6 @@ nav a:hover {
   background-image: url("/microphones.jpg");
   margin-top: 130px;
   height: 100vh;
-  border: 5px solid blue;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 75%;
@@ -349,9 +348,13 @@ nav a:hover {
 
 .studio-gear-container ul {
   column-count: 3;
-  background-color: #ff581a;
+  background-color: #01c2cb;
   padding: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.studio-gear-container ul p {
+  font-weight: bold;
 }
 
 /* Mics section */
@@ -372,9 +375,13 @@ nav a:hover {
 
 .microphones-container ul {
   column-count: 3;
-  background-color: #ff581a;
+  background-color: #01c2cb;
   padding: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.microphones-container ul p {
+  font-weight: bold;
 }
 
 /* guitars section */
@@ -395,7 +402,7 @@ nav a:hover {
 
 .guitars-container ul {
   column-count: 3;
-  background-color: #ff581a;
+  background-color: #01c2cb;
   padding: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -422,7 +429,7 @@ nav a:hover {
 
 .other-container ul {
   column-count: 2;
-  background-color: #ff581a;
+  background-color: #01c2cb;
   padding: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

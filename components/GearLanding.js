@@ -62,7 +62,7 @@ const GearLanding = () => {
         </ul>
       </div>
       <div className="guitars-container">
-        <h2 className="title">GUITAR GEAR</h2>
+        <h2 className="title">INSTRUMENTS</h2>
         <ul>
           <p>Guitars</p>
           <hr></hr>
@@ -114,7 +114,7 @@ const GearLanding = () => {
         </ul>
       </div>
       <div className="other-container">
-        <h2 className="title">OTHER INSTRUMENTS</h2>
+        {/* <h2 className="title">OTHER INSTRUMENTS</h2> */}
         <ul>
           <p>Drums</p>
           <hr></hr>
@@ -141,7 +141,7 @@ const GearLanding = () => {
           <li>Stagg 10 Splash</li>
         </ul>
         <ul>
-          <p>Other instruments</p>
+          <p>Keys</p>
           <hr></hr>
           <li>Chapel Upright Piano</li>
           <li>Pedal Harmonium</li>
