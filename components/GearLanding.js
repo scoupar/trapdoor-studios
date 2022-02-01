@@ -114,7 +114,7 @@ const GearLanding = () => {
         </ul>
       </div>
       <div className="other-container">
-        {/* <h2 className="title">OTHER INSTRUMENTS</h2> */}
+        <h2 className="title">INSTRUMENTS</h2>
         <ul>
           <p>Drums</p>
           <hr></hr>
