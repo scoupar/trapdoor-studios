@@ -7,7 +7,7 @@ const Bio = () => {
         </h2>
       </div>
       <div className="bio-container">
-        <h2 className="title">BIO</h2>
+        <h2 className="page-title">BIO</h2>
         <p>
           Tom has over a decade of working experience in capturing and producing
           music to the highest standard. Starting out in 2011 as the assistant
@@ -24,7 +24,7 @@ const Bio = () => {
         </p>
       </div>
       <div className="history-container">
-        <h2 className="title">HISTORY</h2>
+        <h2 className="page-title">HISTORY</h2>
         <p>
           Trapdoor started as a dream between Tom Peters and Dan Wild-Beesley
           (guitarist in Cleft/GUG and recording engineer) way back in 2013. The
@@ -52,7 +52,7 @@ const Bio = () => {
         </p>
       </div>
       <div className="services-container">
-        <h2 className="title">SERVICES</h2>
+        <h2 className="page-title">SERVICES</h2>
         <p>
           Trapdoor offers a number of key services:
           <ul>
