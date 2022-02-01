@@ -107,6 +107,7 @@ nav a:hover {
   padding: 0;
   margin-bottom: 0;
   margin-top: 0;
+  text-shadow: 2px 2px 10px black;
 }
 
 .secondnav {
@@ -158,11 +159,11 @@ nav a:hover {
 }
 
 .hero-text {
-  font-weight: ;
   font-size: clamp(1.5rem, 10vw + 1rem, 5rem);
   max-height: 100vw;
   width: 50%;
   padding: 1rem;
+  text-shadow: 2px 2px 10px black;
 }
 
 .bio-container {
@@ -182,6 +183,7 @@ nav a:hover {
 .bio-container p {
   background-color: #01c2cb;
   padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* History Section */
@@ -203,6 +205,7 @@ nav a:hover {
 .history-container p {
   background-color: #01c2cb;
   padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Services Section */
@@ -224,6 +227,7 @@ nav a:hover {
 .services-container p {
   background-color: #01c2cb;
   padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* STUDIO PAGE */
@@ -247,10 +251,14 @@ nav a:hover {
 
 /* Studio Landing Page */
 
-.studio-landing-container {
+.studio-image {
+  background-image: url("/studio-landing.jpg");
+  margin-top: 100px;
   height: 100vh;
-  display: flex;
-  flex-direction: row-reverse;
+  border: 5px solid blue;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75%;
 }
 
 .studio-landing-img {
@@ -273,52 +281,45 @@ nav a:hover {
 /* Control Room */
 
 .control-container {
+  background-image: url("/control-3.jpg");
   height: 100vh;
+  background-size: cover;
+  background-color: rgba(1, 194, 203, 0.64);
+  background-position: left top;
+  padding: 1em;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.control-img {
-  margin-top: 30vh;
-  height: auto;
-  width: 100%;
-  position: absolute;
-  z-index: 2;
-}
-
-.control-text-container {
+.control-container p {
   background-color: #ff581a;
   padding: 1rem;
-  z-index: 3;
-  width: 25%;
-  position: absolute;
-  top: 170%;
-  left: 75%;
-  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* LIVE ROOM */
 
-.live-img {
-  height: auto;
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-  margin-top: 60vh;
+.live-container {
+  background-image: url("/live-img.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-color: rgba(1, 194, 203, 0.64);
+  background-position: left top;
+  padding: 1em;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.live-text-container {
+.live-container p {
   background-color: #ff581a;
   padding: 1rem;
-  margin-top: 1rem;
-  z-index: 3;
-  position: absolute;
-  top: 285%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-  width: 20%;
-}
-
-.live-text-container p {
-  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Gear Page */

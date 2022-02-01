@@ -19,15 +19,7 @@ export default function Studio() {
         </nav>
       </div>
       <div className="studio-container">
-        <section id="studio-container">
-          <StudioLanding />
-        </section>
-        <section id="control">
-          <Control />
-        </section>
-        <section id="live">
-          <Live />
-        </section>
+        <StudioLanding />
       </div>
     </>
   );
