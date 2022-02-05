@@ -114,8 +114,9 @@ const Discography = () => {
         ></iframe>
       </div>
       <div className="gallery-container">
-        {/* <h2 className="page-title">DISCOGRAPHY</h2> */}
+        <h2 className="page-title">Discography</h2>
         <Gallery
+          className="gallery"
           images={IMAGES}
           margin={2}
           enableImageSelection={false}
