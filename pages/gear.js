@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import GearLanding from "../components/GearLanding";
 
-export default function () {
+export default function Gear() {
   return (
     <>
       <Head>

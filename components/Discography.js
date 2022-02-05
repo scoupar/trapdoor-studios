@@ -82,6 +82,7 @@ const Discography = () => {
           className="album-link"
           href="http://vasa.bandcamp.com"
           target="_blank"
+          rel="noreferrer"
         >
           VASA - Colours
         </a>
@@ -108,12 +109,12 @@ const Discography = () => {
           src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
           height="380"
           frameBorder="0"
-          allowfullscreen=""
+          allowFullScreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         ></iframe>
       </div>
       <div className="gallery-container">
-        <h2 className="page-title">DISCOGRAPHY</h2>
+        {/* <h2 className="page-title">DISCOGRAPHY</h2> */}
         <Gallery
           images={IMAGES}
           margin={2}

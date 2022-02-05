@@ -48,7 +48,7 @@ const Contact = () => {
             placeholder="Tell me about your project here!"
             required
             cols="4"
-            rows="10"
+            rows="6"
           />
           <button id="submit-button" type="submit">
             Send
