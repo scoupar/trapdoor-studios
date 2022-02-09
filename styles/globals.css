@@ -522,8 +522,8 @@ h3 {
   background-position: left top;
   padding: 1em;
   width: auto;
-  /* display: flex; */
-  flex-direction: column;
+  display: inline-block;
+  text-align: center;
   align-items: center;
   justify-content: center;
 }
