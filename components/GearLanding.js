@@ -8,7 +8,7 @@ const GearLanding = () => {
         </h2>
       </div>
       <div className="studio-gear-container">
-        <h2 className="title">STUDIO</h2>
+        <h2 className="page-title">STUDIO</h2>
         <ul>
           <p>Monitoring</p>
           <hr></hr>
@@ -32,7 +32,7 @@ const GearLanding = () => {
         </ul>
       </div>
       <div className="microphones-container">
-        <h2 className="title">MICROPHONES</h2>
+        <h2 className="page-title">MICROPHONES</h2>
         <ul>
           <p>Condenser Mics</p>
           <hr></hr>
@@ -62,7 +62,7 @@ const GearLanding = () => {
         </ul>
       </div>
       <div className="guitars-container">
-        <h2 className="title">INSTRUMENTS</h2>
+        <h2 className="page-title">INSTRUMENTS</h2>
         <ul>
           <p>Guitars</p>
           <hr></hr>
@@ -114,7 +114,7 @@ const GearLanding = () => {
         </ul>
       </div>
       <div className="other-container">
-        <h2 className="title">INSTRUMENTS</h2>
+        <h2 className="page-title">INSTRUMENTS</h2>
         <ul>
           <p>Drums</p>
           <hr></hr>
