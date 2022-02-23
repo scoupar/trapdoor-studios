@@ -133,7 +133,6 @@ nav a:hover {
 @media (max-width: 1000px) {
   .title {
     font-size: 4rem;
-    text-align: center;
   }
 }
 
@@ -155,7 +154,7 @@ nav a:hover {
 
 @media (max-width: 1000px) {
   .secondnav {
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0.2em;
   }
 }
@@ -314,7 +313,7 @@ nav a:hover {
 .control-text {
   width: 100%;
   background-color: #01c2cb;
-  padding: 2rem;
+  padding: 1rem;
   z-index: 5;
 }
 
@@ -352,10 +351,13 @@ nav a:hover {
 .live-text {
   width: 100%;
   background-color: #01c2cb;
-  padding: 4rem;
+  padding: 1rem;
 }
 
 @media (min-width: 1000px) {
+  .live-text {
+    padding: 4rem;
+  }
   .live-text p {
     font-size: 1.2rem;
   }
