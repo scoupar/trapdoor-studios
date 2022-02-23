@@ -11,10 +11,10 @@ export default function Studio() {
       <div className="studionavcontainer">
         <Navbar />
         <h1 className="title">THE STUDIO</h1>
-        {/* <nav className="redsecondnav">
+        <nav className="secondnav">
           <a href="#control">THE CONTROL ROOM</a>
           <a href="#live">THE LIVE ROOM</a>
-        </nav> */}
+        </nav>
       </div>
       <div className="studio-container">
         <StudioLanding />

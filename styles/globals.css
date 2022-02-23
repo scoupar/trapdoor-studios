@@ -79,11 +79,23 @@ nav a {
   color: white;
   font-weight: 800;
   font-size: 1.5rem;
+  padding-bottom: 0.2rem;
   /* text-shadow: 2px 2px 5px black; */
 }
 
+@media (max-width: 1000px) {
+  nav a {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-right: 0.5rem;
+  }
+  nav {
+    justify-content: center;
+  }
+}
+
 nav a:hover {
-  color: #ff581a;
+  color: #f5d75f;
 }
 
 .nav-line {
@@ -96,6 +108,13 @@ nav a:hover {
   margin-left: auto;
   margin-right: 10px;
 }
+
+@media (max-width: 1000px) {
+  .nav-line {
+    margin-right: auto;
+    width: 90%;
+  }
+}
 .nav-logo {
   height: 35px;
   margin-right: auto;
@@ -105,10 +124,17 @@ nav a:hover {
   color: white;
   font-size: 5rem;
   margin-left: 1rem;
-  padding: 1rem;
+  padding: 0.1rem;
   margin-bottom: 0;
   margin-top: 0;
   /* text-shadow: 2px 2px 5px black; */
+}
+
+@media (max-width: 1000px) {
+  .title {
+    font-size: 4rem;
+    text-align: center;
+  }
 }
 
 .page-title {
@@ -124,8 +150,14 @@ nav a:hover {
 .secondnav {
   justify-content: flex-start;
   padding: 0;
-  margin-left: 0.4rem;
-  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .secondnav {
+    justify-content: center;
+    padding: 0.2em;
+  }
 }
 
 .index-container {
@@ -248,10 +280,6 @@ nav a:hover {
 
 /* STUDIO PAGE */
 
-.redsecondnav {
-  justify-content: flex-start;
-}
-
 .studio-container {
   display: flex;
   flex-direction: column;
@@ -285,9 +313,34 @@ nav a:hover {
 
 .control-text {
   width: 100%;
-  background-color: #ff581a;
-  padding: 4rem;
+  background-color: #01c2cb;
+  padding: 2rem;
   z-index: 5;
+}
+
+.image-container {
+  border: 1rem solid #01c2cb;
+  padding: 0;
+  margin: 0;
+  background-color: #01c2cb;
+}
+
+.control-image {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1000px) {
+  .control-text {
+    padding: 4rem;
+  }
+
+  .control-text p {
+    font-size: 1.2rem;
+  }
+  .control-text h2 {
+    font-size: 2rem;
+  }
 }
 
 /* LIVE ROOM */
@@ -298,8 +351,17 @@ nav a:hover {
 
 .live-text {
   width: 100%;
-  background-color: #ff581a;
+  background-color: #01c2cb;
   padding: 4rem;
+}
+
+@media (min-width: 1000px) {
+  .live-text p {
+    font-size: 1.2rem;
+  }
+  .live-text h2 {
+    font-size: 2rem;
+  }
 }
 
 /* Gear Page */
