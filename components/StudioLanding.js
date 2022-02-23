@@ -1,5 +1,5 @@
 import Image from "next/image";
-import controlImage from "../public/control-img.jpg";
+import controlImage from "../public/studio-landing.jpg";
 import liveImage from "../public/live-img.jpg";
 
 const StudioLanding = () => {
@@ -11,7 +11,9 @@ const StudioLanding = () => {
           naturally
         </h2>
       </div> */}
-      <Image src={controlImage} className="control-image" />
+      <div className="image-container">
+        <Image src={controlImage} className="control-image" />
+      </div>
       <div className="control-container">
         <div className="control-text">
           <h2>THE CONTROL ROOM</h2>
@@ -32,7 +34,9 @@ const StudioLanding = () => {
           </p>
         </div>
       </div>
-      <Image src={liveImage} />
+      <div className="image-container">
+        <Image src={liveImage} />
+      </div>
       <div className="live-container">
         <div className="live-text">
           <h2>THE LIVE ROOM</h2>
