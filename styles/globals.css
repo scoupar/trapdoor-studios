@@ -103,9 +103,9 @@ nav a:hover {
 
 .title {
   color: white;
-  font-size: 3rem;
+  font-size: 5rem;
   margin-left: 1rem;
-  padding: 0;
+  padding: 1rem;
   margin-bottom: 0;
   margin-top: 0;
   /* text-shadow: 2px 2px 5px black; */
@@ -259,7 +259,7 @@ nav a:hover {
 }
 
 .studionavcontainer {
-  position: fixed;
+  /* position: fixed; */
   background-color: #01c2cb;
   z-index: 10;
   width: 100%;
@@ -279,45 +279,27 @@ nav a:hover {
 /* Control Room */
 
 .control-container {
-  background-image: url("/control-3.jpg");
-  height: 100vh;
   background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  background-color: #01c2cb;
 }
 
-.control-container p {
+.control-text {
+  width: 100%;
   background-color: #ff581a;
-  padding: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 4rem;
+  z-index: 5;
 }
 
 /* LIVE ROOM */
 
 .live-container {
-  background-image: url("/live-img.jpg");
-  height: 100vh;
   background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
 }
 
-.live-container p {
+.live-text {
+  width: 100%;
   background-color: #ff581a;
-  padding: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 4rem;
 }
 
 /* Gear Page */
