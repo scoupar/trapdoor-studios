@@ -5,12 +5,6 @@ import liveImage from "../public/live-img.jpg";
 const StudioLanding = () => {
   return (
     <>
-      {/* <div className="studio-image">
-        <h2 className="hero-text">
-          Trapdoor is a space that allows for the creative process to happen
-          naturally
-        </h2>
-      </div> */}
       <div className="image-container">
         <Image src={controlImage} className="control-image" />
       </div>

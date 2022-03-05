@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Link from "next/link";
+import HamburgerMenu from "../components/HamburgerMenu";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       <Head>
         <title>Trapdoor Studios | Home</title>
       </Head>
-      <Navbar />
+      {/* <Navbar /> */}
+      <HamburgerMenu />
       <div className={styles.logocontainer}>
         <img className={styles.landingimage} src="/landing.jpg" />
         <img className={styles.logo} src="/trapdoor-circle.svg" />

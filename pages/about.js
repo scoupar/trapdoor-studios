@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Bio from "../components/Bio";
 import { NavHashLink } from "react-router-hash-link";
+import HamburgerMenu from "../components/HamburgerMenu";
 
 export default function About() {
   return (
@@ -9,9 +10,8 @@ export default function About() {
       <Head>
         <title>Trapdoor Studios | About</title>
       </Head>
+      <HamburgerMenu />
       <div className="aboutnavcontainer">
-        <Navbar />
-
         <h1 className="title">ABOUT TRAPDOOR</h1>
         <nav className="secondnav">
           <a href="#bio">BIO</a>
