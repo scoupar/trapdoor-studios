@@ -71,7 +71,7 @@ nav {
   padding: 0.5rem;
   padding-right: 1rem;
   background-color: transparent;
-  overflow: auto;
+  overflow: hidden;
 }
 
 nav a {
@@ -150,19 +150,12 @@ nav a:hover {
   margin-left: 1rem;
 }
 
-@media (max-width: 1000px) {
-  .secondnav {
-    justify-content: flex-start;
-    padding: 0.2em;
-  }
-}
-
 .index-container {
   background-color: #f5d75f;
 }
 
 .listen-container {
-  background-color: #01c2cb;
+  background-color: #f5d75f;
 }
 
 .book-container {
@@ -312,7 +305,6 @@ nav a:hover {
 }
 
 .gearnavcontainer {
-  position: fixed;
   background-color: #f5d75f;
   z-index: 10;
   width: 100%;
@@ -377,6 +369,10 @@ nav a:hover {
 .player-container {
   display: flex;
   justify-content: center;
+}
+
+iframe {
+  margin-bottom: 2rem;
 }
 
 .listen-container {
@@ -472,9 +468,7 @@ textarea:focus {
   font-size: 1.5rem;
   color: white;
   margin-top: 0.4rem;
-  border-radius: 5%;
-  text-shadow: 1px 1px 1px black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
 }
 
 #submit-button:hover {

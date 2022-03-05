@@ -40,8 +40,8 @@ const Listen = () => {
       <div className="studionavcontainer">
         <h1 className="title">LISTEN</h1>
         <nav className="secondnav">
-          <a href="#control">SAMPLES</a>
-          <a href="#live">DISCOGRAPHY</a>
+          <a href="#showreel">SHOWREEL</a>
+          <a href="#discography">DISCOGRAPHY</a>
         </nav>
       </div>
       <div className="listen-container">

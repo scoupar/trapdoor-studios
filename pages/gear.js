@@ -10,7 +10,7 @@ export default function Gear() {
         <title>Trapdoor Studios | Gear</title>
       </Head>
 
-      <div className="gearnavcontainer">
+      <div className="studionavcontainer">
         <HamburgerMenu />
         <h1 className="title">THE GEAR</h1>
         <nav className="secondnav">

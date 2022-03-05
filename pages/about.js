@@ -20,15 +20,7 @@ export default function About() {
         </nav>
       </div>
       <div className="about-container">
-        <section id="bio">
-          <Bio />
-        </section>
-        {/* <section id="history">
-          <History />
-        </section>
-        <section id="services">
-          <Services />
-        </section> */}
+        <Bio />
       </div>
     </>
   );

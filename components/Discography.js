@@ -61,40 +61,35 @@ const Discography = () => {
       thumbnail: "/cover-art/cleft-wrong.jpeg",
       thumbnailWidth: 500,
       thumbnailHeight: 500,
+      caption: "Cleft - Wrong (Engineer)",
     },
     {
       src: "/cover-art/abas.jpeg",
       thumbnail: "/cover-art/abas.jpeg",
       thumbnailWidth: 500,
       thumbnailHeight: 500,
+      caption: "A Burial At Sea - A Burial At Sea (Produce/Mix)",
     },
     {
       src: "/cover-art/amtp-droids.jpeg",
       thumbnail: "/cover-art/amtp-droids.jpeg",
       thumbnailWidth: 500,
       thumbnailHeight: 500,
+      caption: "Alpha Male Tea Party - Droids (Produce/Mix/Master)",
     },
     {
       src: "/cover-art/dog-daisies.jpeg",
       thumbnail: "/cover-art/dog-daisies.jpeg",
       thumbnailWidth: 500,
       thumbnailHeight: 500,
-      caption: (
-        <a
-          className="album-link"
-          href="http://vasa.bandcamp.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          VASA - Colours
-        </a>
-      ),
+      caption: "Dog Daisies - Eagletism (Produce/Mix)",
     },
     {
       src: "/cover-art/falls.jpeg",
       thumbnail: "/cover-art/falls.jpeg",
       thumbnailWidth: 500,
       thumbnailHeight: 500,
+      caption: "Falls - One Hundred Percent Strong (Produce/Mix)",
     },
   ];
   return (
@@ -102,35 +97,42 @@ const Discography = () => {
       <div className="image-container">
         <Image src={listenImage} className="listen-image" layout="responsive" />
       </div>
-      <div className="playlist-text">
-        <h2>Showreel</h2>
-        <hr></hr>
-        <p>
-          Below you can listen to a number of productions worked on at Trapdoor.
-        </p>
-        <br></br>
-        <div className="player-container">
-          <iframe
-            src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
-            height="380"
-            frameBorder="0"
-            allowFullScreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          ></iframe>
+      <section id="showreel">
+        <div className="playlist-text">
+          <h2>SHOWREEL</h2>
+          <hr></hr>
+          <p>
+            Below you can listen to a number of productions worked on at
+            Trapdoor.
+          </p>
+          <br></br>
+          <div className="player-container">
+            <iframe
+              src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
+              height="380"
+              frameBorder="0"
+              allowFullScreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
+          </div>
         </div>
-      </div>
+      </section>
       <div className="image-container">
         <Image src={discogImage} className="discog-iamge" layout="responsive" />
       </div>
-      <div className="gallery-container">
-        <Gallery
-          className="gallery"
-          images={IMAGES}
-          margin={2}
-          enableImageSelection={false}
-          showImageCount={false}
-        />
-      </div>
+      <section id="discography">
+        <div className="gallery-container">
+          <h2>DISCOGRAPHY</h2>
+          <hr></hr>
+          <Gallery
+            className="gallery"
+            images={IMAGES}
+            margin={2}
+            enableImageSelection={false}
+            showImageCount={false}
+          />
+        </div>
+      </section>
     </>
   );
 };
