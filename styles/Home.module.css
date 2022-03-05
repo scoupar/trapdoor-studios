@@ -37,11 +37,11 @@
 
 .logo {
   border-radius: 50px;
-  height: 50vh;
-  width: auto;
+  height: auto;
+  width: 75vw;
   z-index: 1;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
