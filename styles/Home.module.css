@@ -8,15 +8,6 @@
   position: relative;
 }
 
-.logocontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-}
-
 .landingimage {
   position: relative;
   z-index: -1;
@@ -54,6 +45,13 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1000px) {
+  .logo {
+    width: auto;
+    height: 50vh;
+  }
 }
 
 .headline {
