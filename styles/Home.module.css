@@ -9,18 +9,23 @@
 }
 
 .logocontainer {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
 }
 
 .landingimage {
-  position: fixed;
-  z-index: 1;
+  position: relative;
+  z-index: -1;
   object-fit: cover;
 }
 
 .button {
   background-color: #01c2cb;
-  padding: 1rem 1rem;
+  padding: 0.4rem;
   font-family: raleway;
   font-weight: 800;
   font-size: 30px;
@@ -32,6 +37,7 @@
   top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: 0.5s ease;
 }
 
 .button:hover {

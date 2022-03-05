@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
       {/* <Navbar /> */}
       <HamburgerMenu />
+      <Image className={styles.landingimage} src={homeImage} layout="fill" />
       <div className={styles.logocontainer}>
-        <Image className={styles.landingimage} src={homeImage} layout="fill" />
         <img className={styles.logo} src="/trapdoor-circle.svg" />
         <h1 className={styles.headline}>
           Established 2019 in Liverpool, UK, <span>Trapdoor Studio</span> is the
