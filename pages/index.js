@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Link from "next/link";
 import HamburgerMenu from "../components/HamburgerMenu";
+import homeImage from "../public/landing.jpg";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       {/* <Navbar /> */}
       <HamburgerMenu />
       <div className={styles.logocontainer}>
-        <img className={styles.landingimage} src="/landing.jpg" />
+        <Image className={styles.landingimage} src={homeImage} layout="fill" />
         <img className={styles.logo} src="/trapdoor-circle.svg" />
         <h1 className={styles.headline}>
           Established 2019 in Liverpool, UK, <span>Trapdoor Studio</span> is the
