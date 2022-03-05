@@ -411,48 +411,8 @@ h3 {
   width: 100%;
   background-color: #f5d75f;
   padding: 1rem;
-  z-index: 5;
+  z-index: 1;
 }
-
-.contact-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-img {
-  background-image: url("/services-img2.jpg");
-  margin-top: 130px;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 75%;
-}
-
-.form {
-  background-image: url("/mics.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.form p {
-  background-color: #01c2cb;
-  padding: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* .contact-text-container {
-  background-color: #01c2cb;
-  margin-top: 18vh;
-  padding: 1rem;
-} */
 
 .contact-form {
   display: flex;
@@ -469,30 +429,7 @@ h3 {
   width: 100%;
   background-color: #f5d75f;
   padding: 1rem;
-  z-index: 5;
-}
-
-.faq-container {
-  background-color: #01c2cb;
-  display: flex;
-  flex-direction: row;
-}
-
-.faq-img {
-  height: auto;
-  width: 100vw;
-  max-height: 100%;
-  position: absolute;
-}
-
-.faq-text-container {
-  background-color: #01c2cb;
-  margin-top: 20vh;
-  padding: 1rem;
-  z-index: 3;
-  position: relative;
-  width: 50%;
-  margin-left: 1vw;
+  z-index: 1;
 }
 
 /* contact form */
