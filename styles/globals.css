@@ -86,11 +86,9 @@ nav a {
 @media (max-width: 1000px) {
   nav a {
     font-size: 1.2rem;
-    text-align: center;
-    margin-right: 0.5rem;
+    /* text-align: center; */
   }
   nav {
-    justify-content: center;
   }
 }
 
