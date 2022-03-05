@@ -331,7 +331,7 @@ nav a:hover {
 
 /* Studio Section */
 
-.studio-gear-container {
+/* .studio-gear-container {
   background-image: url("/outboard.jpg");
   height: 100vh;
   background-size: cover;
@@ -354,38 +354,27 @@ nav a:hover {
 
 .studio-gear-container ul p {
   font-weight: bold;
+} */
+
+.studio-gear-text {
+  width: 100%;
+  background-color: #f5d75f;
+  padding: 1rem;
+  z-index: 5;
 }
 
 /* Mics section */
 
-.microphones-container {
-  background-image: url("/microphones-2.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.microphones-container ul {
-  column-count: 3;
-  background-color: #01c2cb;
+.microphones-text {
+  width: 100%;
+  background-color: #f5d75f;
   padding: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.microphones-container ul p {
-  font-weight: bold;
+  z-index: 5;
 }
 
 /* guitars section */
 
-.guitars-container {
+/* .guitars-container {
   background-image: url("/pedals.jpg");
   height: 100vh;
   background-size: cover;
@@ -408,33 +397,22 @@ nav a:hover {
 
 .guitars-container ul p {
   font-weight: bold;
+} */
+
+.guitars-text {
+  width: 100%;
+  background-color: #f5d75f;
+  padding: 1rem;
+  z-index: 5;
 }
 
 /* other instruments section */
 
-.other-container {
-  background-image: url("/drums.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.other-container ul {
-  column-count: 2;
-  background-color: #01c2cb;
+.drums-text {
+  width: 100%;
+  background-color: #f5d75f;
   padding: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.other-container ul p {
-  font-weight: bold;
+  z-index: 5;
 }
 
 /* Listen page */
@@ -472,7 +450,7 @@ nav a:hover {
 
 h3 {
   color: white;
-  text-align: center;
+  text-transform: uppercase;
 }
 
 .discog-img {

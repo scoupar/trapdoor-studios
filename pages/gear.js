@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import GearLanding from "../components/GearLanding";
+import HamburgerMenu from "../components/HamburgerMenu";
 
 export default function Gear() {
   return (
@@ -10,7 +11,7 @@ export default function Gear() {
       </Head>
 
       <div className="gearnavcontainer">
-        <Navbar />
+        <HamburgerMenu />
         <h1 className="title">THE GEAR</h1>
         <nav className="secondnav">
           <a href="#studio">STUDIO</a>
