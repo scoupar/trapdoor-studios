@@ -61,7 +61,6 @@ const Discography = () => {
       thumbnail: "/cover-art/cleft-wrong.jpeg",
       thumbnailWidth: 500,
       thumbnailHeight: 500,
-      tags: [{}],
     },
     {
       src: "/cover-art/abas.jpeg",

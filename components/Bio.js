@@ -14,11 +14,12 @@ const Bio = () => {
           <h2>BIO</h2>
           <hr></hr>
           <p>
-            Tom has over a decade of working experience in capturing and
-            producing music to the highest standard. Starting out in 2011 as the
-            assistant at The Grand Studio in rural Lancashire, he has spent the
-            last 10 years honing his craft, working in studios all across the UK
-            and Ireland until setting up Trapdoor in April 2019.
+            Trapdoor Studio is the home of UK Record Producer Tom Peters. Tom
+            has over a decade of working experience in capturing and producing
+            music to the highest standard. Starting out in 2011 as the assistant
+            at The Grand Studio in rural Lancashire, he has spent the last 10
+            years honing his craft, working in studios all across the UK and
+            Ireland until setting up Trapdoor in April 2019.
             <br></br>
             <br></br>
             Tom's production is vibrant and exciting but still natural and human

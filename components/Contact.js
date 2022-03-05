@@ -1,13 +1,16 @@
+import Image from "next/image";
+import bookImage from "../public/services-img2.jpg";
+import faqImage from "../public/book-img.jpg";
+
 const Contact = () => {
   return (
     <>
-      <div className="contact-img">
-        <h2 className="hero-text">
-          Get in touch below to discuss your project
-        </h2>
+      <div className="image-container">
+        <Image src={bookImage} className="book-image" layout="responsive" />
       </div>
-      <div className="form">
-        <h2 className="page-title">CONTACT</h2>
+      <div className="form-text">
+        <h2>CONTACT</h2>
+        <hr></hr>
         <p>
           Please fill in the contact form, or if you prefer, you can send us an
           email directly to (whatever the studio email will be?) Whether it's a
@@ -55,10 +58,12 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <div className="image-container">
+        <Image src={faqImage} className="faq-image" layout="responsive" />
+      </div>
       <div className="faq">
-        <h2 className="page-title">BOOKING FAQ</h2>
-        <br></br>
         <div className="faq-text">
+          <h2>BOOKING FAQ</h2>
           <h2>What are your rates?</h2>
           <hr />
           <p>

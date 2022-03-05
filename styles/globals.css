@@ -331,31 +331,6 @@ nav a:hover {
 
 /* Studio Section */
 
-/* .studio-gear-container {
-  background-image: url("/outboard.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.studio-gear-container ul {
-  column-count: 3;
-  background-color: #01c2cb;
-  padding: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.studio-gear-container ul p {
-  font-weight: bold;
-} */
-
 .studio-gear-text {
   width: 100%;
   background-color: #f5d75f;
@@ -373,31 +348,6 @@ nav a:hover {
 }
 
 /* guitars section */
-
-/* .guitars-container {
-  background-image: url("/pedals.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.guitars-container ul {
-  column-count: 3;
-  background-color: #01c2cb;
-  padding: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.guitars-container ul p {
-  font-weight: bold;
-} */
 
 .guitars-text {
   width: 100%;
@@ -439,50 +389,30 @@ h3 {
   text-transform: uppercase;
 }
 
-/* .discog-img {
-  background-image: url("/control-2.jpg");
-  margin-top: 130px;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 75%;
-}
-
-.playlist {
-  background-image: url("/discog-img.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
 .gallery-container {
   width: 100%;
   background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
 }
-/* 
-.gallery {
-  z-index: 5;
-} */
 
 /* book page */
 
 .booknavcontainer {
   position: fixed;
   background-color: #f5d75f;
-  z-index: 5;
+  z-index: 1;
   width: 100%;
 }
 
 /* contact section */
+
+.form-text {
+  width: 100%;
+  background-color: #f5d75f;
+  padding: 1rem;
+  z-index: 5;
+}
 
 .contact-container {
   display: flex;
@@ -528,31 +458,18 @@ h3 {
   display: flex;
   flex-direction: column;
   left: 10%;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   padding: 1rem;
   width: 95vw;
 }
 
 /* Faq section */
 
-.faq {
-  background-image: url("/microphones.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-color: rgba(1, 194, 203, 0.64);
-  background-position: left top;
-  padding: 1em;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .faq-text {
-  background-color: #01c2cb;
+  width: 100%;
+  background-color: #f5d75f;
   padding: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 5;
 }
 
 .faq-container {
@@ -610,7 +527,7 @@ textarea:focus {
 #submit-button {
   /* width: 25%; */
   align-self: center;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   border: none;
   font-family: raleway;
   text-transform: uppercase;
