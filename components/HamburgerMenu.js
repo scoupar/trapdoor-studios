@@ -42,6 +42,13 @@ const HamburgerMenu = () => {
                     <a>BOOK</a>
                   </Link>
                 </li>
+                {/* <div className="social-menu">
+                  <ul>
+                    <li>facebook</li>
+                    <li>twitter</li>
+                    <li>the gram</li>
+                  </ul>
+                </div> */}
               </ul>
             </div>
           </div>

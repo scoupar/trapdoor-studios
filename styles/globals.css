@@ -229,7 +229,7 @@ nav a:hover {
 
 .studionavcontainer {
   /* position: fixed; */
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   z-index: 10;
   width: 100%;
 }
@@ -249,7 +249,7 @@ nav a:hover {
 
 .control-text {
   width: 100%;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
 }
@@ -286,7 +286,7 @@ nav a:hover {
 
 .live-text {
   width: 100%;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   padding: 1rem;
 }
 
@@ -706,7 +706,7 @@ textarea:focus {
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background-color: #f5d75f;
+  background-color: rgba(245, 215, 95, 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -772,7 +772,7 @@ textarea:focus {
 
 .menu-wrap .menu > div {
   background: #f5d75f;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   width: 200vw;
   height: 200vh;
   display: flex;
@@ -796,7 +796,7 @@ textarea:focus {
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
-  font-size: larger;
+  font-size: 50px;
   font-weight: bold;
   transition: color 0.4s ease;
 }
@@ -814,4 +814,9 @@ textarea:focus {
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
   transition: opacity 0.4s ease;
+}
+
+.social-menu > ul {
+  display: flex;
+  flex-direction: row;
 }
