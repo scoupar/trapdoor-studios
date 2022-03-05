@@ -194,6 +194,10 @@ nav a:hover {
   z-index: 5;
 }
 
+.bio-image {
+  object-fit: cover;
+}
+
 /* History Section */
 
 .history-text {

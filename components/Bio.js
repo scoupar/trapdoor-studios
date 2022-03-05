@@ -7,7 +7,7 @@ const Bio = () => {
   return (
     <>
       <div className="image-container">
-        <Image src={bioImage} className="bio-image" />
+        <Image src={bioImage} className="bio-image" layout="responsive" />
       </div>
       <div className="bio-container">
         <div className="bio-text">
