@@ -4,6 +4,7 @@ import { useState } from "react";
 import { DiscogState } from "../discogstate";
 import Samples from "../components/Samples";
 import Discography from "../components/Discography";
+import HamburgerMenu from "../components/HamburgerMenu";
 
 const Listen = () => {
   // const [albums, setAlbums] = useState(DiscogState);
@@ -35,10 +36,10 @@ const Listen = () => {
       <Head>
         <title>Trapdoor Studios | Listen</title>
       </Head>
+      <HamburgerMenu />
       <div className="studionavcontainer">
-        <Navbar />
         <h1 className="title">LISTEN</h1>
-        <nav className="redsecondnav">
+        <nav className="secondnav">
           <a href="#control">SAMPLES</a>
           <a href="#live">DISCOGRAPHY</a>
         </nav>

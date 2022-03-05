@@ -1,5 +1,8 @@
 import React from "react";
 import Gallery from "react-grid-gallery";
+import Image from "next/image";
+import listenImage from "../public/control-3.jpg";
+import discogImage from "../public/discog-img.jpg";
 
 const Discography = () => {
   const IMAGES = [
@@ -97,24 +100,30 @@ const Discography = () => {
   ];
   return (
     <>
-      <div className="discog-img">
-        <h2 className="hero-text">
-          Below you can listen to a number of productions worked on at Trapdoor
-        </h2>
+      <div className="image-container">
+        <Image src={listenImage} className="listen-image" layout="responsive" />
       </div>
-      <div className="playlist">
-        <h2 className="page-title">Showreel</h2>
+      <div className="playlist-text">
+        <h2>Showreel</h2>
+        <hr></hr>
+        <p>
+          Below you can listen to a number of productions worked on at Trapdoor.
+        </p>
         <br></br>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
-          height="380"
-          frameBorder="0"
-          allowFullScreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        ></iframe>
+        <div className="player-container">
+          <iframe
+            src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
+            height="380"
+            frameBorder="0"
+            allowFullScreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
+        </div>
+      </div>
+      <div className="image-container">
+        <Image src={discogImage} className="discog-iamge" layout="responsive" />
       </div>
       <div className="gallery-container">
-        <h2 className="page-title">Discography</h2>
         <Gallery
           className="gallery"
           images={IMAGES}
