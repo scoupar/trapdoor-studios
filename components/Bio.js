@@ -39,7 +39,7 @@ const Bio = () => {
   return (
     <>
       <div className="image-container">
-        <a id="image" onClick={onClick}>
+        <a href="#bio" onClick={onClick}>
           <Image src={bioImage} className="bio-image" layout="responsive" />
         </a>
       </div>
