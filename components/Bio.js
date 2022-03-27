@@ -2,36 +2,48 @@ import Image from "next/image";
 import bioImage from "../public/tom1.jpg";
 import historyImage from "../public/dan-img.jpg";
 import servicesImage from "../public/faq-img.jpg";
+import { useState } from "react";
+
+const BioText = () => {
+  return (
+    <section id="bio">
+      <div className="bio-container">
+        <div className="bio-text">
+          <h2>BIO</h2>
+          <hr></hr>
+          <p>
+            Trapdoor Studio is the home of UK Record Producer Tom Peters. Tom
+            has over a decade of working experience in capturing and producing
+            music to the highest standard. Starting out in 2011 as the assistant
+            at The Grand Studio in rural Lancashire, he has spent the last 10
+            years honing his craft, working in studios all across the UK and
+            Ireland until setting up Trapdoor in April 2019.
+            <br></br>
+            <br></br>
+            Tom's production is vibrant and exciting but still natural and human
+            - the emphasis is on making your music sound like the best
+            representation of you; full of life, colour and power whilst
+            preserving the core values of your creative expression. In other
+            words, he wants you to sound uniquely like you.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 const Bio = () => {
+  const [showText, setShowText] = useState(false);
+  const onClick = () => setShowText(!showText);
+
   return (
     <>
       <div className="image-container">
-        <Image src={bioImage} className="bio-image" layout="responsive" />
+        <a id="image" onClick={onClick}>
+          <Image src={bioImage} className="bio-image" layout="responsive" />
+        </a>
       </div>
-      <section id="bio">
-        <div className="bio-container">
-          <div className="bio-text">
-            <h2>BIO</h2>
-            <hr></hr>
-            <p>
-              Trapdoor Studio is the home of UK Record Producer Tom Peters. Tom
-              has over a decade of working experience in capturing and producing
-              music to the highest standard. Starting out in 2011 as the
-              assistant at The Grand Studio in rural Lancashire, he has spent
-              the last 10 years honing his craft, working in studios all across
-              the UK and Ireland until setting up Trapdoor in April 2019.
-              <br></br>
-              <br></br>
-              Tom's production is vibrant and exciting but still natural and
-              human - the emphasis is on making your music sound like the best
-              representation of you; full of life, colour and power whilst
-              preserving the core values of your creative expression. In other
-              words, he wants you to sound uniquely like you.
-            </p>
-          </div>
-        </div>
-      </section>
+      {showText ? <BioText /> : null}
       <div className="image-container">
         <Image src={historyImage} className="history-image" />
       </div>
