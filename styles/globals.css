@@ -187,10 +187,6 @@ nav a:hover {
   z-index: 5;
 }
 
-.bio-image {
-  object-fit: cover;
-}
-
 /* History Section */
 
 .history-text {
@@ -244,7 +240,7 @@ nav a:hover {
 
 .control-text {
   width: 100%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
 }
