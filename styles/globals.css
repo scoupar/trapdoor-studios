@@ -253,6 +253,16 @@ nav a:hover {
   padding: 0;
   margin: 0;
   background-color: #f5d75f;
+  position: relative;
+  text-align: center;
+}
+
+.imageLink {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .control-image {
