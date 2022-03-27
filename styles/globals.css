@@ -280,8 +280,9 @@ nav a:hover {
 }
 
 .control-gallery-container {
-  width: 100%;
+  width: 50;
   background-color: #01c2cb;
+  margin: 0.5rem;
   display: flex;
   justify-content: center;
 }
