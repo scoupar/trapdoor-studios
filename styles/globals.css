@@ -182,11 +182,15 @@ nav a:hover {
 
 .bio-text {
   width: 100%;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
 }
 
+.divider {
+  background-color: #f5d75f;
+  height: 5px;
+}
 /* History Section */
 
 .history-text {
@@ -200,7 +204,7 @@ nav a:hover {
 
 .services-text {
   width: 100%;
-  background-color: #ff581a;
+  background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
 }
@@ -251,6 +255,11 @@ nav a:hover {
   background-color: #f5d75f;
   position: relative;
   text-align: center;
+  font-size: 0;
+}
+
+.image-container h1 {
+  font-size: 30px;
 }
 
 .imageLink {
@@ -291,7 +300,7 @@ nav a:hover {
 
 .live-text {
   width: 100%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
 }
 
@@ -335,7 +344,7 @@ nav a:hover {
 
 .studio-gear-text {
   width: 100%;
-  background-color: #f5d75f;
+  background-color: #ff581a;
   padding: 1rem;
   z-index: 5;
 }
@@ -344,7 +353,7 @@ nav a:hover {
 
 .microphones-text {
   width: 100%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
 }

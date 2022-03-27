@@ -111,6 +111,7 @@ const Bio = () => {
           <h1 className="imageLink">BIO</h1>
         </a>
       </div>
+      {/* <div className="divider"></div> */}
       {showBioText ? <BioText /> : null}
       <div className="image-container">
         <a href="#history" onClick={onHistoryClick}>
@@ -118,6 +119,8 @@ const Bio = () => {
           <h1 className="imageLink">HISTORY</h1>
         </a>
       </div>
+      {/* <div className="divider"></div> */}
+
       {showHistoryText ? <HistoryText /> : null}
       <div className="image-container">
         <a href="#services" onClick={onServicesClick}>
@@ -125,6 +128,7 @@ const Bio = () => {
           <h1 className="imageLink">SERVICES</h1>
         </a>
       </div>
+      {/* <div className="divider"></div> */}
       {showServicesText ? <ServicesText /> : null}
     </>
   );
