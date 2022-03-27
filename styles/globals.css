@@ -224,7 +224,7 @@ nav a:hover {
 
 .studionavcontainer {
   /* position: fixed; */
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   z-index: 10;
   width: 100%;
 }
@@ -277,6 +277,13 @@ nav a:hover {
 .control-image {
   margin: 0;
   padding: 0;
+}
+
+.control-gallery-container {
+  width: 100%;
+  background-color: #01c2cb;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1000px) {

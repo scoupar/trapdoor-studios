@@ -94,9 +94,26 @@ const Discography = () => {
   ];
   return (
     <>
-      <div className="image-container">
+      {/* <div className="image-container">
         <Image src={listenImage} className="listen-image" layout="responsive" />
-      </div>
+      </div> */}
+
+      {/* <div className="image-container">
+        <Image src={discogImage} className="discog-iamge" layout="responsive" />
+      </div> */}
+      <section id="discography">
+        <div className="gallery-container">
+          <h2>DISCOGRAPHY</h2>
+          <hr></hr>
+          <Gallery
+            className="gallery"
+            images={IMAGES}
+            margin={2}
+            enableImageSelection={false}
+            showImageCount={false}
+          />
+        </div>
+      </section>
       <section id="showreel">
         <div className="playlist-text">
           <h2>SHOWREEL</h2>
@@ -115,22 +132,6 @@ const Discography = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
           </div>
-        </div>
-      </section>
-      <div className="image-container">
-        <Image src={discogImage} className="discog-iamge" layout="responsive" />
-      </div>
-      <section id="discography">
-        <div className="gallery-container">
-          <h2>DISCOGRAPHY</h2>
-          <hr></hr>
-          <Gallery
-            className="gallery"
-            images={IMAGES}
-            margin={2}
-            enableImageSelection={false}
-            showImageCount={false}
-          />
         </div>
       </section>
     </>
