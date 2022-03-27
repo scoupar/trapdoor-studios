@@ -115,12 +115,14 @@ const Bio = () => {
       <div className="image-container">
         <a href="#history" onClick={onHistoryClick}>
           <Image src={historyImage} className="history-image" />
+          <h1 className="imageLink">HISTORY</h1>
         </a>
       </div>
       {showHistoryText ? <HistoryText /> : null}
       <div className="image-container">
         <a href="#services" onClick={onServicesClick}>
           <Image src={servicesImage} className="services-image" />
+          <h1 className="imageLink">SERVICES</h1>
         </a>
       </div>
       {showServicesText ? <ServicesText /> : null}

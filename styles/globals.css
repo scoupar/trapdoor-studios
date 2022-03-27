@@ -265,6 +265,10 @@ nav a:hover {
   color: white;
 }
 
+.imageLink:hover {
+  color: #ff581a;
+}
+
 .control-image {
   margin: 0;
   padding: 0;
