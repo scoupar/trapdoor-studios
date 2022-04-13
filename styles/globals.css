@@ -291,24 +291,10 @@ nav a:hover {
 }
 
 .control-gallery-container {
-  width: 50;
+  width: 100vw;
   background-color: #01c2cb;
-  margin: 0.5rem;
-  display: flex;
-  justify-content: center;
-}
-
-@media (min-width: 1000px) {
-  .control-text {
-    padding: 4rem;
-  }
-
-  .control-text p {
-    font-size: 1.2rem;
-  }
-  .control-text h2 {
-    font-size: 2rem;
-  }
+  display: block;
+  text-align: center;
 }
 
 /* LIVE ROOM */

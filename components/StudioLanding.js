@@ -1,7 +1,6 @@
 import Image from "next/image";
-import controlImage from "../public/studio-landing.jpg";
+import controlImage from "../public/studio-banner.jpg";
 import liveImage from "../public/live-img.jpg";
-import { useState } from "react";
 import Gallery from "react-grid-gallery";
 
 const ControlText = () => {
@@ -9,21 +8,28 @@ const ControlText = () => {
     <section id="control">
       <div className="control-container">
         <div className="control-text">
-          <h2>THE CONTROL ROOM</h2>
-          <hr></hr>
+          <h2 className="text-title">
+            Trapdoor is a space that allows for the creative process to happen
+            naturally and quickly
+          </h2>
           <p>
             The emphasis is on cosy and comfortable. An acoustically treated
-            cocoon, the room is designed to sound great wherever you sit. The
-            studio is built around the Universal Audio Apollo system with Avid
-            Pro Tools and has a whole host of creative tools to capture your
-            music.
-            <br></br>
-            <br></br>
+            cocoon, the control room is designed to sound great wherever you
+            sit. The studio is built around the Universal Audio Apollo system
+            with Avid Pro Tools and has a whole host of creative tools to
+            capture your music.
+          </p>
+          <p>
             The monitoring is provided by Neumann and Quested and is accurate
             and powerful so you can guarantee that what you're hearing in the
             studio is what you'll hear at home. It also looks rather handsome
             too; if you've got to sit in it for 10 hours, you want it to feel
             nice, right? We certainly do.
+          </p>
+          <p>
+            The live room is nice and big with a clear and natural sound. It's a
+            blank canvas that can be painted with many colours and is full of
+            instruments and oddities to help your music flourish.
           </p>
         </div>
       </div>
@@ -38,11 +44,6 @@ const LiveText = () => {
         <div className="live-text">
           <h2>THE LIVE ROOM</h2>
           <hr></hr>
-          <p>
-            The live room is nice and big with a clear and natural sound. It's a
-            blank canvas that can be painted with many colours and is full of
-            instruments and oddities to help your music flourish.
-          </p>
         </div>
       </div>
     </section>
@@ -58,8 +59,8 @@ const StudioLanding = () => {
       thumbnailHeight: 100,
     },
     {
-      src: "/control-3.jpg",
-      thumbnail: "/control-3.jpg",
+      src: "/control-5.jpg",
+      thumbnail: "/control-5.jpg",
       thumbnailWidth: 150,
       thumbnailHeight: 100,
     },
@@ -70,26 +71,31 @@ const StudioLanding = () => {
       thumbnailHeight: 100,
     },
     {
-      src: "/control-5.jpg",
-      thumbnail: "/control-5.jpg",
+      src: "/live-img.jpg",
+      thumbnail: "/live-img.jpg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100,
+    },
+    {
+      src: "/live-img-2.jpg",
+      thumbnail: "/live-img-2.jpg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100,
+    },
+    {
+      src: "/live-img-3.jpg",
+      thumbnail: "/live-img-3.jpg",
       thumbnailWidth: 150,
       thumbnailHeight: 100,
     },
   ];
-  const [showControlText, setShowControlText] = useState(false);
-  const onControlClick = () => setShowControlText(!showControlText);
-  const [showLiveText, setShowLiveText] = useState(false);
-  const onLiveClick = () => setShowLiveText(!showLiveText);
   return (
     <>
       <div className="image-container">
-        <a href="#control" onClick={onControlClick}>
-          <Image src={controlImage} className="control-image" />
-          <h1 className="imageLink">THE CONTROL ROOM</h1>
-        </a>
+        <Image src={controlImage} className="control-image" />
       </div>
-      {showControlText ? <ControlText /> : null}
-      {/* <div className="control-gallery-container">
+      <ControlText />
+      <div className="control-gallery-container">
         <Gallery
           className="control-gallery"
           images={IMAGES}
@@ -97,14 +103,7 @@ const StudioLanding = () => {
           enableImageSelection={false}
           showImageCount={false}
         />
-      </div> */}
-      <div className="image-container">
-        <a href="#live" onClick={onLiveClick}>
-          <Image src={liveImage} />
-          <h1 className="imageLink">THE LIVE ROOM</h1>
-        </a>
       </div>
-      {showLiveText ? <LiveText /> : null}
     </>
   );
 };

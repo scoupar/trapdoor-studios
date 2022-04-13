@@ -23,7 +23,7 @@ const HamburgerMenu = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/studio">
+                  <Link href="#history">
                     <a>STUDIO</a>
                   </Link>
                 </li>

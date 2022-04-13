@@ -1,8 +1,9 @@
 import Image from "next/image";
-import bioImage from "../public/tom1.jpg";
-import historyImage from "../public/dan-img.jpg";
+import bioImage from "../public/tom-banner.jpg";
+import historyImage from "../public/dan-banner.jpg";
 import servicesImage from "../public/faq-img.jpg";
 import Discography from "./Discography";
+import StudioLanding from "./StudioLanding";
 
 const BioText = () => {
   return (
@@ -118,6 +119,7 @@ const Bio = () => {
         <Image src={historyImage} className="history-image" />
       </div>
       <HistoryText />
+      <StudioLanding />
     </>
   );
 };
