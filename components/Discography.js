@@ -93,17 +93,9 @@ const Discography = () => {
     },
   ];
   return (
-    <>
-      {/* <div className="image-container">
-        <Image src={listenImage} className="listen-image" layout="responsive" />
-      </div> */}
-
-      {/* <div className="image-container">
-        <Image src={discogImage} className="discog-iamge" layout="responsive" />
-      </div> */}
+    <div className="discography-container">
       <section id="discography">
         <div className="gallery-container">
-          <h2>DISCOGRAPHY</h2>
           <hr></hr>
           <Gallery
             className="gallery"
@@ -116,12 +108,6 @@ const Discography = () => {
       </section>
       <section id="showreel">
         <div className="playlist-text">
-          <h2>SHOWREEL</h2>
-          <hr></hr>
-          <p>
-            Below you can listen to a number of productions worked on at
-            Trapdoor.
-          </p>
           <br></br>
           <div className="player-container">
             <iframe
@@ -134,7 +120,7 @@ const Discography = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
