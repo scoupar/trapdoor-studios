@@ -11,6 +11,8 @@ body {
 ul {
   list-style: none;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -149,7 +151,7 @@ nav a:hover {
 }
 
 .text-title {
-  font-size: clamp(3rem, 1rem + 10vw, 5rem);
+  font-size: clamp(1rem, 0.5rem + 8vw, 5rem);
 }
 
 .secondnav {
@@ -329,6 +331,13 @@ nav a:hover {
 
 /* gear landing */
 
+.gear-text {
+  width: 100%;
+  background-color: #ff581a;
+  padding: 1rem;
+  z-index: 5;
+}
+
 .studio-gear-text {
   width: 100%;
   background-color: #ff581a;
@@ -392,10 +401,14 @@ h3 {
 .contact-form {
   display: flex;
   flex-direction: column;
-  left: 10%;
   background-color: #f5d75f;
   padding: 1rem;
-  width: 95vw;
+  width: 75vw;
+}
+
+form {
+  margin: 0;
+  padding: 0;
 }
 
 /* Faq section */
@@ -405,6 +418,13 @@ h3 {
   background-color: #f5d75f;
   padding: 1rem;
   z-index: 1;
+}
+
+.faq-line {
+  background: white;
+  height: 0.2rem;
+  margin: 2rem 0rem;
+  width: 100%;
 }
 
 /* contact form */

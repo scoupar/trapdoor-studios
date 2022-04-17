@@ -22,6 +22,16 @@ const GearLanding = () => {
           layout="responsive"
         />
       </div>
+      <div className="gear-text">
+        <h2 className="text-title">
+          Trapdoor has a great selection of gear to help keep your creativity
+          moving.
+        </h2>
+        <p>
+          It is subject to change at a moment's notice but we try to keep this
+          list as up-to-date as possible.
+        </p>
+      </div>
       <div className="gear-container">
         <section id="studio">
           <div className="studio-gear-container">
@@ -29,12 +39,12 @@ const GearLanding = () => {
               <ul>
                 <FontAwesomeIcon icon={faSliders} size="3x" color="white" />
                 <h4>MONITORING</h4>
-                <hr></hr>
+                {/* <hr></hr> */}
                 <li>Neumann KH310s</li>
                 <li>Quested S6Rs</li>
                 <li>AKG K701s</li>
                 <h4>CONSOLE AND OUTBOARD</h4>
-                <hr></hr>
+                {/* <hr></hr> */}
                 <li>TL Audio M1 12 Channel Valve Console</li>
                 <li>Rupert Neve Designs 5024</li>
                 <li>Universal Audio 4-710D</li>
@@ -42,7 +52,7 @@ const GearLanding = () => {
                 <li>Focusrite Octopre Dynamic MkII</li>
                 <li>Focusrite Voicemaster Pro </li>
                 <h4>Interfaces and Computer</h4>
-                <hr></hr>
+                {/* <hr></hr> */}
                 <li>Universal Audio Apollo 16 MkII</li>
                 <li>Universal Audio Apollo 8 MKII</li>
                 <li>Universal Audio Twin MKII</li>
@@ -61,7 +71,6 @@ const GearLanding = () => {
                   color="white"
                 />
                 <h4>Condenser Mics</h4>
-                <hr></hr>
                 <li>2x JZ Mics V67</li>
                 <li>1x JZ Mics BB29</li>
                 <li>1x SE Gemini III Valve Condenser</li>
@@ -69,13 +78,11 @@ const GearLanding = () => {
                 <li>3x SE1a Pencil</li>
                 <li>2x T-Bone Pencil Condenser</li>
                 <h4>Ribbon Mics</h4>
-                <hr></hr>
                 <li>1x AEA R88 Stereo Ribbon</li>
                 <li>1x SE RT1 Valve Ribbon</li>
                 <li>2x SE R1</li>
                 <li>1x OldBox M4</li>
                 <h4>Dynamic Mics</h4>
-                <hr></hr>
                 <li>1x Shure SM7b</li>
                 <li>1x Shure SM57</li>
                 <li>1x Shure SM58</li>
@@ -95,7 +102,6 @@ const GearLanding = () => {
               <ul>
                 <FontAwesomeIcon icon={faGuitar} size="3x" color="white" />
                 <h4>Guitars</h4>
-                <hr></hr>
                 <li>2004 Fender Telecaster Highway One in Daphne Blue</li>
                 <li>2015 Fender Telecaster Classic Player Triple in Black</li>
                 <li>
@@ -112,7 +118,6 @@ const GearLanding = () => {
               </ul>
               <ul>
                 <h4>Amps</h4>
-                <hr></hr>
                 <li>Soldano Astroverb 2×12 combo</li>
                 <li>Soldano Hot Rod 50 head</li>
                 <li>Victory Sheriff 44 head</li>
@@ -127,7 +132,6 @@ const GearLanding = () => {
               </ul>
               <ul>
                 <h4>Effects</h4>
-                <hr></hr>
                 <li>Paul Cochrane Tim Transparent Overdrive</li>
                 <li>Hermida Audio Zendrive</li>
                 <li>Blackout Effectors Blunderbuss Fuzz</li>
@@ -147,7 +151,6 @@ const GearLanding = () => {
               </ul>
               <ul>
                 <h4>Keys</h4>
-                <hr></hr>
                 <li>Chapel Upright Piano</li>
                 <li>Pedal Harmonium</li>
               </ul>
@@ -160,7 +163,6 @@ const GearLanding = () => {
             <ul>
               <FontAwesomeIcon icon={faDrum} size="3x" color="white" />
               <h4>Drums</h4>
-              <hr></hr>
               <li>
                 Gretsch Catalina Club Mod drum kit in limited ‘Black Widow’
                 finish 10×8, 14×12, 20×20
@@ -174,7 +176,6 @@ const GearLanding = () => {
             </ul>
             <ul>
               <h4>Cymbals</h4>
-              <hr></hr>
               <li>Istanbul 20 Radiant Crash</li>
               <li>Meinl 20 Byzance Ride</li>
               <li>Zildjian 14 K Custom Dark Hi-Hats</li>
