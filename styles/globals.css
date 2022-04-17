@@ -241,15 +241,6 @@ nav a:hover {
 
 /* Studio Landing Page */
 
-.studio-image {
-  background-image: url("/studio-landing.jpg");
-  margin-top: 100px;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 75%;
-}
-
 /* Control Room */
 
 .control-text {
@@ -295,6 +286,7 @@ nav a:hover {
   background-color: #01c2cb;
   display: block;
   text-align: center;
+  padding: 1rem;
 }
 
 /* LIVE ROOM */
@@ -325,58 +317,17 @@ nav a:hover {
 
 .gear-container {
   display: flex;
-  flex-direction: column;
-}
-
-.gearnavcontainer {
-  background-color: #f5d75f;
-  z-index: 10;
-  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #ff581a;
 }
 
 /* gear landing */
 
-.gear-img {
-  background-image: url("/gear-landing.jpg");
-  margin-top: 130px;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 75%;
-}
-
-/* Studio Section */
-
 .studio-gear-text {
   width: 100%;
   background-color: #ff581a;
-  padding: 1rem;
-  z-index: 5;
-}
-
-/* Mics section */
-
-.microphones-text {
-  width: 100%;
-  background-color: #01c2cb;
-  padding: 1rem;
-  z-index: 5;
-}
-
-/* guitars section */
-
-.guitars-text {
-  width: 100%;
-  background-color: #f5d75f;
-  padding: 1rem;
-  z-index: 5;
-}
-
-/* other instruments section */
-
-.drums-text {
-  width: 100%;
-  background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
 }

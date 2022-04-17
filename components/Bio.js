@@ -4,6 +4,7 @@ import historyImage from "../public/dan-banner.jpg";
 import servicesImage from "../public/faq-img.jpg";
 import Discography from "./Discography";
 import StudioLanding from "./StudioLanding";
+import GearLanding from "./GearLanding";
 
 const BioText = () => {
   return (
@@ -120,6 +121,7 @@ const Bio = () => {
       </div>
       <HistoryText />
       <StudioLanding />
+      <GearLanding />
     </>
   );
 };

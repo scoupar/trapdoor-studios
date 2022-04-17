@@ -10,7 +10,7 @@ const ControlText = () => {
         <div className="control-text">
           <h2 className="text-title">
             Trapdoor is a space that allows for the creative process to happen
-            naturally and quickly
+            naturally and quickly.
           </h2>
           <p>
             The emphasis is on cosy and comfortable. An acoustically treated
