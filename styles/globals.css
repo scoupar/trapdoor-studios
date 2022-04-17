@@ -391,6 +391,11 @@ h3 {
 
 /* contact section */
 
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .form-text {
   width: 100%;
   background-color: #f5d75f;
@@ -403,7 +408,7 @@ h3 {
   flex-direction: column;
   background-color: #f5d75f;
   padding: 1rem;
-  width: 75vw;
+  width: 100%;
 }
 
 form {

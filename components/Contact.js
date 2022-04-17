@@ -28,41 +28,43 @@ const Contact = () => {
             public transport. There is free parking directly outside the studio
             door with a very easy load in!
           </p>
-          <form
-            className="contact-form"
-            action="https://formsubmit.co/scott.coupar@googlemail.com"
-            method="POST"
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Your name/artist name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your email address"
-              required
-            />
-            <input type="hidden" name="_subject" value="New Message"></input>
+          <div className="form-container">
+            <form
+              className="contact-form"
+              action="https://formsubmit.co/scott.coupar@googlemail.com"
+              method="POST"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Your name/artist name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email address"
+                required
+              />
+              <input type="hidden" name="_subject" value="New Message"></input>
 
-            <input
-              type="hidden"
-              name="_next"
-              value="https://localhost:3000/blah"
-            />
-            <textarea
-              name="message"
-              placeholder="Tell us about your project here!"
-              required
-              cols="4"
-              rows="6"
-            />
-            <button id="submit-button" type="submit">
-              Send
-            </button>
-          </form>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://localhost:3000/blah"
+              />
+              <textarea
+                name="message"
+                placeholder="Tell us about your project here!"
+                required
+                cols="4"
+                rows="6"
+              />
+              <button id="submit-button" type="submit">
+                Send
+              </button>
+            </form>
+          </div>
         </div>
       </section>
 
