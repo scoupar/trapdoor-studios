@@ -103,7 +103,7 @@ const Contact = () => {
                   </p>
                 </div>
               </Toggle>
-              <h4>For all other enquiries please get in touch.</h4>
+              <p>For all other enquiries please get in touch.</p>
             </AnimateSharedLayout>
           </div>
         </div>

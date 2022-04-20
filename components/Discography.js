@@ -36,8 +36,8 @@ const Discography = () => {
       caption: "VASA - Heroics (Produce/Mix)",
     },
     {
-      src: "/cover-art/bicurious.jpeg",
-      thumbnail: "/cover-art/bicurious.jpeg",
+      src: "/cover-art/Bicurious.jpeg",
+      thumbnail: "/cover-art/Bicurious.jpeg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
       caption: "Bicurious - (re)constructed (Produce/Mix)",
@@ -64,8 +64,8 @@ const Discography = () => {
       caption: "Cleft - Wrong (Engineer)",
     },
     {
-      src: "/cover-art/abas.jpeg",
-      thumbnail: "/cover-art/abas.jpeg",
+      src: "/cover-art/ABAS.jpeg",
+      thumbnail: "/cover-art/ABAS.jpeg",
       thumbnailWidth: 300,
       thumbnailHeight: 300,
       caption: "A Burial At Sea - A Burial At Sea (Produce/Mix)",
