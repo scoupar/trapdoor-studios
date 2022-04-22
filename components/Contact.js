@@ -34,18 +34,10 @@ const Contact = () => {
               action="https://formsubmit.co/scott.coupar@googlemail.com"
               method="POST"
             >
-              <input
-                type="text"
-                name="name"
-                placeholder="Your name/artist name"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your email address"
-                required
-              />
+              <label for="name">Name</label>
+              <input type="text" name="name" required />
+              <label for="email">E-mail Address</label>
+              <input type="email" name="email" required />
               <input type="hidden" name="_subject" value="New Message"></input>
 
               <input
@@ -53,13 +45,8 @@ const Contact = () => {
                 name="_next"
                 value="https://localhost:3000/blah"
               />
-              <textarea
-                name="message"
-                placeholder="Tell us about your project here!"
-                required
-                cols="4"
-                rows="6"
-              />
+              <label for="message">Tell us about your project</label>
+              <textarea name="message" required cols="4" rows="6" />
               <button id="submit-button" type="submit">
                 Send
               </button>

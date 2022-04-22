@@ -222,8 +222,8 @@ nav a:hover {
 
 .logocontainer {
   position: absolute;
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 30%;
+  max-height: 30%;
   top: 3.5%;
   left: 50%;
   overflow: visible;
@@ -515,21 +515,35 @@ form {
 
 /* contact form */
 
+label {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color: white;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: 900;
+}
 input {
   border: none;
+  background: transparent;
+  border-bottom: 3px solid white;
   margin: 0.2rem;
   color: black;
   font-family: raleway;
+  font-size: large;
   padding: 0.2rem;
   outline: none;
 }
 
 input:focus {
-  border: 2px solid #ff581a;
+  border: 2px solid #01c2cb;
 }
 
 textarea {
   border: none;
+  background: transparent;
+  border-bottom: 3px solid white;
   margin: 0.2rem;
   color: black;
   font-family: raleway;
@@ -539,7 +553,7 @@ textarea {
 }
 
 textarea:focus {
-  border: 2px solid #ff581a;
+  border: 2px solid #01c2cb;
 }
 
 #submit-button {
