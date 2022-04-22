@@ -16,13 +16,11 @@ import Toggle from "./Toggle";
 const GearLanding = () => {
   return (
     <>
-      <div className="image-container">
-        <Image
-          src={studioImage}
-          className="studio-gear-image"
-          layout="responsive"
-        />
-      </div>
+      <Image
+        src={studioImage}
+        className="studio-gear-image"
+        layout="responsive"
+      />
       <div className="gear-text">
         <h2 className="text-title">
           Trapdoor has a great selection of gear to help keep your creativity

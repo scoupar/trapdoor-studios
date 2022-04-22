@@ -91,9 +91,7 @@ const StudioLanding = () => {
   ];
   return (
     <>
-      <div className="image-container">
-        <Image src={controlImage} className="control-image" />
-      </div>
+      <Image src={controlImage} className="control-image" />
       <ControlText />
       <div className="control-gallery-container">
         <Gallery

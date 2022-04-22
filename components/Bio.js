@@ -6,15 +6,18 @@ import Discography from "./Discography";
 import StudioLanding from "./StudioLanding";
 import Contact from "./Contact";
 import GearLanding from "./GearLanding";
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 const BioText = () => {
   return (
     <section id="bio">
       <div className="bio-container">
         <div className="bio-text">
-          <h2 className="text-title">
+          <motion.h2 className="text-title">
             Trapdoor Studio is the home of UK Record Producer Tom Peters.
-          </h2>
+          </motion.h2>
           <p>
             Tom has over a decade of working experience in capturing and
             producing music to the highest standard. Starting out in 2011 as the
@@ -43,7 +46,11 @@ const BioText = () => {
 const HistoryText = () => {
   return (
     <section id="history">
-      <div className="history-container">
+      <motion.div
+        animate={{ opacity: 1, transition: { duration: 2 } }}
+        initial={{ opacity: 0 }}
+        className="history-container"
+      >
         <div className="history-text">
           <h2 className="text-title">
             Trapdoor started as a dream between Tom Peters and Dan Wild-Beesley
@@ -74,7 +81,7 @@ const HistoryText = () => {
             possible. Thank you!
           </p>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
@@ -104,26 +111,15 @@ const ServicesText = () => {
 };
 
 const Bio = () => {
-  // const [showBioText, setShowBioText] = useState(false);
-  // const onBioClick = () => setShowBioText(!showBioText);
-  // const [showHistoryText, setShowHistoryText] = useState(false);
-  // const onHistoryClick = () => setShowHistoryText(!showHistoryText);
-  // const [showServicesText, setShowServicesText] = useState(false);
-  // const onServicesClick = () => setShowServicesText(!showServicesText);
-
   return (
     <>
-      <div className="image-container">
-        <Image src={bioImage} className="bio-image" layout="responsive" />
-      </div>
+      <Image src={bioImage} className="bio-image" layout="responsive" />
       <BioText />
-      <div className="image-container">
-        <Image src={historyImage} className="history-image" />
-      </div>
+      <Image src={historyImage} className="history-image" />
       <HistoryText />
-      <StudioLanding />
+      {/* <StudioLanding />
       <GearLanding />
-      <Contact />
+      <Contact /> */}
     </>
   );
 };
