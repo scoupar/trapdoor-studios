@@ -5,7 +5,14 @@ import Link from "next/link";
 const Landing = () => {
   return (
     <>
-      <Image className="landingimage" src={homeImage} layout="fixed" />
+      <div className="landing-image-container">
+        <Image
+          className="landingimage"
+          src={homeImage}
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
       <div className="logocontainer">
         <img className="logo" src="/trapdoor-circle.svg" />
       </div>
