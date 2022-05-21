@@ -45,9 +45,9 @@ const Contact = () => {
               action="https://formsubmit.co/scott.coupar@googlemail.com"
               method="POST"
             >
-              <label for="name">Name</label>
+              <label htmlFor="name">Name</label>
               <input type="text" name="name" required />
-              <label for="email">E-mail Address</label>
+              <label htmlFor="email">E-mail Address</label>
               <input type="email" name="email" required />
               <input type="hidden" name="_subject" value="New Message"></input>
 
@@ -56,7 +56,7 @@ const Contact = () => {
                 name="_next"
                 value="https://localhost:3000/blah"
               />
-              <label for="message">Tell us about your project</label>
+              <label htmlFor="message">Tell us about your project</label>
               <textarea name="message" required cols="4" rows="6" />
               <button id="submit-button" type="submit">
                 Send
