@@ -3,15 +3,25 @@ import controlImage from "../public/studio-banner.jpg";
 import liveImage from "../public/live-img.jpg";
 import Gallery from "react-grid-gallery";
 
+const StudioHeading = () => {
+  return (
+    <section id="studio">
+      <div className="control-text">
+        <h2 className="text-title">
+          Trapdoor is a space that allows for the creative process to happen
+          naturally and quickly.
+        </h2>
+      </div>
+    </section>
+  );
+};
+
 const ControlText = () => {
   return (
     <section id="control">
       <div className="control-container">
         <div className="control-text">
-          <h2 className="text-title">
-            Trapdoor is a space that allows for the creative process to happen
-            naturally and quickly.
-          </h2>
+          <h2 className="text-title"></h2>
           <p>
             The emphasis is on cosy and comfortable. An acoustically treated
             cocoon, the control room is designed to sound great wherever you
@@ -91,6 +101,7 @@ const StudioLanding = () => {
   ];
   return (
     <>
+      <StudioHeading />
       <Image src={controlImage} className="control-image" />
       <ControlText />
       <div className="control-gallery-container">

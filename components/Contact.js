@@ -4,17 +4,28 @@ import faqImage from "../public/book-img.jpg";
 import Toggle from "./Toggle";
 import { AnimateSharedLayout } from "framer-motion";
 
+const ContactHeader = () => {
+  return (
+    <section id="contact">
+      <div className="form-text">
+        <h2 className="text-title">
+          Get in touch below to talk to us about your project.
+        </h2>
+      </div>
+    </section>
+  );
+};
+
 const Contact = () => {
   return (
     <>
+      <ContactHeader />
       <div className="image-container">
         <Image src={bookImage} className="book-image" layout="responsive" />
       </div>
       <section id="contact">
         <div className="form-text">
-          <h2 className="text-title">
-            Get in touch below to talk to us about your project.
-          </h2>
+          <h2 className="text-title"></h2>
           <p>
             Please fill in the contact form, or if you prefer, you can send us
             an email directly to (whatever the studio email will be?) Whether

@@ -13,19 +13,30 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Toggle from "./Toggle";
 
+const GearHeader = () => {
+  return (
+    <section id="gear">
+      <div className="gear-text">
+        <h2 className="text-title">
+          Trapdoor has a great selection of gear to help keep your creativity
+          moving.
+        </h2>
+      </div>
+    </section>
+  );
+};
+
 const GearLanding = () => {
   return (
     <>
+      <GearHeader />
       <Image
         src={studioImage}
         className="studio-gear-image"
         layout="responsive"
       />
       <div className="gear-text">
-        <h2 className="text-title">
-          Trapdoor has a great selection of gear to help keep your creativity
-          moving.
-        </h2>
+        <h2 className="text-title"></h2>
         <p>
           It is subject to change at a moment's notice but we try to keep this
           list as up-to-date as possible.
@@ -36,8 +47,8 @@ const GearLanding = () => {
           <div className="studio-gear-container">
             <div className="studio-gear-text">
               <ul>
+                <FontAwesomeIcon icon={faSliders} size="3x" color="white" />
                 <Toggle title="STUDIO">
-                  <FontAwesomeIcon icon={faSliders} size="3x" color="white" />
                   <h4>MONITORING</h4>
                   {/* <hr></hr> */}
                   <li>Neumann KH310s</li>
@@ -66,12 +77,12 @@ const GearLanding = () => {
           <div className="microphones-container">
             <div className="studio-gear-text">
               <ul>
+                <FontAwesomeIcon
+                  icon={faMicrophoneLines}
+                  size="3x"
+                  color="white"
+                />
                 <Toggle title="MICROPHONES">
-                  <FontAwesomeIcon
-                    icon={faMicrophoneLines}
-                    size="3x"
-                    color="white"
-                  />
                   <h4>Condenser Mics</h4>
                   <li>2x JZ Mics V67</li>
                   <li>1x JZ Mics BB29</li>
@@ -103,8 +114,9 @@ const GearLanding = () => {
           <section id="instruments">
             <div className="studio-gear-text">
               <ul>
+                <FontAwesomeIcon icon={faGuitar} size="3x" color="white" />
+
                 <Toggle title="INSTRUMENTS">
-                  <FontAwesomeIcon icon={faGuitar} size="3x" color="white" />
                   <h4>Guitars</h4>
                   <li>2004 Fender Telecaster Highway One in Daphne Blue</li>
                   <li>2015 Fender Telecaster Classic Player Triple in Black</li>
@@ -163,8 +175,8 @@ const GearLanding = () => {
         <div className="other-container">
           <div className="studio-gear-text">
             <ul>
+              <FontAwesomeIcon icon={faDrum} size="3x" color="white" />
               <Toggle title="DRUMS">
-                <FontAwesomeIcon icon={faDrum} size="3x" color="white" />
                 <h4>Drums</h4>
                 <li>
                   Gretsch Catalina Club Mod drum kit in limited ‘Black Widow’

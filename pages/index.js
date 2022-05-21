@@ -17,8 +17,8 @@ export default function Home() {
         <Head>
           <title>Trapdoor Studios | Home</title>
         </Head>
-        {/* <Navbar /> */}
-        <HamburgerMenu />
+        <Navbar />
+        {/* <HamburgerMenu /> */}
         <Landing />
         <Bio />
         <StudioLanding />

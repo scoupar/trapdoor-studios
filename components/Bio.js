@@ -10,14 +10,27 @@ import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 import { motion } from "framer-motion";
 
+const BioHeader = () => {
+  return (
+    <section id="about">
+      <div className="bio-container">
+        <h2 className="text-title">
+          Trapdoor Studio is the home of UK Record Producer Tom Peters.
+        </h2>
+      </div>
+    </section>
+  );
+};
+
 const BioText = () => {
   return (
     <section id="bio">
       <div className="bio-container">
         <div className="bio-text">
-          <motion.h2 className="text-title">
+          {/* <motion.h2 className="text-title">
             Trapdoor Studio is the home of UK Record Producer Tom Peters.
-          </motion.h2>
+          </motion.h2> */}
+          <hr></hr>
           <p>
             Tom has over a decade of working experience in capturing and
             producing music to the highest standard. Starting out in 2011 as the
@@ -39,7 +52,19 @@ const BioText = () => {
         </div>
       </div>
       <Discography />
+      <hr></hr>
     </section>
+  );
+};
+
+const HistoryHeader = () => {
+  return (
+    <div className="history-text">
+      <h2 className="text-title">
+        Trapdoor started as a dream between Tom Peters and Dan Wild-Beesley way
+        back in 2013.
+      </h2>
+    </div>
   );
 };
 
@@ -52,10 +77,6 @@ const HistoryText = () => {
         className="history-container"
       >
         <div className="history-text">
-          <h2 className="text-title">
-            Trapdoor started as a dream between Tom Peters and Dan Wild-Beesley
-            way back in 2013.
-          </h2>
           <p>
             The pair were inseparable and spent most of their time together
             chatting about recording. microphones, bands, amps; everything music
@@ -113,8 +134,10 @@ const ServicesText = () => {
 const Bio = () => {
   return (
     <>
+      <BioHeader />
       <Image src={bioImage} className="bio-image" layout="responsive" />
       <BioText />
+      <HistoryHeader />
       <Image src={historyImage} className="history-image" />
       <HistoryText />
       {/* <StudioLanding />

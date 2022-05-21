@@ -42,6 +42,7 @@ p {
   color: white;
   font-size: large;
   text-align: center;
+  padding: 0.5rem;
 }
 
 h2 {
@@ -61,6 +62,7 @@ h4 {
 
 hr {
   border: 1px solid white;
+  width: 905;
 }
 .not-found {
   background-color: #ff581a;
@@ -75,11 +77,21 @@ hr {
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: c;
   padding: 0.5rem;
   padding-right: 1rem;
-  background-color: transparent;
-  overflow: hidden;
+  background-color: #f5d75f;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  transition: 0.5s ease;
+  top: 0;
+}
+
+.hidden {
+  top: -80px;
 }
 
 nav a {
@@ -122,7 +134,7 @@ nav a:hover {
   }
 }
 .nav-logo {
-  height: 35px;
+  height: 40px;
   margin-right: auto;
 }
 
@@ -286,7 +298,7 @@ nav a:hover {
 
 .history-text {
   width: 100%;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
 }
@@ -501,7 +513,7 @@ form {
 
 .faq-text {
   width: 100%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
   z-index: 1;
 }
