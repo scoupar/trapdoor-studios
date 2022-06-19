@@ -2,6 +2,7 @@ import Image from "next/image";
 import controlImage from "../public/studio-banner.jpg";
 import liveImage from "../public/live-img.jpg";
 import Gallery from "react-grid-gallery";
+import { EmblaCarousel } from "./EmblaCarousel";
 
 const StudioHeading = () => {
   return (
@@ -21,7 +22,7 @@ const ControlText = () => {
     <section id="control">
       <div className="control-container">
         <div className="control-text">
-          <h2 className="text-title"></h2>
+          <hr></hr>
           <p>
             The emphasis is on cosy and comfortable. An acoustically treated
             cocoon, the control room is designed to sound great wherever you
@@ -29,7 +30,11 @@ const ControlText = () => {
             with Avid Pro Tools and has a whole host of creative tools to
             capture your music.
           </p>
-          <p>
+          <div className="red-section-image-container">
+            <Image src={controlImage} className="control-image" />
+          </div>
+
+          <p className="under-image">
             The monitoring is provided by Neumann and Quested and is accurate
             and powerful so you can guarantee that what you're hearing in the
             studio is what you'll hear at home. It also looks rather handsome
@@ -102,7 +107,6 @@ const StudioLanding = () => {
   return (
     <>
       <StudioHeading />
-      <Image src={controlImage} className="control-image" />
       <ControlText />
       <div className="control-gallery-container">
         <Gallery
@@ -113,6 +117,7 @@ const StudioLanding = () => {
           showImageCount={false}
         />
       </div>
+      <EmblaCarousel />
     </>
   );
 };

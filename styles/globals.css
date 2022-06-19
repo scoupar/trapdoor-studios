@@ -271,7 +271,6 @@ nav a:hover {
 .index-container {
   display: flex;
   flex-direction: column;
-  z-index: -1;
 }
 /* 
 .landing-container {
@@ -294,13 +293,13 @@ nav a:hover {
 
 /* Bio Section */
 
-.section-image-container {
+.blue-section-image-container {
   width: 95%;
   margin: auto;
   box-sizing: content-box;
 }
 
-.section-image-container > div {
+.blue-section-image-container > div {
   box-shadow: -2vw 2vw 0 0 #f5d75f;
 }
 
@@ -331,16 +330,35 @@ nav a:hover {
 
 /* History Section */
 
+#history {
+  background-color: #f5d75f;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  margin-bottom: -10vw;
+}
+
+.yellow-section-image-container {
+  width: 95%;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.yellow-section-image-container > div {
+  box-shadow: -2vw 2vw 0 0 #01c2cb;
+}
+
 .history-container {
   background-color: #f5d75f;
   margin-top: 10vw;
 }
 
 .history-text {
-  width: 100%;
+  width: 95%;
   background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
+  margin: auto;
+  margin-bottom: 10vw;
 }
 
 #discography {
@@ -380,11 +398,30 @@ nav a:hover {
 
 /* Control Room */
 
+#studio {
+  background-color: #ff581a;
+}
+
 .control-text {
-  width: 100%;
-  background-color: #01c2cb;
+  width: 95%;
+  background-color: #ff581a;
   padding: 1rem;
   z-index: 5;
+  margin: auto;
+}
+
+.control-container {
+  background-color: #ff581a;
+}
+
+.red-section-image-container {
+  width: 95%;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.red-section-image-container > div {
+  box-shadow: -2vw 2vw 0 0 #f5d75f;
 }
 
 .image-container {
@@ -778,4 +815,19 @@ textarea:focus {
 .social-menu > ul {
   display: flex;
   flex-direction: row;
+}
+
+/* carousel */
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%;
 }

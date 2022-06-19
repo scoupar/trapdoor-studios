@@ -27,9 +27,6 @@ const BioText = () => {
     <section id="bio">
       <div className="bio-text-container">
         <div className="bio-text">
-          {/* <motion.h2 className="text-title">
-            Trapdoor Studio is the home of UK Record Producer Tom Peters.
-          </motion.h2> */}
           <hr></hr>
           <p>
             Tom has over a decade of working experience in capturing and
@@ -38,7 +35,7 @@ const BioText = () => {
             last 10 years honing his craft, working in studios all across the UK
             and Ireland until setting up Trapdoor in April 2019.
           </p>
-          <div className="section-image-container">
+          <div className="blue-section-image-container">
             <Image src={bioImage} className="bio-image" layout="responsive" />
           </div>
           <p className="under-image">
@@ -74,13 +71,17 @@ const HistoryText = () => {
   return (
     <section id="history">
       <div className="history-text">
+        <hr></hr>
         <p>
           The pair were inseparable and spent most of their time together
           chatting about recording. microphones, bands, amps; everything music
           related. It was only natural that the conversation would move on to
           opening a studio together and in 2014, it very nearly happened.
         </p>
-        <p>
+        <div className="yellow-section-image-container">
+          <Image src={historyImage} className="history-image" />
+        </div>
+        <p className="under-image">
           Sadly, things fell through and the studio plan had to take a backseat
           when in 2015, Dan fell ill. After several years of lengthy treatment,
           in October 2018, Dan passed away surrounded by his family. He left
@@ -133,7 +134,7 @@ const Bio = () => {
 
       <BioText />
       <HistoryHeader />
-      <Image src={historyImage} className="history-image" />
+
       <HistoryText />
       {/* <StudioLanding />
       <GearLanding />
