@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Landing = () => {
   return (
-    <>
+    <div className="landing-container">
       <div className="landing-image-container">
         <Image
           className="landingimage"
@@ -20,7 +20,7 @@ const Landing = () => {
         Established 2019 in Liverpool, UK, <span>Trapdoor Studio</span> is the
         perfect place for you to hear your music come to life.
       </h1>
-    </>
+    </div>
   );
 };
 

@@ -79,7 +79,6 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  text-align: c;
   padding: 0.5rem;
   padding-right: 1rem;
   background-color: #f5d75f;
@@ -98,7 +97,7 @@ nav a {
   margin-left: 0.5rem;
   color: white;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-bottom: 0.2rem;
   /* text-shadow: 2px 2px 5px black; */
 }
@@ -134,7 +133,7 @@ nav a:hover {
   }
 }
 .nav-logo {
-  height: 40px;
+  height: 20px;
   margin-right: auto;
 }
 
@@ -209,6 +208,8 @@ nav a:hover {
   width: 100vw;
   height: 100vh;
   position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  margin-bottom: -10vw;
 }
 
 .button {
@@ -258,9 +259,9 @@ nav a:hover {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  width: 100vw;
+  width: 90vw;
   text-transform: uppercase;
-  font-size: clamp(0.5rem, 0.5rem + 8vw, 1rem);
+  font-size: clamp(0.5rem, 0.5rem + 20vw, 1rem);
   padding: 1rem;
 }
 
@@ -268,6 +269,13 @@ nav a:hover {
   display: flex;
   flex-direction: column;
 }
+/* 
+.landing-container {
+  position: relative;
+  z-index: 10;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  margin-bottom: 10vw;
+} */
 
 /* About Page */
 
@@ -284,6 +292,10 @@ nav a:hover {
 
 /* Bio Section */
 
+.bio-container {
+  margin-top: 15vw;
+}
+
 .bio-text {
   width: 100%;
   background-color: #f5d75f;
@@ -291,10 +303,6 @@ nav a:hover {
   z-index: 5;
 }
 
-.divider {
-  background-color: #f5d75f;
-  height: 2px;
-}
 /* History Section */
 
 .history-text {
@@ -302,8 +310,10 @@ nav a:hover {
   background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+  margin-bottom: -10vw;
 }
-
 .discography-container {
   display: flex;
   flex-direction: column;
