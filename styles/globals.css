@@ -171,6 +171,7 @@ nav a:hover {
   font-size: clamp(1rem, 0.5rem + 8vw, 4rem);
   width: 80%;
   margin: auto;
+  margin-top: 15vw;
 }
 
 .secondnav {
@@ -270,6 +271,7 @@ nav a:hover {
 .index-container {
   display: flex;
   flex-direction: column;
+  z-index: -1;
 }
 /* 
 .landing-container {
@@ -330,8 +332,8 @@ nav a:hover {
 /* History Section */
 
 .history-container {
-  margin-top: 15vw;
   background-color: #f5d75f;
+  margin-top: 10vw;
 }
 
 .history-text {
@@ -339,9 +341,6 @@ nav a:hover {
   background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
-  /* position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
-  margin-bottom: -10vw; */
 }
 
 #discography {
@@ -478,6 +477,9 @@ nav a:hover {
   background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  margin-bottom: -20vw;
 }
 
 .player-container {
@@ -487,7 +489,8 @@ nav a:hover {
 }
 
 iframe {
-  margin-bottom: 2rem;
+  margin-bottom: 5vw;
+  box-shadow: -2vw 2vw 0 0 #f5d75f;
 }
 
 .listen-container {
