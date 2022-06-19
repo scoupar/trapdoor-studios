@@ -25,7 +25,7 @@ const BioHeader = () => {
 const BioText = () => {
   return (
     <section id="bio">
-      <div className="bio-container">
+      <div>
         <div className="bio-text">
           {/* <motion.h2 className="text-title">
             Trapdoor Studio is the home of UK Record Producer Tom Peters.
@@ -38,6 +38,9 @@ const BioText = () => {
             last 10 years honing his craft, working in studios all across the UK
             and Ireland until setting up Trapdoor in April 2019.
           </p>
+          <div className="section-image-container">
+            <Image src={bioImage} className="bio-image" layout="responsive" />
+          </div>
           <p>
             Tom's production is vibrant and exciting but still natural and human
             - the emphasis is on making your music sound like the best
@@ -135,7 +138,7 @@ const Bio = () => {
   return (
     <>
       <BioHeader />
-      <Image src={bioImage} className="bio-image" layout="responsive" />
+
       <BioText />
       <HistoryHeader />
       <Image src={historyImage} className="history-image" />

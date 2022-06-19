@@ -168,7 +168,9 @@ nav a:hover {
 }
 
 .text-title {
-  font-size: clamp(1rem, 0.5rem + 8vw, 5rem);
+  font-size: clamp(1rem, 0.5rem + 8vw, 4rem);
+  width: 80%;
+  margin: auto;
 }
 
 .secondnav {
@@ -178,7 +180,7 @@ nav a:hover {
 }
 
 .index-container {
-  background-color: #f5d75f;
+  background-color: #01c2cb;
 }
 
 .listen-container {
@@ -279,12 +281,6 @@ nav a:hover {
 
 /* About Page */
 
-.aboutnavcontainer {
-  background-color: #f5d75f;
-  z-index: 5;
-  width: 100%;
-}
-
 .about-container {
   display: flex;
   flex-direction: column;
@@ -292,13 +288,25 @@ nav a:hover {
 
 /* Bio Section */
 
+.section-image-container {
+  width: 95%;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.section-image-container > div {
+  box-shadow: -2vw 2vw 0 0 #f5d75f;
+}
+
 .bio-container {
   margin-top: 15vw;
+  background-color: #01c2cb;
 }
 
 .bio-text {
-  width: 100%;
-  background-color: #f5d75f;
+  width: 95%;
+  margin: auto;
+  background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
 }
@@ -317,7 +325,9 @@ nav a:hover {
 .discography-container {
   display: flex;
   flex-direction: column;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
+  width: 90vw;
+  margin: auto;
 }
 
 /* Services Section */
@@ -453,7 +463,7 @@ nav a:hover {
 
 .playlist-text {
   width: 100%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
 }
@@ -479,7 +489,7 @@ h3 {
 
 .gallery-container {
   width: 100%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
 }
