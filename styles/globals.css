@@ -20,7 +20,6 @@ li {
   font-size: 0.85rem;
 }
 html {
-  /* scroll-behavior: smooth; */
   scroll-behavior: smooth;
 }
 
@@ -133,7 +132,7 @@ nav a:hover {
   }
 }
 .nav-logo {
-  height: 20px;
+  height: 25px;
   margin-right: auto;
 }
 
@@ -238,9 +237,9 @@ nav a:hover {
 
 .logocontainer {
   position: absolute;
-  max-width: 40%;
-  max-height: 40%;
-  top: 3.5%;
+  max-width: 30%;
+  max-height: 10%;
+  top: 3%;
   left: 50%;
   overflow: visible;
 }
@@ -257,7 +256,7 @@ nav a:hover {
 .headline {
   z-index: 2;
   position: absolute;
-  top: 6%;
+  top: 5.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
