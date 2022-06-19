@@ -28,22 +28,25 @@ const GearHeader = () => {
 
 const GearLanding = () => {
   return (
-    <>
+    <div className="gear-landing">
       <GearHeader />
-      <Image
-        src={studioImage}
-        className="studio-gear-image"
-        layout="responsive"
-      />
+
       <div className="gear-text">
-        <h2 className="text-title"></h2>
+        <hr></hr>
         <p>
           It is subject to change at a moment's notice but we try to keep this
           list as up-to-date as possible.
         </p>
+        <div className="blue-section-image-container">
+          <Image
+            src={studioImage}
+            className="studio-gear-image"
+            layout="responsive"
+          />
+        </div>
       </div>
       <div className="gear-container">
-        <section id="studio">
+        <section id="studio-gear">
           <div className="studio-gear-container">
             <div className="studio-gear-text">
               <ul>
@@ -202,7 +205,7 @@ const GearLanding = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

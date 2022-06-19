@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="footer">
-      <h2>Trapdoor Studios 2021</h2>
+      <h5 className="footer-text">© Trapdoor Studios 2022</h5>
     </div>
   );
 };

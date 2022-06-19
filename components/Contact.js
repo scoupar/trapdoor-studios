@@ -6,7 +6,7 @@ import { AnimateSharedLayout } from "framer-motion";
 
 const ContactHeader = () => {
   return (
-    <section id="contact">
+    <section id="contact-text">
       <div className="form-text">
         <h2 className="text-title">
           Get in touch below to talk to us about your project.
@@ -20,12 +20,10 @@ const Contact = () => {
   return (
     <>
       <ContactHeader />
-      <div className="image-container">
-        <Image src={bookImage} className="book-image" layout="responsive" />
-      </div>
+      <div className="image-container"></div>
       <section id="contact">
         <div className="form-text">
-          <h2 className="text-title"></h2>
+          <hr></hr>
           <p>
             Please fill in the contact form, or if you prefer, you can send us
             an email directly to (whatever the studio email will be?) Whether
@@ -33,7 +31,10 @@ const Contact = () => {
             have a chat through your ideas and discuss what Trapdoor can bring
             to your work.
           </p>
-          <p>
+          <div className="yellow-section-image-container">
+            <Image src={bookImage} className="book-image" layout="responsive" />
+          </div>
+          <p className="under-image">
             The studio is ideally situated just off Edge Lane (A5047) one of the
             main routes into Liverpool, so is easy to access by both car and
             public transport. There is free parking directly outside the studio
