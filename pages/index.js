@@ -9,6 +9,7 @@ import Landing from "../components/Landing";
 import StudioLanding from "../components/StudioLanding";
 import GearLanding from "../components/GearLanding";
 import Contact from "../components/Contact";
+import Discography from "../components/Discography";
 
 export default function Home() {
   return (

@@ -179,9 +179,9 @@ nav a:hover {
   margin-left: 1rem;
 }
 
-.index-container {
+/* .index-container {
   background-color: #01c2cb;
-}
+} */
 
 .listen-container {
   background-color: #f5d75f;
@@ -281,6 +281,10 @@ nav a:hover {
 
 /* About Page */
 
+#about {
+  background-color: #01c2cb;
+}
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -298,8 +302,16 @@ nav a:hover {
   box-shadow: -2vw 2vw 0 0 #f5d75f;
 }
 
+.bio-text-container {
+  background-color: #01c2cb;
+}
+
 .bio-container {
   margin-top: 15vw;
+  background-color: #01c2cb;
+}
+
+.bio-section {
   background-color: #01c2cb;
 }
 
@@ -311,22 +323,35 @@ nav a:hover {
   z-index: 5;
 }
 
+.under-image {
+  margin-top: 5vw;
+}
+
 /* History Section */
+
+.history-container {
+  margin-top: 15vw;
+  background-color: #f5d75f;
+}
 
 .history-text {
   width: 100%;
   background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
-  position: relative;
+  /* position: relative;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
-  margin-bottom: -10vw;
+  margin-bottom: -10vw; */
 }
+
+#discography {
+  background-color: #01c2cb;
+}
+
 .discography-container {
   display: flex;
   flex-direction: column;
-  background-color: #01c2cb;
-  width: 90vw;
+  width: 100vw;
   margin: auto;
 }
 
@@ -350,13 +375,6 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.studionavcontainer {
-  /* position: fixed; */
-  background-color: #01c2cb;
-  z-index: 10;
-  width: 100%;
 }
 
 /* Studio Landing Page */
@@ -415,12 +433,6 @@ nav a:hover {
   background-size: cover;
 }
 
-.live-text {
-  width: 100%;
-  background-color: #01c2cb;
-  padding: 1rem;
-}
-
 @media (min-width: 1000px) {
   .live-text {
     padding: 4rem;
@@ -471,6 +483,7 @@ nav a:hover {
 .player-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 5vw;
 }
 
 iframe {
@@ -489,7 +502,7 @@ h3 {
 
 .gallery-container {
   width: 100%;
-  background-color: #01c2cb;
+  /* background-color: #01c2cb; */
   padding: 1rem;
   z-index: 5;
 }
