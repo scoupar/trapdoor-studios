@@ -368,12 +368,15 @@ nav a:hover {
 #discography {
   background-color: #01c2cb;
 }
-
+#playlist {
+  background-color: #01c2cb;
+}
 .discography-container {
   display: flex;
   flex-direction: column;
   width: 100vw;
   margin: auto;
+  background-color: #01c2cb;
 }
 
 /* Services Section */
@@ -537,14 +540,14 @@ nav a:hover {
 /* Listen page */
 
 .playlist-text {
-  width: 95%;
+  width: 100%;
   background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
   margin: auto;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-  margin-bottom: -20vw;
+  margin-bottom: -25vw;
 }
 
 .player-container {
@@ -628,12 +631,12 @@ form {
 /* Faq section */
 
 #faq {
-  background-color: #01c2cb;
+  background-color: #ff581a;
 }
 
 .faq-text {
   width: 95%;
-  background-color: #01c2cb;
+  background-color: #ff581a;
   padding: 1rem;
   z-index: 1;
   margin: auto;
@@ -889,6 +892,8 @@ form {
   flex: 0 0 50%;
   margin-right: 5vw;
   margin-top: 5px;
+  box-shadow: -0.5vw 0.5vw 0 0 #f5d75f;
+  margin-bottom: 2vw;
 }
 
 .embla__button {

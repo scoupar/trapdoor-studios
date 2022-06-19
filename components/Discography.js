@@ -106,18 +106,20 @@ const Discography = () => {
           />
         </div>
       </section>
-      <div className="playlist-text">
-        <br></br>
-        <div className="player-container">
-          <iframe
-            src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
-            height="380"
-            frameBorder="0"
-            allowFullScreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          ></iframe>
+      <section id="playlist">
+        <div className="playlist-text">
+          <br></br>
+          <div className="player-container">
+            <iframe
+              src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
+              height="380"
+              frameBorder="0"
+              allowFullScreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

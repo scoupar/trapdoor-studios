@@ -131,14 +131,9 @@ const Bio = () => {
   return (
     <>
       <BioHeader />
-
       <BioText />
       <HistoryHeader />
-
       <HistoryText />
-      {/* <StudioLanding />
-      <GearLanding />
-      <Contact /> */}
     </>
   );
 };
