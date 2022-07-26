@@ -944,8 +944,6 @@ form {
 /* new gallery */
 
 .new-gallery-container {
-  width: 95%;
-  margin: auto;
   background-color: hotpink;
   display: flex;
   flex-wrap: wrap;

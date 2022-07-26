@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Bio from "../components/Bio";
-import { NavHashLink } from "react-router-hash-link";
 import HamburgerMenu from "../components/HamburgerMenu";
 
 export default function About() {
