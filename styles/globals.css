@@ -978,3 +978,7 @@ form {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.new-gallery-container > .image-container {
+  margin: 0.1rem;
+}
