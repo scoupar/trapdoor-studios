@@ -944,7 +944,7 @@ form {
 /* new gallery */
 
 .new-gallery-container {
-  background-color: hotpink;
+  background-color: #01c2cb;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
