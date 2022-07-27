@@ -68,6 +68,12 @@ const Gallery = () => {
         </div>
       </div>
       <div className="image-container">
+        <Image src="/cover-art/amtp-droids.jpeg" width="150" height="150" />
+        <div className="overlay">
+          <div className="text">Alpha Male Tea Party - Droids</div>
+        </div>
+      </div>
+      <div className="image-container">
         <Image src="/cover-art/falls.jpeg" width="150" height="150" />
         <div className="overlay">
           <div className="text">Falls - One Hundred Percent Strong</div>

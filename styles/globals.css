@@ -964,7 +964,7 @@ form {
 }
 
 .image-container:hover .overlay {
-  opacity: 1;
+  opacity: 0.95;
 }
 
 .text {
