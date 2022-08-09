@@ -27,7 +27,6 @@ export default function Home() {
         <StudioLanding />
         <GearLanding />
         <Contact />
-        <StudioGallery />
         <Footer />
       </div>
     </>
