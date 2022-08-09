@@ -237,7 +237,7 @@ nav a:hover {
 
 .logocontainer {
   position: absolute;
-  max-width: 30%;
+  max-width: 50%;
   max-height: 10%;
   top: 3%;
   left: 50%;
@@ -265,6 +265,7 @@ nav a:hover {
   text-transform: uppercase;
   font-size: clamp(0.5rem, 0.5rem + 20vw, 1rem);
   padding: 1rem;
+  /* margin-top: 2rem; */
 }
 
 .index-container {
