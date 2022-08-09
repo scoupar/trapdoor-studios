@@ -79,7 +79,11 @@ const HistoryText = () => {
           opening a studio together and in 2014, it very nearly happened.
         </p>
         <div className="yellow-section-image-container">
-          <Image src={historyImage} className="history-image" />
+          <Image
+            src={historyImage}
+            className="history-image"
+            layout="responsive"
+          />
         </div>
         <p className="under-image">
           Sadly, things fell through and the studio plan had to take a backseat

@@ -983,3 +983,7 @@ form {
 .new-gallery-container > .image-container {
   margin: 0.1rem;
 }
+
+.studio-gallery-container {
+  background-color: #f5d75f;
+}

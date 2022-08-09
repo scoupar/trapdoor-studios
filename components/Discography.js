@@ -85,8 +85,8 @@ const Discography = () => {
       caption: "Dog Daisies - Eagletism (Produce/Mix)",
     },
     {
-      src: "/cover-art/falls.jpeg",
-      thumbnail: "/cover-art/falls.jpeg",
+      src: "/amps-img.jpg",
+      thumbnail: "/amps-img.jpg",
       thumbnailWidth: 150,
       thumbnailHeight: 150,
       caption: "Falls - One Hundred Percent Strong (Produce/Mix)",
@@ -97,13 +97,7 @@ const Discography = () => {
       <section id="discography">
         <div className="gallery-container">
           <hr></hr>
-          <Gallery
-            className="gallery"
-            images={IMAGES}
-            margin={4}
-            enableImageSelection={false}
-            showImageCount={false}
-          />
+          <Gallery className="gallery" />
         </div>
       </section>
       <section id="playlist">

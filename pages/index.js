@@ -11,6 +11,7 @@ import GearLanding from "../components/GearLanding";
 import Contact from "../components/Contact";
 import Discography from "../components/Discography";
 import Footer from "../components/Footer";
+import StudioGallery from "../components/StudioGallery";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <StudioLanding />
         <GearLanding />
         <Contact />
+        <StudioGallery />
         <Footer />
       </div>
     </>
