@@ -56,8 +56,8 @@ const StudioGallery = () => {
   };
 
   return (
-    <div className="red-section-image-container">
-      <Gallery photos={photos} onClick={openLightBox} margin={0} />
+    <div>
+      <Gallery photos={photos} onClick={openLightBox} margin={2} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
