@@ -938,8 +938,9 @@ form {
 }
 
 .footer-text {
-  color: whitesmoke;
+  color: white;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 
 /* new gallery */
@@ -988,4 +989,13 @@ form {
 
 .studio-gallery-container {
   background-color: #f5d75f;
+}
+
+.icon {
+  margin-left: 1vw;
+}
+
+.credit {
+  font-size: small;
+  text-transform: uppercase;
 }
