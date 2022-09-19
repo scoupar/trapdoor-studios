@@ -31,7 +31,12 @@ const Contact = () => {
             to your work.
           </p>
           <div className="yellow-section-image-container">
-            <Image src={bookImage} className="book-image" layout="responsive" />
+            <Image
+              src={bookImage}
+              className="book-image"
+              layout="responsive"
+              placeholder="blur"
+            />
           </div>
           <p className="under-image">
             The studio is ideally situated just off Edge Lane (A5047) one of the

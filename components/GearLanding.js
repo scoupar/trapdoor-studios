@@ -38,6 +38,7 @@ const GearLanding = () => {
             src={studioImage}
             className="studio-gear-image"
             layout="responsive"
+            placeholder="blur"
           />
         </div>
       </div>

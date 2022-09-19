@@ -81,6 +81,7 @@ const HistoryText = () => {
             src={historyImage}
             className="history-image"
             layout="responsive"
+            placeholder="blur"
           />
         </div>
         <p className="under-image">
