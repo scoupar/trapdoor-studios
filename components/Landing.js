@@ -10,6 +10,7 @@ const Landing = () => {
           src={homeImage}
           layout="fill"
           objectFit="cover"
+          placeholder="blur"
         />
       </div>
       <div className="logocontainer">
