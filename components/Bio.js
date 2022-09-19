@@ -1,14 +1,7 @@
 import Image from "next/image";
 import bioImage from "../public/tom-banner.jpg";
 import historyImage from "../public/dan-banner.jpg";
-import servicesImage from "../public/faq-img.jpg";
 import Discography from "./Discography";
-import StudioLanding from "./StudioLanding";
-import Contact from "./Contact";
-import GearLanding from "./GearLanding";
-import { useInView } from "react-intersection-observer";
-import { useAnimation } from "framer-motion";
-import { motion } from "framer-motion";
 
 const BioHeader = () => {
   return (

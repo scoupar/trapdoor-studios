@@ -1,8 +1,5 @@
 import React from "react";
 import Gallery from "./Gallery";
-import Image from "next/image";
-import listenImage from "../public/control-3.jpg";
-import discogImage from "../public/discog-img.jpg";
 
 const Discography = () => {
   const IMAGES = [

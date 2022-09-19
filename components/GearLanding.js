@@ -1,9 +1,5 @@
 import Image from "next/image";
 import studioImage from "../public/mics-banner.jpg";
-import microphoneImage from "../public/microphones-2.jpg";
-import pedalsImage from "../public/pedals.jpg";
-import drumsImage from "../public/drums.jpg";
-import Head from "next/head";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSliders,

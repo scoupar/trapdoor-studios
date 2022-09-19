@@ -1,6 +1,5 @@
 import Image from "next/image";
 import bookImage from "../public/booking-banner.jpg";
-import faqImage from "../public/book-img.jpg";
 import Toggle from "./Toggle";
 import { AnimateSharedLayout } from "framer-motion";
 
