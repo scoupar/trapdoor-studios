@@ -36,7 +36,12 @@ const BioText = () => {
             and Ireland until setting up Trapdoor in April 2019.
           </p>
           <div className="blue-section-image-container">
-            <Image src={bioImage} className="bio-image" layout="responsive" />
+            <Image
+              src={bioImage}
+              className="bio-image"
+              layout="responsive"
+              placeholder="blur"
+            />
           </div>
           <p className="under-image">
             Tom's production is vibrant and exciting but still natural and human
