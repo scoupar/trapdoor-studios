@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
 

@@ -17,7 +17,7 @@ const NotFound = () => {
         <span>
           Wait 3 seconds or
           <Link href="/">
-            <a>Go Home</a>
+            <a> Go Home</a>
           </Link>
         </span>
       </h2>

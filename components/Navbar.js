@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -30,7 +31,12 @@ const Navbar = () => {
       <nav className={`active ${show && "hidden"}`}>
         <Link href="/">
           <a className="nav-logo">
-            <img className="nav-logo" src="/logo.jpg" />
+            <Image
+              className="nav-logo"
+              src="/logo.jpg"
+              width="35"
+              height="25"
+            />
           </a>
         </Link>
         {/* <Link href="/">

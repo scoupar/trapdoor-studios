@@ -1,8 +1,3 @@
-import Image from "next/image";
-import controlImage from "../public/studio-banner.jpg";
-import liveImage from "../public/live-img.jpg";
-import { EmblaCarousel } from "./EmblaCarousel";
-import { render } from "react-dom";
 import StudioGallery from "./StudioGallery";
 
 const StudioHeading = () => {
