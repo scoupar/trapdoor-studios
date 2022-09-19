@@ -11,7 +11,7 @@ const Landing = () => {
           src={homeImage}
           layout="fill"
           objectFit="cover"
-          // priority={true}
+          priority
         />
       </div>
       <div className="logocontainer">
