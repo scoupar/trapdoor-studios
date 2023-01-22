@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: raleway;
   /* overflow: hidden; */
+  line-height: 1.4;
 }
 
 ul {
@@ -16,8 +17,8 @@ ul {
 }
 
 li {
-  color: white;
   font-size: 0.85rem;
+  color: rgb(34, 33, 33);
 }
 html {
   scroll-behavior: smooth;
@@ -38,14 +39,17 @@ h1 {
 }
 
 p {
-  color: white;
+  color: #002b2d;
   font-size: large;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
+  /* background-color: #03949cbf; */
+  /* border-radius: 2rem; */
+  /* box-shadow: -2vw 2vw 0 0 #F5D75F; */
 }
 
 h2 {
-  color: white;
+  color: rgb(34, 33, 33);
   text-align: center;
 }
 span {
@@ -54,13 +58,13 @@ span {
 }
 
 h4 {
-  color: white;
+  color: rgb(34, 33, 33);
   text-transform: uppercase;
   font-size: 0.9rem;
 }
 
 hr {
-  border: 1px solid white;
+  border: 2px solid rgb(34, 33, 33);
   width: 905;
 }
 .not-found {
@@ -82,7 +86,7 @@ nav {
   padding-right: 1rem;
   background-color: #f5d75f;
   position: fixed;
-  z-index: 5;
+  z-index: 10;
   width: 100%;
   transition: 0.5s ease;
   top: 0;
@@ -94,11 +98,11 @@ nav {
 
 nav a {
   margin-left: 0.5rem;
-  color: white;
+  color: rgb(34, 33, 33);
   font-weight: 800;
   font-size: 1rem;
   padding-bottom: 0.2rem;
-  /* text-shadow: 2px 2px 5px black; */
+  /* text-shadow: 2px 2px 5px rgb(34, 33, 33); */
 }
 
 @media (max-width: 1000px) {
@@ -116,7 +120,7 @@ nav a:hover {
 
 .nav-line {
   border-width: 0;
-  background-color: white;
+  background-color: rgb(34, 33, 33);
   width: 98%;
   height: 6px;
   padding: 0;
@@ -143,7 +147,7 @@ nav a:hover {
   padding: 0.1rem;
   margin-bottom: 0;
   margin-top: 0;
-  /* text-shadow: 2px 2px 5px black; */
+  /* text-shadow: 2px 2px 5px rgb(34, 33, 33); */
 }
 
 @media (max-width: 1000px) {
@@ -157,13 +161,13 @@ nav a:hover {
 }
 
 .page-title {
-  color: white;
+  color: rgb(34, 33, 33);
   font-size: 3rem;
   margin-left: 1rem;
   padding: 0;
   margin-bottom: 0;
   margin-top: 0;
-  text-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 10px rgb(34, 33, 33);
 }
 
 .text-title {
@@ -171,6 +175,8 @@ nav a:hover {
   width: 80%;
   margin: auto;
   margin-top: 15vw;
+  color: #002b2d;
+  /* background-color: #ff581a; */
 }
 
 .secondnav {
@@ -220,7 +226,7 @@ nav a:hover {
   font-family: raleway;
   font-weight: 800;
   font-size: 1.5rem;
-  color: white;
+  color: rgb(34, 33, 33);
   border: none;
   z-index: 1;
   position: absolute;
@@ -251,6 +257,16 @@ nav a:hover {
   margin-top: -50%;
   margin-left: -50%;
   z-index: 3;
+  animation: slidein 2s;
+}
+@keyframes slidein {
+  from {
+    transform: scale(200%);
+  }
+
+  to {
+    transform: scale(100%);
+  }
 }
 
 .headline {
@@ -259,10 +275,10 @@ nav a:hover {
   top: 5.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #f6f2f1;
   text-align: center;
   width: 95vw;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: clamp(0.5rem, 0.5rem + 20vw, 1rem);
   padding: 1rem;
   /* margin-top: 2rem; */
@@ -313,7 +329,7 @@ nav a:hover {
 
 .bio-container {
   margin-top: 15vw;
-  background-color: #01c2cb;
+  background-color: #01c1cb82;
 }
 
 .bio-section {
@@ -326,6 +342,14 @@ nav a:hover {
   background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
+}
+
+.text-box {
+  background-color: #487e8ab6;
+  padding: 2rem;
+  padding-bottom: 10vw;
+  padding-top: 10vw;
+  clip-path: polygon(0 calc(0% + 10vw), 100% 0, 100% calc(100% - 10vw), 0 100%);
 }
 
 .under-image {
@@ -406,12 +430,12 @@ nav a:hover {
 /* Control Room */
 
 #studio {
-  background-color: #ff581a;
+  background-color: #01c2cb;
 }
 
 .control-text {
   width: 95%;
-  background-color: #ff581a;
+  background-color: #01c2cb;
   padding: 1rem;
   z-index: 5;
   margin: auto;
@@ -422,7 +446,7 @@ nav a:hover {
 }
 
 .control-container {
-  background-color: #ff581a;
+  background-color: #01c2cb;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
   margin-bottom: -10vw;
@@ -457,7 +481,7 @@ nav a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(34, 33, 33);
   font-size: clamp(3rem, 1rem +10vw, 7rem);
 }
 
@@ -499,7 +523,7 @@ nav a:hover {
 /* Gear Page */
 
 .gear-landing {
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
   margin-bottom: -10vw;
@@ -507,31 +531,39 @@ nav a:hover {
 
 .gear-container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #01c2cb;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background-color: #f5d75f;
   width: 95%;
   margin: auto;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+@media (max-width: 1000px) {
+  .gear-container {
+    flex-direction: column;
+  }
 }
 
 /* gear landing */
 
 #gear {
-  background-color: #01c2cb;
+  background-color: #f5d75f;
 }
 
 .gear-text {
   width: 95%;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   padding: 1rem;
   z-index: 5;
   margin: auto;
 }
 
-#studio-gear {
+/* #studio-gear {
   margin-top: 10vw;
-}
+} */
 
 .other-container {
   margin-bottom: 15vw;
@@ -567,7 +599,7 @@ iframe {
 }
 
 h3 {
-  color: white;
+  color: rgb(34, 33, 33);
   text-transform: uppercase;
 }
 
@@ -584,7 +616,7 @@ h3 {
 
 .booknavcontainer {
   position: fixed;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   z-index: 1;
   width: 100%;
 }
@@ -595,22 +627,22 @@ h3 {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
   margin-bottom: -10vw;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
 }
 
 #contact-text {
-  background-color: #f5d75f;
+  background-color: #01c2cb;
 }
 
 .form-container {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
 }
 .form-text {
   width: 95%;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
   z-index: 1;
   margin: auto;
@@ -619,7 +651,7 @@ h3 {
 .contact-form {
   display: flex;
   flex-direction: column;
-  background-color: #f5d75f;
+  background-color: #01c2cb;
   padding: 1rem;
   width: 95%;
   margin-bottom: 15vw;
@@ -633,12 +665,12 @@ form {
 /* Faq section */
 
 #faq {
-  background-color: #ff581a;
+  background-color: #f5d75f;
 }
 
 .faq-text {
   width: 95%;
-  background-color: #ff581a;
+  background-color: #f5d75f;
   padding: 1rem;
   z-index: 1;
   margin: auto;
@@ -646,7 +678,7 @@ form {
 }
 
 .faq-line {
-  background: white;
+  background: rgb(34, 33, 33);
   height: 0.2rem;
   margin: 2rem 0rem;
   width: 100%;
@@ -657,7 +689,7 @@ form {
 label {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  color: white;
+  color: rgb(34, 33, 33);
   font-family: Raleway;
   text-transform: uppercase;
   font-size: large;
@@ -666,9 +698,9 @@ label {
 input {
   border: none;
   background: transparent;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid rgb(34, 33, 33);
   margin: 0.2rem;
-  color: black;
+  color: rgb(34, 33, 33);
   font-family: raleway;
   font-size: large;
   padding: 0.2rem;
@@ -676,15 +708,15 @@ input {
 }
 
 input:focus {
-  border: 2px solid #01c2cb;
+  border: 2px solid #f5d75f;
 }
 
 textarea {
   border: none;
   background: transparent;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid rgb(34, 33, 33);
   margin: 0.2rem;
-  color: black;
+  color: rgb(34, 33, 33);
   font-family: raleway;
   resize: none;
   padding: 0.2rem;
@@ -692,30 +724,57 @@ textarea {
 }
 
 textarea:focus {
-  border: 2px solid #01c2cb;
+  border: 2px solid #f5d75f;
 }
 
 #submit-button {
   /* width: 25%; */
   align-self: center;
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   border: none;
   font-family: raleway;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 1.5rem;
-  color: white;
-  margin-top: 0.4rem;
+  color: rgb(34, 33, 33);
+  margin-top: 2rem;
   transition: 0.5s ease;
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
 }
 
 #submit-button:hover {
-  background-color: #ff581a;
+  color: #ff581a;
   cursor: pointer;
 }
 
 ::placeholder {
-  color: black;
+  color: rgb(34, 33, 33);
 }
 
 form {
@@ -766,7 +825,7 @@ form {
   position: relative;
   width: 100%;
   height: 5px;
-  background-color: white;
+  background-color: rgb(34, 33, 33);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -877,7 +936,7 @@ form {
 
 /* carousel */
 
-.embla {
+/* .embla {
   overflow: hidden;
   background-color: #ff581a;
   width: 95%;
@@ -927,7 +986,7 @@ form {
 
 .embla__button--next {
   right: 1vw;
-}
+} */
 
 /* footer */
 
@@ -938,7 +997,7 @@ form {
 }
 
 .footer-text {
-  color: white;
+  color: rgb(34, 33, 33);
   text-transform: uppercase;
   font-weight: bolder;
 }
@@ -970,7 +1029,7 @@ form {
 }
 
 .text {
-  color: white;
+  color: rgb(34, 33, 33);
   font-size: 0.9rem;
   position: absolute;
   top: 50%;

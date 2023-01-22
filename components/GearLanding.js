@@ -33,7 +33,7 @@ const GearLanding = () => {
           It is subject to change at a moment's notice but we try to keep this
           list as up-to-date as possible.
         </p>
-        <div className="blue-section-image-container">
+        <div className="yellow-section-image-container">
           <Image
             src={studioImage}
             className="studio-gear-image"
@@ -47,7 +47,7 @@ const GearLanding = () => {
           <div className="studio-gear-container">
             <div className="studio-gear-text">
               <ul>
-                <FontAwesomeIcon icon={faSliders} size="3x" color="white" />
+                <FontAwesomeIcon icon={faSliders} size="3x" color="black" />
                 <Toggle title="STUDIO">
                   <h4>MONITORING</h4>
                   {/* <hr></hr> */}
@@ -80,7 +80,7 @@ const GearLanding = () => {
                 <FontAwesomeIcon
                   icon={faMicrophoneLines}
                   size="3x"
-                  color="white"
+                  color="black"
                 />
                 <Toggle title="MICROPHONES">
                   <h4>Condenser Mics</h4>
@@ -114,7 +114,7 @@ const GearLanding = () => {
           <section id="instruments">
             <div className="studio-gear-text">
               <ul>
-                <FontAwesomeIcon icon={faGuitar} size="3x" color="white" />
+                <FontAwesomeIcon icon={faGuitar} size="3x" color="black" />
 
                 <Toggle title="INSTRUMENTS">
                   <h4>Guitars</h4>
@@ -175,7 +175,7 @@ const GearLanding = () => {
         <div className="other-container">
           <div className="studio-gear-text">
             <ul>
-              <FontAwesomeIcon icon={faDrum} size="3x" color="white" />
+              <FontAwesomeIcon icon={faDrum} size="3x" color="black" />
               <Toggle title="DRUMS">
                 <h4>Drums</h4>
                 <li>

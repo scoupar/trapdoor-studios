@@ -6,39 +6,40 @@ const StudioGallery = () => {
   const photos = [
     {
       src: "/studio-landing.jpg",
-      width: 5,
-      height: 3,
+      width: 1.5,
+      height: 1,
+      sizes: ["(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"],
     },
     {
       src: "/control-2.jpg",
-      width: 4,
-      height: 3,
+      width: 1,
+      height: 0.75,
     },
 
     {
       src: "/control-3.jpg",
-      width: 4,
-      height: 3,
+      width: 2,
+      height: 1.5,
     },
     {
       src: "control-4.jpg",
-      width: 4,
-      height: 3,
+      width: 2,
+      height: 1.5,
     },
     {
       src: "landing-image.jpg",
-      width: 4,
-      height: 3,
+      width: 2,
+      height: 1.5,
     },
     {
       src: "live-img-2.jpg",
-      width: 4,
-      height: 3,
+      width: 2,
+      height: 1.5,
     },
     {
       src: "control-5.jpg",
-      width: 4,
-      height: 3,
+      width: 2,
+      height: 1.5,
     },
   ];
 
@@ -56,8 +57,13 @@ const StudioGallery = () => {
   };
 
   return (
-    <div>
-      <Gallery photos={photos} onClick={openLightBox} margin={2} />
+    <div className="gallery-container">
+      <Gallery
+        photos={photos}
+        onClick={openLightBox}
+        margin={5}
+        direction={"row"}
+      />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>

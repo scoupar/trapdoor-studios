@@ -20,33 +20,39 @@ const BioText = () => {
     <section id="bio">
       <div className="bio-text-container">
         <div className="bio-text">
-          <hr></hr>
-          <p>
-            Tom has over a decade of working experience in capturing and
-            producing music to the highest standard. Starting out in 2011 as the
-            assistant at The Grand Studio in rural Lancashire, he has spent the
-            last 10 years honing his craft, working in studios all across the UK
-            and Ireland until setting up Trapdoor in April 2019.
-          </p>
-          <div className="blue-section-image-container">
-            <Image
-              src={bioImage}
-              className="bio-image"
-              layout="responsive"
-              placeholder="blur"
-            />
+          {/* <hr></hr> */}
+          <div className="text-box">
+            <h2>
+              {" "}
+              Trapdoor Studio is the home of UK record producer Tom Peters
+            </h2>
+            <p>
+              Tom has over a decade of working experience in capturing and
+              producing music to the highest standard. Starting out in 2011 as
+              the assistant at The Grand Studio in rural Lancashire, he has
+              spent the last 10 years honing his craft, working in studios all
+              across the UK and Ireland until setting up Trapdoor in April 2019.
+            </p>
+            <div className="blue-section-image-container">
+              <Image
+                src={bioImage}
+                className="bio-image"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
+            <p className="under-image">
+              Tom's production is vibrant and exciting but still natural and
+              human - the emphasis is on making your music sound like the best
+              representation of you; full of life, colour and power whilst
+              preserving the core values of your creative expression. In other
+              words, he wants you to sound uniquely like you.
+            </p>
+            <p>
+              Below you can see a selection of the artists that Tom has worked
+              with throughout his career and listen to samples of his work.
+            </p>
           </div>
-          <p className="under-image">
-            Tom's production is vibrant and exciting but still natural and human
-            - the emphasis is on making your music sound like the best
-            representation of you; full of life, colour and power whilst
-            preserving the core values of your creative expression. In other
-            words, he wants you to sound uniquely like you.
-          </p>
-          <p>
-            Below you can see a selection of the artists that Tom has worked
-            with throughout his career and listen to samples of his work.
-          </p>
         </div>
       </div>
       <Discography />

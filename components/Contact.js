@@ -30,7 +30,7 @@ const Contact = () => {
             have a chat through your ideas and discuss what Trapdoor can bring
             to your work.
           </p>
-          <div className="yellow-section-image-container">
+          <div className="blue-section-image-container">
             <Image
               src={bookImage}
               className="book-image"

@@ -10,7 +10,7 @@ const Footer = () => {
           <SocialIcon
             network="facebook"
             target="blank"
-            bgColor="white"
+            bgColor="black"
             url="https://www.facebook.com/trapdoorstudiosUK"
             className="icon"
             style={{ height: 30, width: 30 }}
@@ -18,7 +18,7 @@ const Footer = () => {
           <SocialIcon
             network="instagram"
             target="blank"
-            bgColor="white"
+            bgColor="black"
             url="https://www.instagram.com/tompetersproduction"
             className="icon"
             style={{ height: 30, width: 30 }}
