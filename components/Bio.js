@@ -22,10 +22,6 @@ const BioText = () => {
         <div className="bio-text">
           {/* <hr></hr> */}
           <div className="text-box">
-            <h2>
-              {" "}
-              Trapdoor Studio is the home of UK record producer Tom Peters
-            </h2>
             <p>
               Tom has over a decade of working experience in capturing and
               producing music to the highest standard. Starting out in 2011 as

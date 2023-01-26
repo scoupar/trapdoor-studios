@@ -278,9 +278,10 @@ nav a:hover {
   color: #f6f2f1;
   text-align: center;
   width: 95vw;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   font-size: clamp(0.5rem, 0.5rem + 20vw, 1rem);
   padding: 1rem;
+  margin-bottom: 1vh;
   /* margin-top: 2rem; */
 }
 
@@ -344,13 +345,13 @@ nav a:hover {
   z-index: 5;
 }
 
-.text-box {
+/* .text-box {
   background-color: #487e8ab6;
   padding: 2rem;
   padding-bottom: 10vw;
   padding-top: 10vw;
   clip-path: polygon(0 calc(0% + 10vw), 100% 0, 100% calc(100% - 10vw), 0 100%);
-}
+} */
 
 .under-image {
   margin-top: 5vw;
