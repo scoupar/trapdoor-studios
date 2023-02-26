@@ -22,17 +22,19 @@ const Contact = () => {
   return (
     <>
       <ContactHeader />
-      <div className="image-container"></div>
+      {/* <div className="image-container"></div> */}
       <section id="contact">
         <div className="form-text">
           <FadeInSection>
             <hr></hr>
             <p>
               Please fill in the contact form, or if you prefer, you can send us
-              an email directly to (whatever the studio email will be?) Whether
-              it's a full production or a quick voiceover, we're always happy to
-              have a chat through your ideas and discuss what Trapdoor can bring
-              to your work.
+              an email directly to (whatever the studio email will be?)
+            </p>
+            <p>
+              Whether it's a full production or a quick voiceover, we're always
+              happy to have a chat through your ideas and discuss what Trapdoor
+              can bring to your work.
             </p>
             <div className="blue-section-image-container">
               <Image
@@ -84,7 +86,7 @@ const Contact = () => {
         <div className="faq">
           <div className="faq-text">
             <FadeInSection>
-              <h2>Booking FAQ</h2>
+              <h2 className="text-title">Booking FAQ</h2>
               <p></p>
               <AnimateSharedLayout>
                 <Toggle title="Where is Trapdoor located?">

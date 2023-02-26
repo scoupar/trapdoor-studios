@@ -1,5 +1,6 @@
 import React from "react";
 import Gallery from "./Gallery";
+import FadeInSection from "./FadeInSection";
 
 const Discography = () => {
   return (
@@ -7,7 +8,9 @@ const Discography = () => {
       <section id="discography">
         <div className="gallery-container">
           <hr></hr>
-          <Gallery className="gallery" />
+          <FadeInSection>
+            <Gallery className="gallery" />
+          </FadeInSection>
         </div>
       </section>
       <section id="playlist">

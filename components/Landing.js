@@ -1,5 +1,6 @@
 import homeImage from "../public/landing.jpg";
 import Image from "next/image";
+import FadeInSection from "./FadeInSection";
 
 const Landing = () => {
   return (
