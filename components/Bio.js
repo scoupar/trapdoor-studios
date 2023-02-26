@@ -2,28 +2,7 @@ import Image from "next/image";
 import bioImage from "../public/tom-banner.jpg";
 import historyImage from "../public/dan-banner.jpg";
 import Discography from "./Discography";
-import { useState, useRef, useEffect } from "react";
 import FadeInSection from "./FadeInSection";
-
-// const FadeInSection = (props) => {
-//   const [isVisible, setIsVisible] = useState(true);
-//   const domRef = useRef();
-//   useEffect(() => {
-//     const observer = new IntersectionObserver((entries) => {
-//       entries.forEach((entry) => setIsVisible(entry.isIntersecting));
-//     });
-//     observer.observe(domRef.current);
-//     return () => observer.unobserve(domRef.current);
-//   }, []);
-//   return (
-//     <div
-//       className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
-//       ref={domRef}
-//     >
-//       {props.children}
-//     </div>
-//   );
-// };
 
 const BioHeader = () => {
   return (
@@ -31,7 +10,10 @@ const BioHeader = () => {
       <div className="bio-container">
         <FadeInSection>
           <h2 className="text-title">
-            Trapdoor Studio is the home of UK Record Producer Tom Peters.
+            <span className="emphasis">
+              Trapdoor Studio is the home of UK Record Producer Tom Peters
+            </span>
+            .
           </h2>
         </FadeInSection>
       </div>
@@ -71,8 +53,8 @@ const BioText = () => {
                 words, he wants you to sound uniquely like you.
               </p>
               <p>
-                Below you can see a selection of the artists that Tom has worked
-                with throughout his career and listen to samples of his work.
+                Below you can see a selection of the records that Tom has worked
+                on throughout his career and listen to samples of his work.
               </p>
             </div>
           </FadeInSection>
@@ -88,8 +70,10 @@ const HistoryHeader = () => {
     <div className="history-container">
       <FadeInSection>
         <h2 className="text-title">
-          Trapdoor started as a dream between Tom Peters and Dan Wild-Beesley
-          way back in 2013.
+          <span className="emphasis">
+            Trapdoor started as a dream between Tom Peters and Dan Wild-Beesley
+            way back in 2013.
+          </span>
         </h2>
       </FadeInSection>
     </div>

@@ -110,8 +110,6 @@ nav a {
     font-size: 1.2rem;
     /* text-align: center; */
   }
-  nav {
-  }
 }
 
 nav a:hover {
@@ -176,6 +174,7 @@ nav a:hover {
   margin: auto;
   margin-top: 20vw;
   color: #011b1d;
+  font-style: italic;
   /* background-color: #ff581a; */
 }
 
@@ -221,23 +220,24 @@ nav a:hover {
 }
 
 .button {
-  background-color: #01c2cb;
+  background-color: #f5d75f;
   padding: 0.4rem;
   font-family: raleway;
   font-weight: 800;
   font-size: 1.5rem;
   color: rgb(34, 33, 33);
   border: none;
-  z-index: 1;
+  z-index: 5;
   position: absolute;
-  top: 6%;
+  top: 85vh;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease;
+  text-transform: uppercase;
 }
 
 .button:hover {
-  background-color: #ff581a;
+  color: #ff581a;
   cursor: pointer;
 }
 
@@ -287,6 +287,7 @@ nav a:hover {
   margin-top: 5vw;
   /* margin-top: 2rem; */
   animation: fadein 3s;
+  font-style: italic;
 }
 
 @keyframes fadein {
@@ -1086,4 +1087,15 @@ form {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+.emphasis {
+  font-style: italic;
+  color: #011b1d;
+}
+
+.emphasis-blue {
+  text-decoration: underline;
+  color: #011b1d;
+  text-decoration-color: #01c2cb;
 }
