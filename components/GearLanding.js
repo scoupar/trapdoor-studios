@@ -8,15 +8,18 @@ import {
   faDrum,
 } from "@fortawesome/free-solid-svg-icons";
 import Toggle from "./Toggle";
+import FadeInSection from "./FadeInSection";
 
 const GearHeader = () => {
   return (
     <section id="gear">
       <div className="gear-text">
-        <h2 className="text-title">
-          Trapdoor has a great selection of gear to help keep your creativity
-          moving.
-        </h2>
+        <FadeInSection>
+          <h2 className="text-title">
+            Trapdoor has a great selection of gear to help keep your creativity
+            moving.
+          </h2>
+        </FadeInSection>
       </div>
     </section>
   );
@@ -28,19 +31,21 @@ const GearLanding = () => {
       <GearHeader />
 
       <div className="gear-text">
-        <hr></hr>
-        <p>
-          It is subject to change at a moment's notice but we try to keep this
-          list as up-to-date as possible.
-        </p>
-        <div className="yellow-section-image-container">
-          <Image
-            src={studioImage}
-            className="studio-gear-image"
-            layout="responsive"
-            placeholder="blur"
-          />
-        </div>
+        <FadeInSection>
+          <hr></hr>
+          <p>
+            It is subject to change at a moment's notice but we try to keep this
+            list as up-to-date as possible.
+          </p>
+          <div className="yellow-section-image-container">
+            <Image
+              src={studioImage}
+              className="studio-gear-image"
+              layout="responsive"
+              placeholder="blur"
+            />
+          </div>
+        </FadeInSection>
       </div>
       <div className="gear-container">
         <section id="studio-gear">
