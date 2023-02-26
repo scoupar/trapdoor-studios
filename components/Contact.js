@@ -44,12 +44,7 @@ const Contact = () => {
                 placeholder="blur"
               />
             </div>
-            {/* <p className="under-image">
-            The studio is ideally situated just off Edge Lane (A5047) one of the
-            main routes into Liverpool, so is easy to access by both car and
-            public transport. There is free parking directly outside the studio
-            door with a very easy load in!
-          </p> */}
+
             <div className="form-container">
               <form
                 className="contact-form"
@@ -89,7 +84,7 @@ const Contact = () => {
               <h2 className="text-title">Booking FAQ</h2>
               <p></p>
               <AnimateSharedLayout>
-                <Toggle title="Where is Trapdoor located?">
+                <Toggle title="Where is Trapdoor?">
                   <div className="answer">
                     <p>
                       The studio is ideally situated just off Edge Lane (A5047)
