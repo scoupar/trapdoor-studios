@@ -174,8 +174,8 @@ nav a:hover {
   font-size: clamp(1rem, 0.5rem + 8vw, 4rem);
   width: 80%;
   margin: auto;
-  margin-top: 15vw;
-  color: #002b2d;
+  margin-top: 20vw;
+  color: #011b1d;
   /* background-color: #ff581a; */
 }
 
@@ -261,7 +261,7 @@ nav a:hover {
 }
 @keyframes slidein {
   from {
-    transform: scale(200%);
+    transform: scale(500%);
   }
 
   to {
