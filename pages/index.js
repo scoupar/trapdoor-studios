@@ -8,7 +8,7 @@ import Landing from "../components/Landing";
 import StudioLanding from "../components/StudioLanding";
 import GearLanding from "../components/GearLanding";
 import Contact from "../components/Contact";
-
+import HamburgerMenu from "../components/HamburgerMenu";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -19,6 +19,7 @@ export default function Home() {
           <title>Trapdoor Studios | Home</title>
         </Head>
         <Navbar />
+        {/* <HamburgerMenu /> */}
         <Landing />
         <Bio />
         <StudioLanding />

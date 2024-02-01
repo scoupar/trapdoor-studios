@@ -1,4 +1,4 @@
-import homeImage from "../public/landing.jpg";
+import homeImage from "../public/listen-img.jpg";
 import Image from "next/image";
 import FadeInSection from "./FadeInSection";
 import Link from "next/link";
