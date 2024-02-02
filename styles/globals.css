@@ -12,7 +12,7 @@ body {
 
 ul {
   list-style: none;
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 0;
 }
@@ -64,10 +64,11 @@ h4 {
   color: rgb(34, 33, 33);
   text-transform: uppercase;
   font-size: 0.9rem;
+  font-weight: 100;
 }
 
 hr {
-  border: 2px solid rgb(34, 33, 33);
+  border: 1px solid rgb(34, 33, 33);
   width: 905;
 }
 .not-found {
@@ -176,7 +177,7 @@ nav a:hover {
 .text-title {
   font-size: clamp(1rem, 0.5rem + 8vw, 4rem);
   width: 80%;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 20vw;
   color: #011b1d;
   /* font-style: italic; */
@@ -229,7 +230,7 @@ nav a:hover {
   background-color: #f5d75f;
   padding: 0.4rem;
   font-family: raleway;
-  font-weight: 800;
+  font-weight: 300;
   font-size: 1.5rem;
   color: rgb(34, 33, 33);
   border: none;
@@ -553,7 +554,7 @@ nav a:hover {
 
 .gear-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   background-color: #f5d75f;
@@ -701,7 +702,7 @@ form {
 
 .faq-line {
   background: rgb(34, 33, 33);
-  height: 0.2rem;
+  height: 0.1rem;
   margin: 2rem 0rem;
   width: 100%;
 }
@@ -715,7 +716,7 @@ label {
   font-family: Raleway;
   text-transform: uppercase;
   font-size: large;
-  font-weight: 900;
+  font-weight: 500;
 }
 input {
   border: none;
@@ -1020,8 +1021,8 @@ form {
 
 .footer-text {
   color: rgb(34, 33, 33);
-  text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 100;
+  font-size: x-small;
 }
 
 /* new gallery */

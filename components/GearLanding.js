@@ -52,7 +52,7 @@ const GearLanding = () => {
           <div className="studio-gear-container">
             <div className="studio-gear-text">
               <ul>
-                <FontAwesomeIcon icon={faSliders} size="3x" color="black" />
+                {/* <FontAwesomeIcon icon={faSliders} size="3x" color="black" /> */}
                 <Toggle title="STUDIO">
                   <h4>MONITORING</h4>
                   {/* <hr></hr> */}
@@ -82,11 +82,11 @@ const GearLanding = () => {
           <div className="microphones-container">
             <div className="studio-gear-text">
               <ul>
-                <FontAwesomeIcon
+                {/* <FontAwesomeIcon
                   icon={faMicrophoneLines}
                   size="3x"
                   color="black"
-                />
+                /> */}
                 <Toggle title="MICROPHONES">
                   <h4>Condenser Mics</h4>
                   <li>2x JZ Mics V67</li>
@@ -119,7 +119,7 @@ const GearLanding = () => {
           <section id="instruments">
             <div className="studio-gear-text">
               <ul>
-                <FontAwesomeIcon icon={faGuitar} size="3x" color="black" />
+                {/* <FontAwesomeIcon icon={faGuitar} size="3x" color="black" /> */}
 
                 <Toggle title="INSTRUMENTS">
                   <h4>Guitars</h4>
@@ -180,7 +180,7 @@ const GearLanding = () => {
         <div className="other-container">
           <div className="studio-gear-text">
             <ul>
-              <FontAwesomeIcon icon={faDrum} size="3x" color="black" />
+              {/* <FontAwesomeIcon icon={faDrum} size="3x" color="black" /> */}
               <Toggle title="DRUMS">
                 <h4>Drums</h4>
                 <li>
