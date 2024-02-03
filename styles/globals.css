@@ -220,7 +220,7 @@ nav a:hover {
 
 .landing-image-container {
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
   margin-bottom: -10vw;
@@ -1078,8 +1078,9 @@ form {
 }
 
 .credit {
-  font-size: small;
+  font-size: x-small;
   text-transform: uppercase;
+  font-weight: 100;
 }
 
 .fade-in-section {

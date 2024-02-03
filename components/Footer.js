@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <p className="footer-text">© Trapdoor Studios 2022</p>
         <div className="social-menu">
           <SocialIcon
             network="facebook"
@@ -24,6 +23,7 @@ const Footer = () => {
             style={{ height: 30, width: 30 }}
           />
         </div>
+        <p className="footer-text">© Trapdoor Studios 2022</p>
         <Link href="http://www.github.com/scoupar">
           <p className="credit">Wesbite by S. Coupar</p>
         </Link>
