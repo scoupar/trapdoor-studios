@@ -26,7 +26,7 @@ const BioText = () => {
     <section id="bio">
       <div className="bio-text-container">
         <div className="bio-text">
-          {/* <hr></hr> */}
+          <hr></hr>
           <FadeInSection>
             <div className="text-box">
               <p>
