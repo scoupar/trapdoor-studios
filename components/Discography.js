@@ -8,6 +8,7 @@ const Discography = () => {
       <section id="discography">
         <div className="gallery-container">
           <hr></hr>
+          <br></br>
           <FadeInSection>
             <Gallery className="gallery" />
           </FadeInSection>
