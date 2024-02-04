@@ -60,7 +60,10 @@ const BioText = () => {
           </FadeInSection>
         </div>
       </div>
-      <Discography />
+      /
+      <div className="bottom-paragraph">
+        <Discography />
+      </div>
     </section>
   );
 };
@@ -68,14 +71,14 @@ const BioText = () => {
 const HistoryHeader = () => {
   return (
     <div className="history-container">
-      <FadeInSection>
-        <h2 className="text-title">
-          <span className="emphasis">
+      <section id="history-title">
+        <FadeInSection>
+          <h2 className="text-title">
             Trapdoor started as a dream between Tom Peters and Dan Wild-Beesley
             way back in 2013.
-          </span>
-        </h2>
-      </FadeInSection>
+          </h2>
+        </FadeInSection>
+      </section>
     </div>
   );
 };
