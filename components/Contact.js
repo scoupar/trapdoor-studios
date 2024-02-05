@@ -61,11 +61,11 @@ const Contact = () => {
                   value="New Message"
                 ></input>
 
-                <input
+                {/* <input
                   type="hidden"
                   name="_next"
                   value="https://localhost:3000/blah"
-                />
+                /> */}
                 <label htmlFor="message">Tell us about your project</label>
                 <textarea name="message" required cols="4" rows="6" />
                 <button id="submit-button" type="submit">
