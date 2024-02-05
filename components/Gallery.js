@@ -11,10 +11,61 @@ import abas from "../public/cover-art/ABAS.jpeg";
 import dogdaisies from "../public/cover-art/dog-daisies.jpeg";
 import amtpdroids from "../public/cover-art/amtp-droids.jpeg";
 import falls from "../public/cover-art/falls.jpeg";
+import abas2 from "../public/cover-art/ABAS2.jpeg";
+import esb from "../public/cover-art/esb.jpeg";
+import helga from "../public/cover-art/helga.jpeg";
+import lakes from "../public/cover-art/lakes.jpeg";
+import lastvinci from "../public/cover-art/lastvinci.jpeg";
+import shipwrecker from "../public/cover-art/shipwrecker.jpeg";
+import vennart2 from "../public/cover-art/vennart2.jpeg";
 
 const Gallery = () => {
   return (
     <div className="new-gallery-container">
+      <div className="image-container">
+        <Image src={abas2} width="150" height="150" placeholder="blur" />
+        <div className="overlay">
+          <div className="text">A Burial At Sea - Close To Home</div>
+        </div>
+      </div>
+      <div className="image-container">
+        <Image src={vennart2} width="150" height="150" placeholder="blur" />
+        <div className="overlay">
+          <div className="text">Vennart - Forgiveness And The Grain</div>
+        </div>
+      </div>
+      <div className="image-container">
+        <Image src={esb} width="150" height="150" placeholder="blur" />
+        <div className="overlay">
+          <div className="text">Empire State Bastard - Rivers Of Heresy</div>
+        </div>
+      </div>
+      <div className="image-container">
+        <Image src={helga} width="150" height="150" placeholder="blur" />
+        <div className="overlay">
+          <div className="text">Helga - Wrapped In Mist</div>
+        </div>
+      </div>
+      <div className="image-container">
+        <Image src={lakes} width="150" height="150" placeholder="blur" />
+        <div className="overlay">
+          <div className="text">Lakes - Elysian Skies</div>
+        </div>
+      </div>
+      <div className="image-container">
+        <Image src={lastvinci} width="150" height="150" placeholder="blur" />
+        <div className="overlay">
+          <div className="text">
+            The Last Vinci - The Revolution If Made Together
+          </div>
+        </div>
+      </div>
+      <div className="image-container">
+        <Image src={shipwrecker} width="150" height="150" placeholder="blur" />
+        <div className="overlay">
+          <div className="text">Shipwrecker - Different Beast</div>
+        </div>
+      </div>
       <div className="image-container">
         <Image src={vennart} width="150" height="150" placeholder="blur" />
         <div className="overlay">
@@ -84,12 +135,6 @@ const Gallery = () => {
         <Image src={amtpdroids} width="150" height="150" placeholder="blur" />
         <div className="overlay">
           <div className="text">Alpha Male Tea Party - Droids</div>
-        </div>
-      </div>
-      <div className="image-container">
-        <Image src={falls} width="150" height="150" placeholder="blur" />
-        <div className="overlay">
-          <div className="text">Falls - One Hundred Percent Strong</div>
         </div>
       </div>
     </div>

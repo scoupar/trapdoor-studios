@@ -48,7 +48,7 @@ const Contact = () => {
             <div className="form-container">
               <form
                 className="contact-form"
-                action="https://formsubmit.co/scott.coupar@googlemail.com"
+                action="https://formsubmit.co/tompetersproduction@gmail.com"
                 method="POST"
               >
                 <label htmlFor="name">Name</label>

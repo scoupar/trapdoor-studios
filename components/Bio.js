@@ -1,5 +1,6 @@
 import Image from "next/image";
 import bioImage from "../public/tom-banner.jpg";
+import indiegogoImage from "../public/indiegogo-banner.jpg";
 import historyImage from "../public/dan-banner.jpg";
 import Discography from "./Discography";
 import FadeInSection from "./FadeInSection";
@@ -31,11 +32,10 @@ const BioText = () => {
             <div className="text-box">
               <p>
                 Tom has over a decade of working experience in capturing and
-                producing music to the highest standard. Starting out in 2011 as
-                the assistant at The Grand Studio in rural Lancashire, he has
-                spent the last 10 years honing his craft, working in studios all
-                across the UK and Ireland until setting up Trapdoor in April
-                2019.
+                producing music. Starting out in 2011 at The Grand Studio in
+                rural Lancashire, he has spent the last 10 years working in
+                studios all across the UK and Ireland until setting up Trapdoor,
+                Liverpool in April 2019.
               </p>
               <div className="blue-section-image-container">
                 <Image
@@ -46,11 +46,16 @@ const BioText = () => {
                 />
               </div>
               <p className="under-image">
-                Tom's production is vibrant and exciting but still natural and
-                human - the emphasis is on making your music sound like the best
-                representation of you; full of life, colour and power whilst
-                preserving the core values of your creative expression. In other
-                words, he wants you to sound uniquely like you.
+                Tom's production is natural, vibrant and exciting - the emphasis
+                is on making your music sound like the best representation of
+                you; full of life, colour and power whilst preserving the core
+                values of your creative expression. In other words, he wants you
+                to sound like you.
+              </p>
+              <p>
+                Tom’s client list includes Empire State Bastard, Vennart, The
+                Fall, Cleft, Alpha Male Tea Party, Bicurious, Lakes, Vasa and
+                many others.
               </p>
               <p>
                 Below you can see a selection of the records that Tom has worked
@@ -74,8 +79,7 @@ const HistoryHeader = () => {
       <section id="history-title">
         <FadeInSection>
           <h2 className="text-title">
-            Trapdoor started as a dream between Tom Peters and Dan Wild-Beesley
-            way back in 2013.
+            Trapdoor started as a dream between two friends, way back in 2013.
           </h2>
         </FadeInSection>
       </section>
@@ -90,10 +94,8 @@ const HistoryText = () => {
         <FadeInSection>
           <hr></hr>
           <p>
-            The pair were inseparable and spent most of their time together
-            chatting about recording. microphones, bands, amps; everything music
-            related. It was only natural that the conversation would move on to
-            opening a studio together and in 2014, it very nearly happened.
+            Without Dan Wild-Beesley, there would be no Trapdoor. Tom and Dan
+            dreamed of having a studio together which sadly never happened.
           </p>
           <div className="yellow-section-image-container">
             <Image
@@ -104,23 +106,29 @@ const HistoryText = () => {
             />
           </div>
           <p className="under-image">
-            Sadly, things fell through and the studio plan had to take a
-            backseat when in 2015, Dan fell ill. After several years of lengthy
-            treatment, in October 2018, Dan passed away surrounded by his
-            family. He left behind a legacy of incredible joy and happiness and
-            is missed everyday. Trapdoor Studio is a part of that legacy, named
+            Dan passed away in 2018, leaving behind a legacy of incredible joy
+            and happiness and Trapdoor Studio is a tribute to that legacy. Named
             after a Cleft song of the same name, it was the best way Tom could
-            think of to remember his best friend by - a sacred shrine to all
-            things Dan and a place where his creative spirit can live on. Dan
-            may not be with us anymore but his presence is felt in every record
-            produced at Trapdoor.
+            think to remember his best friend by - a sacred shrine to all things
+            Dan and a place where his creative spirit can live on. Dan may not
+            be with us anymore but his presence is felt in every record produced
+            at Trapdoor.
           </p>
           <p>
-            Trapdoor opened its doors in 2019 and was made possible by the
-            generosity of lots of wonderful contributors to the studio's startup
-            Indiegogo campaign. Without them, Trapdoor would not have been
-            possible. Thank you!
+            Trapdoor opened its doors in 2019, made possible by the generosity
+            of many wonderful contributors to the studio's start-up Indiegogo
+            campaign. Without them, Trapdoor would not exist. Thank you!
           </p>
+          <div className="yellow-section-image-container">
+            <Image
+              src={indiegogoImage}
+              className="indiegogo-image"
+              layout="responsive"
+              placeholder="blur"
+            />
+          </div>
+          <br></br>
+          <br></br>
         </FadeInSection>
       </div>
     </section>

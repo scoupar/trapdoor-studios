@@ -102,6 +102,7 @@ const GearLanding = () => {
                   <li>1x OldBox M4</li>
                   <h4>Dynamic Mics</h4>
                   <li>1x Shure SM7b</li>
+                  <li>1x Beyer Dynamic M69</li>
                   <li>1x Shure SM57</li>
                   <li>1x Shure SM58</li>
                   <li>1x AKG D12VR</li>
@@ -123,17 +124,19 @@ const GearLanding = () => {
 
                 <Toggle title="INSTRUMENTS">
                   <h4>Guitars</h4>
-                  <li>2004 Fender Telecaster Highway One in Daphne Blue</li>
-                  <li>2015 Fender Telecaster Classic Player Triple in Black</li>
+                  <li>2022 Fender Telecaster American Pro II Dark Night</li>
                   <li>
-                    2020 'Montana' Telecaster with Monty's Telecaster Pickups in
-                    Walnut
+                    2022 Fender Telecaster Japan JV’ Modified 60s Custom
+                    Firemist Gold
                   </li>
+                  <li>2015 Fender Telecaster Classic Player Triple Black</li>
+                  <li>2023 Cream T Crossfire</li>
+                  <li>2019 Fender Precision Player Plus Olympic White</li>
                   <li>
                     2020 Thorp Special DC Les Paul Custom with P90s 2005 (ish)
                   </li>
                   <li>
-                    Shed/Handmade ‘Brender’ Weirdo Guitar in Forest Green (p90
+                    2005 Handmade ‘Brender’ Weirdo Guitar in Forest Green (p90
                     and coil tapped PAF)
                   </li>
 
@@ -143,7 +146,7 @@ const GearLanding = () => {
                   <li>Victory Sheriff 44 head</li>
                   <li>Marshall JMP head</li>
                   <li>Selmer Treble and Bass 50</li>
-                  <li>Ampeg SVT Pro 4</li>
+                  <li>WEM Dominator combo</li>
                   <li>Ashdown ABM 600</li>
                   <li>G Electronics/Tipton Electronics 50 watt head</li>
                   <li>Victory 2×12 Celestion V30 Loaded Cab</li>
@@ -155,7 +158,6 @@ const GearLanding = () => {
                   <li>Hermida Audio Zendrive</li>
                   <li>Blackout Effectors Blunderbuss Fuzz</li>
                   <li>Digitech Whammy 5</li>
-                  <li>Digitech Whammy 4</li>
                   <li>EHX Micro Pog</li>
                   <li>Boss OC2 Octaver</li>
                   <li>Strymon Timeline Delay</li>
@@ -167,6 +169,7 @@ const GearLanding = () => {
                   <li>Korg Pitchblack Tuner</li>
                   <li>Boss ES8 Effects Switcher</li>
                   <li>EHX Ring Thing Ring Modulator</li>
+                  <li>EBS Billy Sheehan Bass Overdrive</li>
 
                   <h4>Keys</h4>
                   <li>Chapel Upright Piano</li>
@@ -185,13 +188,18 @@ const GearLanding = () => {
                 <h4>Drums</h4>
                 <li>
                   Gretsch Catalina Club Mod drum kit in limited ‘Black Widow’
-                  finish 10×8, 14×12, 20×20
+                  finish 20, 10, 14
                 </li>
-                <li>Gretsch Catalina 18 floor tom</li>
+                <li>
+                  Gretsch Catalina Club Rock drum kit in Silver/Gold sparkle 26,
+                  13, 16, 18
+                </li>
+                <li>Mapex Armory 16 floor Tom</li>
                 <li>Sonor vintage 12 Rack Tom</li>
                 <li>Sonor vintage 14x4 Steel Snare</li>
                 <li>Tama Steelworks 14×6.5 Steel Snare Drum</li>
                 <li>Humdrum 14x6.5 Maple Snare Drum</li>
+                <li>Gretsch Catalina 14x6.5 Snare Drum</li>
                 <li>Various hardware and percussion</li>
 
                 <h4>Cymbals</h4>
@@ -202,6 +210,7 @@ const GearLanding = () => {
                 <li>Sabian 17 Signature Saturation Crash</li>
                 <li>Stagg 12 China</li>
                 <li>Stagg 10 Splash</li>
+                <li>Various other cymbals</li>
               </Toggle>
             </ul>
           </div>

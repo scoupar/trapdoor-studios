@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <div className="index-container">
         <Head>
-          <title>Trapdoor Studios | Home</title>
+          <title>Trapdoor Studios - Liverpool Recording Studio</title>
         </Head>
         <Navbar />
         {/* <HamburgerMenu /> */}
