@@ -16,7 +16,7 @@ const Landing = () => {
         />
       </div>
       <div className="logocontainer">
-        <img className="logo" src="/trapdoor-circle.svg" />
+        <img className="logo" src="/trapdoor-circle-edit.png" />
       </div>
       {/* <h1 className="headline">
         Established 2019 in Liverpool, UK, <span>Trapdoor Studio</span> is the

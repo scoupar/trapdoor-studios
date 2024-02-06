@@ -115,14 +115,14 @@ const Contact = () => {
                 </Toggle>
                 <Toggle title="How long is a day at Trapdoor?">
                   <div className="answer">
-                    <p>A day at Trapdoor runs from 10-7.</p>
+                    <p>A day at Trapdoor runs from 10-6.</p>
                   </div>
                 </Toggle>
                 <Toggle title="Do you do weekends?">
                   <div className="answer">
                     <p>
-                      We prefer to operate during the week but can offer weeknds
-                      in some circumstances.
+                      We prefer to operate during the week but can offer
+                      weekends in some circumstances.
                     </p>
                   </div>
                 </Toggle>
