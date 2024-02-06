@@ -1,6 +1,6 @@
 import Image from "next/image";
 import bioImage from "../public/tom-banner.jpg";
-import indiegogoImage from "../public/indiegogo-banner.jpg";
+import indiegogoImage from "../public/indiegogo2.jpg";
 import historyImage from "../public/dan-banner.jpg";
 import Discography from "./Discography";
 import FadeInSection from "./FadeInSection";
@@ -12,7 +12,9 @@ const BioHeader = () => {
         <FadeInSection>
           <h2 className="text-title">
             <span className="emphasis">
-              Trapdoor Studio is the home of UK Record Producer Tom Peters
+              Trapdoor Studio is a music recording and production facility in
+              Liverpool, UK and is home to Record Producer and Mix Engineer, Tom
+              Peters
             </span>
             .
           </h2>
@@ -65,7 +67,7 @@ const BioText = () => {
           </FadeInSection>
         </div>
       </div>
-      /
+
       <div className="bottom-paragraph">
         <Discography />
       </div>

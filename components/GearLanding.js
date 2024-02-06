@@ -73,6 +73,14 @@ const GearLanding = () => {
                   <li>Universal Audio Apollo 8 MKII</li>
                   <li>Universal Audio Twin MKII</li>
                   <li>2015 Apple iMac 3.3ghz i7 16GB RAM Pro Tools 2020</li>
+                  <h4>SOFTWARE</h4>
+                  <li>Pro Tools Native 2020</li>
+                  <li>Logic Pro X</li>
+                  <li>Quattro DSP DDP creator</li>
+                  <li>
+                    Plugins by Universal Audio, Arturia, Fab Filter, Waves,
+                    Sound Toys and many more.
+                  </li>
                 </Toggle>
               </ul>
             </div>

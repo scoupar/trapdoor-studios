@@ -95,6 +95,15 @@ const Contact = () => {
                     </p>
                   </div>
                 </Toggle>
+                <Toggle title="What services do you provide?">
+                  <div className="answer">
+                    <p>
+                      Trapdoor's services include pre-production and writing,
+                      engineering and production, mixing and mastering. Please
+                      get in touch to discuss your project.
+                    </p>
+                  </div>
+                </Toggle>
                 <Toggle title="What are your rates?">
                   <div className="answer">
                     <p>
