@@ -1161,3 +1161,7 @@ form {
   color: #011b1d;
   text-decoration-color: #01c2cb;
 }
+
+.e-mail {
+  text-decoration: underline;
+}

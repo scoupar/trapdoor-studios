@@ -29,7 +29,13 @@ const Contact = () => {
             <hr></hr>
             <p>
               Please fill in the contact form, or if you prefer, you can send us
-              an email directly to (whatever the studio email will be?)
+              an email directly to{" "}
+              <a
+                className="e-mail"
+                href="mailto: tompetersproduction@gmail.com"
+              >
+                tompetersproduction@gmail.com
+              </a>
             </p>
             <p>
               Whether it's a full production or a quick voiceover, we're always
@@ -48,7 +54,7 @@ const Contact = () => {
             <div className="form-container">
               <form
                 className="contact-form"
-                action="https://formsubmit.co/scott.coupar@googlemail.com"
+                action="https://formsubmit.co/tompetersproduction@gmail.com"
                 method="POST"
               >
                 <label htmlFor="name">Name</label>
