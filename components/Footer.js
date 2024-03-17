@@ -1,5 +1,6 @@
 import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
+import Modal from "./Modal";
 
 const Footer = () => {
   return (
@@ -23,10 +24,13 @@ const Footer = () => {
             style={{ height: 30, width: 30 }}
           />
         </div>
-        <p className="footer-text">© Trapdoor Studios 2022</p>
-        <Link href="http://www.github.com/scoupar">
-          <p className="credit">Wesbite by S. Coupar</p>
-        </Link>
+        <div className="footer-links">
+          <p className="footer-text">© Trapdoor Studios 2022</p>
+          <Link href="http://www.github.com/scoupar">
+            <p className="credit">Wesbite by S. Coupar</p>
+          </Link>
+          <Modal />
+        </div>
       </div>
     </>
   );

@@ -1,12 +1,7 @@
-import Navbar from "./Navbar";
+import Modal from "../components/Modal";
 
 const Layout = ({ children }) => {
-  return (
-    <div className="content">
-      {/* <Navbar /> */}
-      {children}
-    </div>
-  );
+  return <div className="content">{children}</div>;
 };
 
 export default Layout;

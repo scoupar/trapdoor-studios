@@ -3,6 +3,7 @@ import bookImage from "../public/booking-banner.jpg";
 import Toggle from "./Toggle";
 import { AnimateSharedLayout } from "framer-motion";
 import FadeInSection from "./FadeInSection";
+import Modal from "./Modal";
 
 const ContactHeader = () => {
   return (
@@ -74,6 +75,12 @@ const Contact = () => {
                 /> */}
                 <label htmlFor="message">Tell us about your project</label>
                 <textarea name="message" required cols="4" rows="6" />
+                <h4>
+                  By clicking send you are agreeing to the terms of our
+                  <span>
+                    <Modal />
+                  </span>
+                </h4>
                 <button id="submit-button" type="submit">
                   Send
                 </button>
