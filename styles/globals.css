@@ -93,7 +93,8 @@ nav {
   width: 100%;
   transition: 0.5s ease;
   top: 0;
-  opacity: 0.85;
+  opacity: 0.95;
+  border-bottom: 2px solid #222222;
 }
 
 .hidden {
@@ -222,8 +223,9 @@ nav a:hover {
   width: 100vw;
   height: 120vh;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); */
   margin-bottom: -10vw;
+  border-bottom: 2px solid black;
 }
 
 .button {
@@ -233,7 +235,7 @@ nav a:hover {
   font-weight: 300;
   font-size: 1.5rem;
   color: rgb(34, 33, 33);
-  border: none;
+  border: 1px solid #222222;
   z-index: 5;
   position: absolute;
   top: 85vh;
@@ -348,6 +350,7 @@ nav a:hover {
 .blue-section-image-container > div {
   box-shadow: -2vw 2vw 0 0 #f5d75f;
   border-radius: 1rem;
+  border: 2px solid #222222;
 }
 
 .bio-text-container {
@@ -392,8 +395,9 @@ nav a:hover {
 #history {
   background-color: #f5d75f;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); */
   margin-bottom: -10vw;
+  border-bottom: 2px solid #222222;
 }
 
 .yellow-section-image-container {
@@ -405,6 +409,7 @@ nav a:hover {
 .yellow-section-image-container > div {
   box-shadow: -2vw 2vw 0 0 #01c2cb;
   border-radius: 1rem;
+  border: 2px solid #222222;
 }
 
 .history-container {
@@ -500,9 +505,10 @@ nav a:hover {
 .control-container {
   background-color: #01c2cb;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); */
   margin-bottom: -10vw;
   z-index: 6;
+  border-bottom: 2px solid #222222;
 }
 
 .red-section-image-container {
@@ -522,6 +528,7 @@ nav a:hover {
   position: relative;
   text-align: center;
   font-size: 0;
+  border: 2px solid #222222;
 }
 
 .image-container h1 {
@@ -577,8 +584,9 @@ nav a:hover {
 .gear-landing {
   background-color: #f5d75f;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); */
   margin-bottom: -10vw;
+  border-bottom: 2px solid #222222;
 }
 
 .gear-container {
@@ -630,8 +638,9 @@ nav a:hover {
   z-index: 5;
   margin: auto;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); */
   margin-bottom: -25vw;
+  border-bottom: 2px solid #222222;
 }
 
 .player-container {
@@ -644,6 +653,7 @@ iframe {
   margin-bottom: 5vw;
   box-shadow: -2vw 2vw 0 0 #f5d75f;
   border-radius: 1rem;
+  border: 2px solid #222222;
 }
 
 .listen-container {
@@ -678,9 +688,10 @@ h3 {
 
 #contact {
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); */
   margin-bottom: -10vw;
   background-color: #01c2cb;
+  border-bottom: 2px solid #222222;
 }
 
 #contact-text {
@@ -692,7 +703,7 @@ h3 {
   justify-content: center;
   width: 100%;
   background-color: #01c2cb;
-  margin-top: 5vw;
+  margin-top: 10vw;
 }
 .form-text {
   width: 95%;
@@ -710,6 +721,7 @@ h3 {
   width: 95%;
   margin-bottom: 15vw;
   border-radius: 1rem;
+  border: 2px solid #222222;
 }
 
 form {
@@ -733,7 +745,7 @@ form {
 
 .faq-line {
   background: rgb(34, 33, 33);
-  height: 0.1rem;
+  height: 2px;
   margin: 2rem 0rem;
   width: 100%;
 }
@@ -762,7 +774,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid #011b1d;
+  border: 2px solid #011b1d;
 }
 
 textarea {
@@ -799,6 +811,7 @@ textarea:focus {
   text-transform: uppercase;
   margin-top: 1vw;
   border-radius: 1rem;
+  border: 2px solid #222222;
 }
 
 /* #submit-button { */
