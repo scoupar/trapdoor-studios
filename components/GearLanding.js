@@ -57,7 +57,6 @@ const GearLanding = () => {
                   <h4>MONITORING</h4>
                   {/* <hr></hr> */}
                   <li>Neumann KH310s</li>
-                  <li>Quested S6Rs</li>
                   <li>AKG K701s</li>
                   <h4>CONSOLE AND OUTBOARD</h4>
                   {/* <hr></hr> */}
@@ -72,10 +71,9 @@ const GearLanding = () => {
                   <li>Universal Audio Apollo 16 MkII</li>
                   <li>Universal Audio Apollo 8 MKII</li>
                   <li>Universal Audio Twin MKII</li>
-                  <li>2015 Apple iMac 3.3ghz i7 16GB RAM Pro Tools 2020</li>
+                  <li>2022 Mac Studio M1 Max 32GB unified RAM</li>
                   <h4>SOFTWARE</h4>
-                  <li>Pro Tools Native 2020</li>
-                  <li>Logic Pro X</li>
+                  <li>Pro Tools Studio 2023</li>
                   <li>Quattro DSP DDP creator</li>
                   <li>
                     Plugins by Universal Audio, Arturia, Fab Filter, Waves,
