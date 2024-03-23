@@ -34,7 +34,7 @@ export default function Home() {
         <div className={visible ? "cookie-banner" : "cookie-banner-hidden"}>
           <h2 className="cookie-title">Cookie Consent</h2>
           <p>
-            This website does not use ay 1st party cookies, from embedded
+            This website does not use ay 1st party cookies, however embedded
             content from external websites may utilize 3rd party cookies for
             their functionality. You can opt out of allowing this below.
           </p>
