@@ -24,7 +24,7 @@ const BioHeader = () => {
   );
 };
 
-const BioText = () => {
+const BioText = ({ consent }) => {
   return (
     <section id="bio">
       <div className="bio-text-container">
@@ -69,7 +69,7 @@ const BioText = () => {
       </div>
 
       <div className="bottom-paragraph">
-        <Discography />
+        <Discography consent={consent} />
       </div>
     </section>
   );
@@ -161,11 +161,11 @@ const ServicesText = () => {
   );
 };
 
-const Bio = () => {
+const Bio = ({ consent }) => {
   return (
     <>
       <BioHeader />
-      <BioText />
+      <BioText consent={consent} />
       <HistoryHeader />
       <HistoryText />
     </>

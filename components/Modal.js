@@ -29,6 +29,37 @@ export default function Modal() {
               respect your privacy regarding any information we may collect from
               you across our website, trapdoorstudiosliverpool.co.uk, and other
               sites we own and operate. <br></br>
+              <h2>Cookie Policy</h2>
+              <p>
+                Internet cookies are small text files stored on your device by
+                websites you visit. They serve various purposes, such as
+                remembering your preferences, login information, and browsing
+                activity. Cookies help enhance your online experience by
+                personalizing content and providing relevant information.
+                However, they can also track your behavior across websites,
+                raising privacy concerns. Users can manage and delete cookies
+                through their browser settings.
+              </p>
+              <p>
+                We value your privacy and strive to make your browsing
+                experience as transparent and secure as possible. As part of our
+                commitment to privacy, we want to inform you about the use of
+                cookies on our website.
+              </p>
+              <p>
+                No First-Party Cookies: We want to assure you that we do not use
+                any first-party cookies on our website. This means that when you
+                visit our site, we do not collect or store any personally
+                identifiable information through cookies.
+              </p>
+              <p>
+                Third-Party Cookies: While we do not utilize first-party
+                cookies, it's important to note that third-party cookies may be
+                present. Third-party services such as analytics or embedded
+                content from external websites may utilize cookies for their
+                functionalities. These cookies are controlled by third parties
+                and are subject to their respective privacy policies.
+              </p>
               <br></br>We only ask for personal information when we truly need
               it to provide a service to you. We collect it by fair and lawful
               means, with your knowledge and consent. We also let you know why

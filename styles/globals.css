@@ -7,7 +7,7 @@ body {
   font-family: raleway;
   /* overflow: hidden; */
   line-height: 1.4;
-  border: solid black 1px;
+  /* border: solid black 1px; */
 }
 
 ul {
@@ -228,7 +228,7 @@ nav a:hover {
 
 .button {
   background-color: #f5d75f;
-  padding: 0.6rem;
+  padding: 1rem 2rem;
   font-family: raleway;
   font-weight: 300;
   font-size: 1.5rem;
@@ -242,7 +242,7 @@ nav a:hover {
   transition: 0.5s ease;
   text-transform: uppercase;
   margin-top: 1vw;
-  border-radius: 1rem;
+  border-radius: 500px;
 }
 
 .button:hover {
@@ -1234,4 +1234,47 @@ form {
   top: 10px;
   right: 10px;
   padding: 5px 7px;
+}
+
+.cookie-banner {
+  z-index: 100;
+  background-color: #01c1cbf5;
+  position: fixed;
+  width: 100%;
+  line-height: normal;
+}
+
+.cookie-banner > p {
+  padding: 0.2rem 1rem;
+}
+
+.cookie-banner-hidden {
+  display: none;
+  background-color: transparent;
+}
+
+.cookies-button {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 13px 23px;
+  border: 1px solid #222222;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: #fff;
+  color: #222222;
+}
+
+.cookies-button:hover {
+  background: #f5d75f;
+}
+
+.cookie-title {
+  padding: 1rem;
 }
