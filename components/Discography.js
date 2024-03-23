@@ -15,9 +15,9 @@ const Discography = ({ consent }) => {
         </div>
       </section>
       <section id="playlist">
-        <div className="playlist-text">
-          <br></br>
-          {consent ? (
+        {consent ? (
+          <div className="playlist-text">
+            <br></br>
             <div className="player-container">
               <iframe
                 src="https://open.spotify.com/embed/playlist/6iZ3KFaJQ4fTT5dgY0ijFc?utm_source=generator"
@@ -27,8 +27,8 @@ const Discography = ({ consent }) => {
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               ></iframe>
             </div>
-          ) : null}
-        </div>
+          </div>
+        ) : null}
       </section>
     </div>
   );

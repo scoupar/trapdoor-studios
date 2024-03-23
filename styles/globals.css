@@ -332,6 +332,7 @@ nav a:hover {
 
 #bio {
   background-color: #01c2cb;
+  border-bottom: 2px solid #222222;
 }
 
 .about-container {
@@ -598,7 +599,7 @@ nav a:hover {
   width: 95%;
   margin: auto;
   margin-top: 10vw;
-  margin-bottom: 10vw;
+  /* margin-bottom: 10vw; */
 }
 
 @media (max-width: 1000px) {
