@@ -55,7 +55,7 @@ const Contact = () => {
             <div className="form-container">
               <form
                 className="contact-form"
-                action="https://formsubmit.co/tompetersproduction@gmail.com"
+                action="https://data.endpoint.space/clujl4vb3003208jrsguco865"
                 method="POST"
               >
                 <label htmlFor="name">Name</label>
