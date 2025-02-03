@@ -49,6 +49,7 @@ const Contact = () => {
                 className="book-image"
                 layout="responsive"
                 placeholder="blur"
+                alt="a computer showing the trapdoor studios logo"
               />
             </div>
 

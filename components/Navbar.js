@@ -36,6 +36,7 @@ const Navbar = () => {
               src="/logo.jpg"
               width="35"
               height="25"
+              alt="trapdoor studios logo"
             />
           </a>
         </Link>

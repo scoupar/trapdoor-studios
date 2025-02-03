@@ -25,7 +25,9 @@ const Footer = () => {
           />
         </div>
         <div className="footer-links">
-          <p className="footer-text">© Trapdoor Studios 2022</p>
+          <p className="footer-text">
+            © Trapdoor Studios {new Date().getFullYear()}
+          </p>
           <Link href="http://www.github.com/scoupar">
             <p className="credit">Wesbite by S. Coupar</p>
           </Link>

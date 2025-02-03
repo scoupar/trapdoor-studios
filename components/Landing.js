@@ -13,6 +13,7 @@ const Landing = () => {
           layout="fill"
           objectFit="cover"
           placeholder="blur"
+          alt="a selection of microphones from trapdoor reocording studio"
         />
       </div>
       <div className="logocontainer">

@@ -23,37 +23,73 @@ const Gallery = () => {
   return (
     <div className="new-gallery-container">
       <div className="image-container">
-        <Image src={abas2} width="150" height="150" placeholder="blur" />
+        <Image
+          src={abas2}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="a burial at sea - 'close to home' artwork"
+        />
         <div className="overlay">
           <div className="text">A Burial At Sea - Close To Home</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={vennart2} width="150" height="150" placeholder="blur" />
+        <Image
+          src={vennart2}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="Vennart - 'Forgiveness And The Grain' artwork"
+        />
         <div className="overlay">
           <div className="text">Vennart - Forgiveness And The Grain</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={esb} width="150" height="150" placeholder="blur" />
+        <Image
+          src={esb}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="Empire State Bastard - 'Rivers of Heresy' artwork"
+        />
         <div className="overlay">
           <div className="text">Empire State Bastard - Rivers Of Heresy</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={helga} width="150" height="150" placeholder="blur" />
+        <Image
+          src={helga}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="Helga - 'Wrapped in Mist' artwork"
+        />
         <div className="overlay">
           <div className="text">Helga - Wrapped In Mist</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={lakes} width="150" height="150" placeholder="blur" />
+        <Image
+          src={lakes}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="Lakes 'Elysian Skies' artwork"
+        />
         <div className="overlay">
           <div className="text">Lakes - Elysian Skies</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={lastvinci} width="150" height="150" placeholder="blur" />
+        <Image
+          src={lastvinci}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="The Last Vinci - The Revolution If Made Together artwork"
+        />
         <div className="overlay">
           <div className="text">
             The Last Vinci - The Revolution If Made Together
@@ -61,13 +97,25 @@ const Gallery = () => {
         </div>
       </div>
       <div className="image-container">
-        <Image src={shipwrecker} width="150" height="150" placeholder="blur" />
+        <Image
+          src={shipwrecker}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="shipwrecker - different beast artwork"
+        />
         <div className="overlay">
           <div className="text">Shipwrecker - Different Beast</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={vennart} width="150" height="150" placeholder="blur" />
+        <Image
+          src={vennart}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="Vennart - In The Dead, Dead Wood artwork"
+        />
         <div className="overlay">
           <div className="text">Vennart - In The Dead, Dead Wood</div>
         </div>
@@ -78,6 +126,7 @@ const Gallery = () => {
           width="150"
           height="150"
           placeholder="blur"
+          alt="Alpha Male Tea Party - Infinity Stare artwork"
         />
         <div className="overlay">
           <div className="text">Alpha Male Tea Party - Infinity Stare</div>

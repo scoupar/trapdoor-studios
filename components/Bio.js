@@ -45,6 +45,7 @@ const BioText = ({ consent }) => {
                   className="bio-image"
                   layout="responsive"
                   placeholder="blur"
+                  alt="Tom Peters in Trapdoor Studios, a Liverpool Recording Studio"
                 />
               </div>
               <p className="under-image">
@@ -105,6 +106,7 @@ const HistoryText = () => {
               className="history-image"
               layout="responsive"
               placeholder="blur"
+              alt="Tom Peters on stage with Dan Wild-Beesley"
             />
           </div>
           <p className="under-image">
@@ -127,6 +129,7 @@ const HistoryText = () => {
               className="indiegogo-image"
               layout="responsive"
               placeholder="blur"
+              alt=""
             />
           </div>
           <br></br>

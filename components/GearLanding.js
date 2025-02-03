@@ -43,6 +43,7 @@ const GearLanding = () => {
               className="studio-gear-image"
               layout="responsive"
               placeholder="blur"
+              alt="a selection of microphones"
             />
           </div>
         </FadeInSection>

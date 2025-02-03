@@ -30,6 +30,10 @@ export default function Home() {
       <div className="index-container">
         <Head>
           <title>Trapdoor Studios - Liverpool Recording Studio</title>
+          <meta
+            name="description"
+            content="Liverpool recording studio, home to producer Tom Peters"
+          />
         </Head>
         <div className={visible ? "cookie-banner" : "cookie-banner-hidden"}>
           <h2 className="cookie-title">Cookie Consent</h2>
