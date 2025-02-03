@@ -129,7 +129,7 @@ const HistoryText = () => {
               className="indiegogo-image"
               layout="responsive"
               placeholder="blur"
-              alt=""
+              alt="list of Indiegogo contributors for Trapdoor Studios"
             />
           </div>
           <br></br>

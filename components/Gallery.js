@@ -133,55 +133,108 @@ const Gallery = () => {
         </div>
       </div>
       <div className="image-container">
-        <Image src={lasthyena} width="150" height="150" placeholder="blur" />
+        <Image
+          src={lasthyena}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="last hyena artwork"
+        />
         <div className="overlay">
           <div className="text">Last Hyena - How Soon is Mars</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={bicurious} width="150" height="150" placeholder="blur" />
+        <Image
+          src={bicurious}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="bicurious artwork"
+        />
         <div className="overlay">
           <div className="text">Bicurious - (re)constructed</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={vasa} width="150" height="150" placeholder="blur" />
+        <Image
+          src={vasa}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="vasa heroics artwork"
+        />
         <div className="overlay">
           <div className="text">VASA - Heroics</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={bodyhound} width="150" height="150" />
+        <Image
+          src={bodyhound}
+          width="150"
+          height="150"
+          alt="body hound no moon artwork"
+        />
         <div className="overlay">
           <div className="text">Body Hound - No Moon</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={amtphealth} width="150" height="150" placeholder="blur" />
+        <Image
+          src={amtphealth}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="alpha male tea party health artwork"
+        />
         <div className="overlay">
           <div className="text">Alpha Male Tea Party - Health</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={cleft} width="150" height="150" placeholder="blur" />
+        <Image
+          src={cleft}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="cleft wrong artwork"
+        />
         <div className="overlay">
           <div className="text">Cleft - Wrong</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={abas} width="150" height="150" placeholder="blur" />
+        <Image
+          src={abas}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="a burial at sea artwork"
+        />
         <div className="overlay">
           <div className="text">A Burial At Sea - A Burial At Sea</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={dogdaisies} width="150" height="150" placeholder="blur" />
+        <Image
+          src={dogdaisies}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="dog daisies artwork"
+        />
         <div className="overlay">
           <div className="text">Dog Daisies - Eagletism</div>
         </div>
       </div>
       <div className="image-container">
-        <Image src={amtpdroids} width="150" height="150" placeholder="blur" />
+        <Image
+          src={amtpdroids}
+          width="150"
+          height="150"
+          placeholder="blur"
+          alt="alpha male tea party droids artwork"
+        />
         <div className="overlay">
           <div className="text">Alpha Male Tea Party - Droids</div>
         </div>

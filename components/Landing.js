@@ -13,11 +13,15 @@ const Landing = () => {
           layout="fill"
           objectFit="cover"
           placeholder="blur"
-          alt="a selection of microphones from trapdoor reocording studio"
+          alt="a selection of microphones from trapdoor recording studio"
         />
       </div>
       <div className="logocontainer">
-        <img className="logo" src="/trapdoor-circle-edit.png" />
+        <img
+          className="logo"
+          src="/trapdoor-circle-edit.png"
+          alt="trapdoor studio logo"
+        />
       </div>
       {/* <h1 className="headline">
         Established 2019 in Liverpool, UK, <span>Trapdoor Studio</span> is the
